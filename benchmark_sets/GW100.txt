@@ -1,5 +1,7 @@
 Copied directly from Supplementary Information (https://pubs.acs.org/doi/suppl/10.1021/acs.jctc.5b00453/suppl_file/ct5b00453_si_001.txt) of the paper (https://doi.org/10.1021/acs.jctc.5b00453).
 
+Some modifications made by Nike Dattani. See Git commits.
+
 18
 Ethybenzene; TM optimized def2-QZVP pbe structure; l
 C    -2.2693535   -0.0000389   -0.2398724 
@@ -131,7 +133,7 @@ Be 0.0000 0.0000 0.0000
 O  0.0000 0.0000 1.3308
 
 2
-Magnesium monoxide; experimental structure from HCP92; s
+Magnesium monoxide; experimental structure from HCP92 (confirmed from NIST Chemistry WebBook, SRD 69 but no original reference given); s
 Mg 0.0000 0.0000 0.0000
 O  0.0000 0.0000 1.749
 
