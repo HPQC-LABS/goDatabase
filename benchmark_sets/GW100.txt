@@ -40,7 +40,7 @@ B 0.0000 0.0000 0.0000
 N 0.0000 0.0000 1.329
 
 14
-Buthane; TM def2-QZVP pbe optimized structure; m
+Buthane; TM def2-QZVP pbe optimized structure; m (CRC2016 is majorly simplified, and is also r_g values).
 C    -0.5698992    0.0010721   -0.5106280 
 C    -1.9574388   -0.0010272    0.1310139 
 C     0.5699130    0.0010684    0.5106802 
