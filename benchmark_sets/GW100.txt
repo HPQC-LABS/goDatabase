@@ -34,6 +34,11 @@ Boron nitride; experimental structure from HCP92; s
 B 0.0000 0.0000 0.0000
 N 0.0000 0.0000 1.281
 
+2
+Boron nitride; 1.281 in CRC 2016 is also in Herzberg 1976. But Bredhol 1985 is significantly different and agrees with ab initio.
+B 0.0000 0.0000 0.0000
+N 0.0000 0.0000 1.329
+
 14
 Buthane; TM def2-QZVP pbe optimized structure; m
 C    -0.5698992    0.0010721   -0.5106280 
