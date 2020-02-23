@@ -35,7 +35,7 @@ B 0.0000 0.0000 0.0000
 N 0.0000 0.0000 1.281
 
 2
-Boron nitride; 1.281 in CRC 2016 is also in Herzberg 1976. But Bredohl 1985 is significantly different and agrees with ab initio. Didn't find 1.329 in the paper (also didn't look hard) but J.Martin's subsequent papers list this for Bredohl's r0.
+Boron nitride; 1.281 in CRC 2016 is also in Herzberg 1976. But Bredohl 1985 is significantly different and agrees with ab initio. Didn't find 1.329 in the paper (also didn't look hard) but J.Martin's subsequent papers list this for Bredohl's r0. Mahmoud 2015 shows that every paper reports ~1.329 and 1.281 is uniquely an outlier.
 B 0.0000 0.0000 0.0000
 N 0.0000 0.0000 1.329
 
