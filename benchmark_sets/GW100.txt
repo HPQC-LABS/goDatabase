@@ -117,9 +117,9 @@ P 0.0000 0.0000 0.0000
 P 0.0000 0.0000 1.8931 
 
 2
-Silver dimer; experimental structure form simard01; s
+Silver dimer; experimental structure form simard91; s. r0 for 107,109Ag2. re=2.53096(48)
 Ag 0 0 0
-Ag 0 0 2.5335
+Ag 0 0 2.53350
 
 2
 Copper dimer; experimental structure form HCP92; s
