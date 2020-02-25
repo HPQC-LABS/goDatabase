@@ -185,6 +185,11 @@ Lithium dimer; experimental structure from HCP92; s
 Li 0.0000 0.0000 0.0000
 Li 0.0000 0.0000 2.6729
 
+2
+Li2 Gunton,Semczuk,Dattani,Madison (2013). 2.6729874(19)
+Li 0.0000 0.0000 0.0000
+Li 0.0000 0.0000 2.6729874
+
 17
 Pentasilane; def2-QZVP pbe optimized; m
 Si   -0.0048335   -3.8969717   -0.5238439 
@@ -226,6 +231,11 @@ Se 0.0000 0.0000 -1.709
 Gallium monochloride; experimental structure from HCP92; s
 Ga 0.0000 0.0000 0.0000
 Cl 0.0000 0.0000 2.2017
+
+2
+Gallium monochloride; Hoeft & BNair 1986: 2.2017152(76) for 69Ga35Cl, 53(76) for 71Ga35Cl, 37(76) for 69Ga37Cl, 39(76) for 71Ga37Cl
+Ga 0.0000 0.0000 0.0000
+Cl 0.0000 0.0000 2.2017152
 
 2
 Phosphorus mononitride; experimental structure from HCP92; s
