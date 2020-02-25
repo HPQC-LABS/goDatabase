@@ -126,11 +126,22 @@ Copper dimer; experimental structure form HCP92; s
 Cu 0.0 0.0 0.0
 Cu 0.0 0.0 2.2197
 
+2
+Copper dimer; Corinne's thesis: 2.21927(3); s
+Cu 0.0 0.0 0.0
+Cu 0.0 0.0 2.21927
+
 3
 Carbon dioxide; experimental structure from HCP92; s
 O 0.0000 0.0000  1.16
 C 0.0000 0.0000  0.0000
 O 0.0000 0.0000 -1.16
+
+3
+Carbon dioxide; NIST cites Herzberg1966, Wikipedia has 1.163 without referene. CRC2016 gives 1.160 without reference; s
+O 0.0000 0.0000  1.1621
+C 0.0000 0.0000  0.0000
+O 0.0000 0.0000 -1.1621
 
 2
 Beryllium monoxide; experimental structure from HCP92; s
