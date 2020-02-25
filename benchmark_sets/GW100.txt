@@ -171,9 +171,14 @@ H 0.0000 0.0000 0.0000
 H 0.0000 0.0000 1.401100
 
 2
-Fluoroborane; experimental structure from HCP92; s
+Boron Fluoride; experimental structure from HCP92; s
 B 0.0000 0.0000 0.0000
 F 0.0000 0.0000 1.2626
+
+2
+Boron Fluoride; Zhang...Bernath 1995 / Zhang 1997 thesis. 1.262711672(423)
+B 0.0000 0.0000 0.0000
+F 0.0000 0.0000 1.262711672
 
 2
 Lithium dimer; experimental structure from HCP92; s
