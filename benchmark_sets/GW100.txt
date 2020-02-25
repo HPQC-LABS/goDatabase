@@ -166,6 +166,11 @@ H 0.0000 0.0000 0.0000
 H 0.0000 0.0000 0.74144
 
 2
+Hydrogen; Puchalski2017 in Bohr ATOMIC UNITS!
+H 0.0000 0.0000 0.0000
+H 0.0000 0.0000 1.401100
+
+2
 Fluoroborane; experimental structure from HCP92; s
 B 0.0000 0.0000 0.0000
 F 0.0000 0.0000 1.2626
