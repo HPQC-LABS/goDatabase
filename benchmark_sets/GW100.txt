@@ -144,7 +144,7 @@ C 0.0000 0.0000  0.0000
 O 0.0000 0.0000 -1.1621
 
 2
-Beryllium monoxide; experimental structure from HCP92; s
+Beryllium monoxide; experimental structure from HCP92. Mike Heaven's "Photodetachment Spectroscopy of the Beryllium Oxide Anion, BeO" cites "A. Lagerqvist, Nature 157, 547 (1946)"; s
 Be 0.0000 0.0000 0.0000
 O  0.0000 0.0000 1.3308
 
