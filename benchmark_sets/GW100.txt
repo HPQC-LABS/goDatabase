@@ -283,7 +283,7 @@ H  0.9663  1.0031  0.0301
 H -0.9663 -1.0031  0.0301
 
 12
-Hexafluorobenzene; esperimental structure form hellwege76; l
+Hexafluorobenzene; CCCDB referenecs "Hellwege, KH and AM Hellwege (ed.). Landolt-Bornstein: Group II: Atomic and Molecular Physics Volume 7: Structure Data of Free Polyatomic Molecules. Springer-Verlag. Berlin. 1976." and reports 1.401 for RCC, where as the XYZ below is for 1.400. Also the XYZ below doesn't give exactly 120 degree angles.; l
 C -1.092692 -0.875775 0.000000
 C 0.212112 -1.384183 0.000000
 C 1.304703 -0.508408 0.000000
@@ -296,6 +296,60 @@ F 2.539354 -0.989305 0.000000
 F 2.126549 1.704487 0.000000
 F -0.412858 2.693787 0.000000
 F -2.539356 0.989457 0.000000
+
+12
+Hexafluorobenzene; CCCBDB "Hellwege, KH and AM Hellwege (ed.). Landolt-Bornstein: Group II: Atomic and Molecular Physics Volume 7: Structure Data of Free Polyatomic Molecules. Springer-Verlag. Berlin. 1976." 
+C   1
+C   1 RCC
+C   2 RCC  1 120
+C   3 RCC  2 120  1   0
+C   4 RCC  3 120  2   0
+C   1 RCC  2 120  3   0
+F   1 RCF  2 120  3 180
+F   2 RCF  1 120  3 180
+F   3 RCF  2 120  1 180
+F   4 RCF  3 120  2 180
+F   5 RCF  4 120  3 180
+F   6 RCF  1 120  2 180
+
+RCC=2.6475063006   # 1.401*10/5.29177210903
+RCF=2.50388711513  # 1.325*10/5.29177210903
+
+12
+Hexafluorine in CFOUR format:
+X
+C 1 RCC
+C 1 RCC 2 A60
+C 1 RCC 3 A60 2 D180
+C 1 RCC 4 A60 3 D180
+C 1 RCC 5 A60 4 D180
+C 1 RCC 6 A60 5 D180
+F 1 RXF 2 A60 7 D180
+F 1 RXF 3 A60 2 D180
+F 1 RXF 4 A60 3 D180
+F 1 RXF 5 A60 4 D180
+F 1 RXF 6 A60 5 D180
+F 1 RXF 7 A60 6 D180
+
+RCC=2.6475063006
+RXF=5.15139341573
+A60=60
+D180=180
+
+12
+Hexafluorobenzene. In Angstroms, does give exact 120.0 degree angles:
+  C        0.00000        0.00000        0.00000
+  C        1.40100        0.00000        0.00000
+  C        2.10150        1.21330        0.00000
+  C        1.40100        2.42660        0.00000
+  C       -0.00000        2.42660        0.00000
+  C       -0.70050        1.21330        0.00000
+  F       -0.66250       -1.14748       -0.00000
+  F        2.06350       -1.14748        0.00000
+  F        3.42650        1.21330        0.00000
+  F        2.06350        3.57409        0.00000
+  F       -0.66250        3.57409        0.00000
+  F       -2.02550        1.21330       -0.00000
 
 4
 Sodium tetramer; TM QZVP pbe optimized; s
@@ -314,13 +368,13 @@ Na    3.0571606    0.0000000   -0.2367313
 Na    0.0000000    0.0000000    1.1836565 
 
 3
-Carbon oxysulfide; Experimental structure from HCP92; s
+Carbon oxysulfide; Experimental structure from HCP92 (Herzberg66 according to CCCBDB, has 1.160 & 1.560); s
 O 0.0000 0.0000 1.1578
 C 0.0000 0.0000 0.0000
 S 0.0000 0.0000 -1.5601
 
 4
-Formaldehyde; experimental structure from HCP92; s
+Formaldehyde; experimental structure from HCP92 (different from CCCBDB which references Gurvich89, but CRC is only MW, meaning r0); s
 C  0.0000 0.0000  0.0000
 O  0.0000 0.0000  1.208
 H  0.9490 0.0000 -0.5873
