@@ -274,7 +274,7 @@ Rb 0.0000 0.0000 0.0000
 Rb 0.0000 0.0000 4.12256
 
 6
-Hydrazene; experimental structure from HCP92; m
+Hydrazene; experimental structure from HCP92; r0/rg from ED and MW; m
 N  0.0000  0.7230 -0.1123
 N  0.0000 -0.7230 -0.1123
 H -0.4470  1.0031  0.7562
