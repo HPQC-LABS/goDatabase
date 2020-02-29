@@ -437,7 +437,7 @@ Cl -1.0202 -1.0202 -1.0202
 Cl  1.0202  1.0202 -1.0202 
 
 8
-Urea; experimental structure from godfrey97; m
+Urea; experimental structure from godfrey97 "The shape of urea" Table 2a. Except original paper has some coordinates different, and one with an imaginary number. abstract gives actual bond lengths and angles (internatl coordiantes)); m
 O  0.0000  1.3049  0.0000
 C  0.0000  0.0838  0.0000
 N  1.1603 -0.6595  0.0000
