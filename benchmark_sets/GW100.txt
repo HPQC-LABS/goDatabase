@@ -437,7 +437,7 @@ Cl -1.0202 -1.0202 -1.0202
 Cl  1.0202  1.0202 -1.0202 
 
 8
-Urea; experimental structure from godfrey97 "The shape of urea" Table 2a. Except original paper has some coordinates different, and one with an imaginary number. abstract gives actual bond lengths and angles (internatl coordiantes)); m
+Urea; experimental structure from godfrey97 "The shape of urea" Table 2a. Except original paper has some coordinates different, and one with an imaginary number. abstract gives actual bond lengths and angles (internal coordiantes). Michiel treated things like 0.99(8) as 0.998 so there's errors; m
 O  0.0000  1.3049  0.0000
 C  0.0000  0.0838  0.0000
 N  1.1603 -0.6595  0.0000
@@ -446,6 +446,28 @@ H  1.1383 -1.5964  0.3424
 H  1.9922 -0.0940  0.1760
 H -1.1383 -1.5964 -0.3424
 H -1.9922 -0.0940 -0.1760
+
+8
+Urea: With Correct bond lengths. Angles need to be checked.
+O   1
+C   1 1.221
+N   2 1.378  1 122.644
+N   2 1.378  1 122.644  3 180.0
+H   3 0.998  2 119.206  1 156.8
+H   3 1.021  2 112.783  1  10.8
+H   4 0.998  2 119.206  1 156.8
+H   4 1.021  2 112.783  1  10.8
+
+8
+Urea: With Correct bond lengths. Angles need to be checked.
+  O        0.00000        0.00000        0.00000
+  C        1.22000        0.00000        0.00000
+  N        1.95900        1.15359        0.00000
+  N        1.95900       -1.15359        0.00000
+  H        2.88838        1.13192        0.34042
+  H        1.39422        1.98448        0.17622
+  H        2.88838       -1.13192       -0.34042
+  H        1.39422       -1.98448       -0.17622
 
 6
 Vynil bromide; experimental structure from HCP92; m
@@ -457,13 +479,85 @@ H 0.908386 0.000000 -0.581003
 Br 1.357668 0.000000 2.194533
 
 6
-Vynil iodide; experimental structure from HCP92; m
+Vinyl Bromide: Converted from Michiel's XYZ, then replaced by r0,theta0 from 2016 CRC (MW spectroscopy).
+C    1
+C    1 1.3256
+Hb   1 1.0804 2 119.28
+Ha   2 1.0780 1 124.34 3   0.0
+Hc   1 1.0794 2 122.03 3 180.0
+Br   2 1.8835 1 122.62 3 180.0
+
+6
+Vinyl Bromide: Above ZMAT converted to XYZ
+  C        0.00000        0.00000        0.00000
+  C        1.32560        0.00000        0.00000
+  H       -0.52840        0.94237        0.00000
+  H        1.93370        0.89011        0.00000
+  H       -0.57247       -0.91508       -0.00000
+ Br        2.34093       -1.58640        0.00000
+
+6
+Vinyl chloride: Taken from vinyl bromide and replaced r0,theta0 with vinyl iodide values from 2016 CRC (MW spectroscopy). Is there a Typo in CRC causing CHb and CHa to be the same?
+C    1
+C    1 1.3262
+Hb   1 1.0796 2 119.28
+Ha   2 1.0783 1 123.91 3   0.0
+Hc   1 1.0796 2 121.77 3 180.0
+Cl   2 1.7263 1 122.75 3 180.0
+
+6
+Vinyl chloride: converted from above.
+C        0.00000        0.00000        0.00000
+C        1.32620        0.00000        0.00000
+H       -0.52801        0.94167        0.00000
+H        1.92777        0.89490        0.00000
+H       -0.56842       -0.91784       -0.00000
+Cl        2.26008       -1.45189        0.00000
+
+6
+Vinyl fluoride: Taken from vinyl bromide and replaced r0,theta0 with vinyl iodide values from 2016 CRC (MW spectroscopy).
+C    1
+C    1 1.3210
+Hb   1 1.0774 2 118.97
+Ha   2 1.0796 1 125.95 3   0.0
+Hc   1 1.0789 2 121.34 3 180.0
+F    2 1.3428 1 121.70 3 180.0
+
+6
+Vinyl fluoride: converted from above.
+  C        0.00000        0.00000        0.00000
+  C        1.32100        0.00000        0.00000
+  H       -0.52184        0.94259        0.00000
+  H        1.95481        0.87397        0.00000
+  H       -0.56115       -0.92148       -0.00000
+  F        2.02660       -1.14247        0.00000
+
+6
+Vinyl iodide; experimental structure from HCP92; m
 C 0.000000 0.000000 0.000000
 C 0.000000 0.000000 1.328000
 H -0.903971 0.000000 -0.595154
 H -0.899347 0.000000 1.924168
 H 0.912883 0.000000 -0.577101
 I 1.747544 0.000000 2.461568
+
+6
+Vinyl Iodide: Taken from vinyl bromide and replaced r0,theta0 with vinyl iodide values from 2016 CRC (MW spectroscopy).
+C    1
+C    1 1.3276
+Hb   1 1.0823 2 119.36
+Ha   2 1.0787 1 123.54 3   0.0
+Hc   1 1.0799 2 122.30 3 180.0
+I    2 2.0830 1 122.97 3 180.0
+
+6
+Vinyl Iodide: converted from above
+  C        0.00000        0.00000        0.00000
+  C        1.32760        0.00000        0.00000
+  H       -0.53065        0.94329        0.00000
+  H        1.92360        0.89910        0.00000
+  H       -0.57705       -0.91280       -0.00000
+  I        2.46117       -1.74754        0.00000
 
 15
 Ethoxy ethane; experimental structure from kuc98; l
