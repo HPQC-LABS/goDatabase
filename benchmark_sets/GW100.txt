@@ -560,7 +560,7 @@ Vinyl Iodide: converted from above
   I        2.46117       -1.74754        0.00000
 
 15
-Ethoxy ethane; experimental structure from kuc98; l
+Ethoxy ethane (diethyl ether: C4H10O); experimental structure from kuc98 .. taken from CCCBDB which also gives ZMAt, most of the values being r_s; l
 O  0.0000  0.0000  0.2696
 C  0.0000  1.1705 -0.5184
 C  0.0000 -1.1705 -0.5184
@@ -578,7 +578,7 @@ H -0.8840 -2.3552  1.0456
 H  0.8840 -2.3552  1.0456
 
 14
-Aniline; Structure from HCP92; l
+Aniline; Structure from HCP92; l. http://dx.doi.org/10.1016/0022-2852(86)90234-1: says R_NH should be 0.999 not 0.998 as in CRC2016. Maybe also look at https://aip.scitation.org/doi/abs/10.1063/1.472710, and https://pubs.acs.org/doi/abs/10.1021/jp065336v and papers that cited them.
 C -1.086143 -0.870526 0.000000
 C 0.210840 -1.375886 0.000000
 C 1.296883 -0.505360 0.000000
@@ -619,7 +619,7 @@ C 0.0000 0.0000 0.0000
 O 0.0000 0.0000 1.283
 
 9
-Ethanol; Experimental structure from cou98; m
+Ethanol; Experimental structure from cou98; m Copied and pasted right out of CCCBDB. Didn't check original 1998 paper or papers that cited it.
 C  1.1879 -0.3829  0.0000
 C  0.0000  0.5526  0.0000
 O -1.1867 -0.2472  0.0000
