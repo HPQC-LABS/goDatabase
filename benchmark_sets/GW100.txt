@@ -768,7 +768,7 @@ H 0.134598 -1.164401 1.011231
 H -0.943239 -1.164260 -0.389014
 
 6
-Ethylene; experimental structure from HCP92; s
+Ethylene; experimental structure from HCP92; s. Verified to correspond exactly to 2016 CRC, but differs from CCCBDB which comes from Herzberg 1966. It's r_s and theta_s from MW and IR though.
 C  0.0000 0.0000  0.0000
 C  0.0000 0.0000  1.3290
 H  0.9235 0.0000 -0.5637
@@ -777,20 +777,29 @@ H  0.9235 0.0000  1.8927
 H -0.9235 0.0000  1.8927
 
 4
-Acetylene; experimental structure from HCP92; s
+Acetylene; experimental structure from HCP92; s. Verified that it's exactly the re values of CRC2016.
 C 0.0000 0.0000  0.6015
 C 0.0000 0.0000 -0.6015
 H 0.0000 0.0000  1.6615
 H 0.0000 0.0000 -1.6615
 
+Acetylene; from CCCBDB which cites 1998 Kuchitsu; in Bohr: #GEOM=1.203*10/5.29177210903_1.063*10/5.29177210903_CCCBDB_from1998Kuchitsu
+C   
+C   1 RCC
+H   1 RCH  2 180
+H   2 RCH  1 180  3 180
+
+RCC=2.27334052792
+RCH=2.00877887048
+
 3
-Hydrogen cyanide; Experimental structure form HCP92; s
+Hydrogen cyanide; Experimental structure form HCP92; s. Verified to match re values in CRC2016 (MW/IR), which have 1 more digit than CCCBDB which cites 1966Herzberg
 C 0.0000 0.0000 0.0000
 H 0.0000 0.0000 1.0655
 N 0.0000 0.0000 -1.1532
 
 11
-Propane; experimental structure form hellwege76; m
+Propane; experimental structure form hellwege76; m. Verified that it comes from CCCBDB. CRC2016 gives rg from ED.
 C  0.0000  0.5863 -0.0000
 C -1.2681 -0.2626  0.0000
 C  1.2681 -0.2626 -0.0000
@@ -848,7 +857,7 @@ H 0.922424 0.000000 -0.561725
 F 1.142469 0.000000 2.026603
 
 7
-Acetaldehyde; structure from HCP 92;m
+Acetaldehyde; structure from HCP 92;m. Differs very much from CCCBDB which reports same number of digits but references 1971 paper: http://dx.doi.org/10.1016/0584-8539(71)80102-2. Conversion to ZMAT gives numbers identical to CRC2016 except for 109.142 instead of 109.8 (but this XYZ->ZMAT converter gives 179.974 instead of 180 for linear molecules, so no worries.
 C  0.000000  0.000000  0.000000
 C  0.000000  0.000000  1.515000
 O  1.001953  0.000000  2.193373
@@ -858,13 +867,13 @@ H  0.000000  1.045800 -0.363000
 H  0.905700 -0.522900 -0.363000
 
 3
-Carbon disulfide; experimental structure from HCP95; s
+Carbon disulfide; experimental structure from HCP95; s Matches Re from CRC2016 (IR spectroscopy). CCCBDB references Herzberg1966 and has fewer digits.
 C  0.0000 0.0000  0.0000
 S  0.0000 0.0000  1.5526
 S  0.0000 0.0000 -1.5526
 
 9
-Cyclopropane; experimental structure from HCP92; m
+Cyclopropane; experimental structure from HCP92; m. CRC2016 is r0 from Raman. CCCBDB references 1998Kuchitsu which claims to be Re but while R_CH is exactly the same as CRC2016, R_CC and angleHCH are slightly different. Both have same number of digits. I'm using CRC2016 because I want to use r0 for ionization energy. The XYZ below doesn't convert well to ZMAT though (angles that should be equal aren't, and lengths that should be equal arent').
 C 0.036473 0.859901 -0.182257
 C -0.275674 -0.564282 -0.600227
 C 0.268426 -0.283892 0.786852
@@ -921,7 +930,7 @@ K 0.0000 0.0000 0.0000
 H 0.0000 0.0000 2.244
 
 4
-Hydrogen peroxide; experimental structure from HCP92; s
+Hydrogen peroxide; experimental structure from HCP92; s. Converting this xyz to zmat Exactly matches CRC2016 (r0 from IR) and CCCBDB which references 1962 redington. But wikipedia diagram gives only very slightly different lengths but a very different dihedral. Best ab initio on CCCBDB gives yet another very different dihedral. Very interesting. CRC has error in that it doesn't show r_OH
 O  0.0000  0.7375 -0.0528
 O  0.0000 -0.7375 -0.0528
 H  0.8190  0.8170  0.4220
@@ -959,7 +968,7 @@ Cl 0.0000 0.0000 0.0000
 Cl 0.0000 0.0000 1.9878
 
 5
-Germane; experimental structure from HCP92; m
+Germane; experimental structure from HCP92; m. 
 Ge  0.0000  0.0000  0.0000
 H   0.8805 -0.8805  0.8805  
 H  -0.8805  0.8805  0.8805    
@@ -967,14 +976,14 @@ H  -0.8805 -0.8805 -0.8805
 H   0.8805  0.8805 -0.8805 
 
 4
-Hydrogen azide; experimental structure from HCP92; s
+Hydrogen azide; experimental structure from HCP92; s. r0 from MW in CRC2016 is different from CCCBDB which references 1976 Hellwege but matches wikipedia image apart from wikipedia seemingly doing some incorrect rounding. This XYZ->ZMAT matches CRC2016 to all digits except for 0.01 digit in angles. length and angle agree with CCCBDB (1975 paper by Cook and De Lucia)  in 0.001 and 0.01 digits respectively.
 H -0.9585 0.0000 -0.3338
 N  0.0000 0.0000  0.0000
 N  0.0000 0.0000  1.2450
 N  0.1617 0.0000  2.3674
 
 3
-Hydrogen sulfide; experimental structure from HCP92; s
+Hydrogen sulfide; experimental structure from HCP92; s. r0 from MW. 
 S  0.0000 0.0000 0.0000
 H  0.9617 0.0000 0.9268
 H -0.9617 0.0000 0.9268
