@@ -995,7 +995,7 @@ Mg 0.0000 0.0000  0.0000
 F  0.0000 0.0000 -1.771
 
 5
-Sulfur tetrafluoride; experimental structure from tolles61; m. When converted to ZMAT these match exactly what's in CCCBDB which is exactly what's in abstract of Tolles1961. The paper gives more digits for specific isotopes.
+Sulfur tetrafluoride; experimental structure from tolles61; m. When converted to ZMAT these match exactly what's in CCCBDB which is exactly what's in abstract of Tolles1961. The paper gives more digits for specific isotopes. Not in CRC2016!
 S  0.0000  0.0000  0.3726
 F  0.0000  1.6430  0.2731
 F  0.0000 -1.6430  0.2731
@@ -1003,7 +1003,7 @@ F  1.1969  0.0000 -0.6044
 F -1.1969  0.0000 -0.6044 
 
 5
-Titanium fluoride; experimental structure from HCP92; m
+Titanium fluoride; experimental structure from HCP92; m. ED in CRC2016 (rg value). This converts to 1.754 but should be 1.756 !!! Could just be the fault of https://www.webqc.org/molecularformatsconverter.php convertor, but why not just use ZMAT. No experimental data or reference in CCCBDB.
 Ti  0.0000  0.0000  0.0000
 F   1.0127 -1.0127  1.0127  
 F  -1.0127  1.0127  1.0127    
@@ -1011,14 +1011,14 @@ F  -1.0127 -1.0127 -1.0127
 F   1.0127  1.0127 -1.0127 
 
 4
-Aluminum trifluoride; experimental structure from HCP92; s
+Aluminum trifluoride; experimental structure from HCP92; s. CRC2016 is ED (rg) value. When this is converted to ZMAT we get exactly 1.633 which is what CRC2016 says. However CCCBDB gives 1.630 from 1989 paper: "The molecular geometry of Iron trifluoride from Electron Diffraction and a reinvestigation of Aluminum Trifluoride" 
 Al  0.0000  0.0000  0.0000
 F   0.0000  0.0000  1.633
 F   0.0000  1.4142 -0.8165
 F   0.0000 -1.4142 -0.8165
 
 4
-Aluminum triiodide; experimental structure from HCP92; s
+Aluminum triiodide; experimental structure from HCP92; s. Coudln't find in CCCBDB, but CRC2016 gives rg (ED)=2.461 which is exactly what we get when we convert the below into ZMAT.
 Al  0.0000  0.0000  0.0000
 I   0.0000  0.0000  2.461 
 I   0.0000  2.1313 -1.2305
