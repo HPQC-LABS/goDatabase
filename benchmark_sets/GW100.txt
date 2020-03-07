@@ -1038,7 +1038,7 @@ Cl  0.0000  0.0000  2.179
 Cl  0.0000  0.0000 -2.179
 
 2
-Lithium fluoride; experimental structure from HCP92; s
+Lithium fluoride; experimental structure from HCP92; s. Matches CRC2016 and CCCBDB (which references NIST diatomic database). CRC2016 says it's an Re from MW.
 Li 0.0000 0.0000 0.0000
 F  0.0000 0.0000 1.5639
 
