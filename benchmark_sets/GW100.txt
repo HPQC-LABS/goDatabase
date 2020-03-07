@@ -989,7 +989,7 @@ H  0.9617 0.0000 0.9268
 H -0.9617 0.0000 0.9268
 
 3
-Magnesium fluoride; experimental structure from HCP92; s
+Magnesium fluoride; experimental structure from HCP92; s. rg from ED. CCCBDB gives 1.770 from Gurvich 1989.
 F  0.0000 0.0000  1.771
 Mg 0.0000 0.0000  0.0000
 F  0.0000 0.0000 -1.771
