@@ -995,7 +995,7 @@ Mg 0.0000 0.0000  0.0000
 F  0.0000 0.0000 -1.771
 
 5
-Sulfer tetrafluoride; experimental structure from tolles61; m
+Sulfur tetrafluoride; experimental structure from tolles61; m. When converted to ZMAT these match exactly what's in CCCBDB which is exactly what's in abstract of Tolles1961. The paper gives more digits for specific isotopes.
 S  0.0000  0.0000  0.3726
 F  0.0000  1.6430  0.2731
 F  0.0000 -1.6430  0.2731
