@@ -1025,14 +1025,14 @@ I   0.0000  2.1313 -1.2305
 I   0.0000 -2.1313 -1.2305
 
 4
-Arsine; experimental structure from HCP92; s
+Arsine; experimental structure from HCP92; s. CRC2016 gives re of 1.511 & theta_e of 92.1, which is exactly what we have in XYZ form here. CCCDBD cites 1976 Hellwege which gives same re but theta = 92.083.
 As  0.0000  0.0000  0.0000
 H   0.0000  1.2561  0.8398 
 H   1.0878 -0.6281  0.8398
 H  -1.0878 -0.6281  0.8398
 
 3
-Magnesium chloride; experimental structure from HCP92; s
+Magnesium chloride; experimental structure from HCP92; s. CRC2016 says 2.179 for ED (rg), but CCCBDB gives 2.180 and reference to Gurvich 1989.
 Mg  0.0000  0.0000  0.0000
 Cl  0.0000  0.0000  2.179 
 Cl  0.0000  0.0000 -2.179
@@ -1056,4 +1056,3 @@ H   0.8544 -0.8544  0.8544
 H  -0.8544  0.8544  0.8544    
 H  -0.8544 -0.8544 -0.8544 
 H   0.8544  0.8544 -0.8544
- 
