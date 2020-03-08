@@ -1043,14 +1043,14 @@ Li 0.0000 0.0000 0.0000
 F  0.0000 0.0000 1.5639
 
 4
-Phosphine; experimental structure from HCP92; s
+Phosphine; experimental structure from HCP92; s. This matches CCCBDB which refers to 1966 Herzberg. It might be what was in CRC92, but CRC2016 gives more digits: r=1.4200, a=93.345 degrees. r0 from micro-wave.
 P  0.0000  0.0000  0.0000
 H  0.0000 -1.1932 -0.7717
 H  1.0333  0.5966 -0.7717
 H -1.0333  0.5966 -0.7717
 
 5
-Silane; experimental structure from HCP92; m
+Silane; experimental structure from HCP92; m. CRC2016 gives r0 (from IR) of 1.4798 but CCCBDB refers to 1955 "Infrared Spectrum of Trideuterosilane and the structure of the silane molecule" which has 1.480. Below when converted to ZMAT just gives 1.480+/-0.0004 which is the less precise value from CCCBDB. The 1955 paper gives 1.4798±O.OOO4, so CCCBDB was just sloppy.
 Si  0.0000  0.0000  0.0000
 H   0.8544 -0.8544  0.8544  
 H  -0.8544  0.8544  0.8544    
