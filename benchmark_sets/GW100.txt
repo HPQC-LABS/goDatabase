@@ -968,7 +968,7 @@ Cl 0.0000 0.0000 0.0000
 Cl 0.0000 0.0000 1.9878
 
 5
-Germane; experimental structure from HCP92; m. 
+Germane; experimental structure from HCP92; m. Not on CCCBDB and 1.5251 for r0 (IR,Raman) on CRC2016.
 Ge  0.0000  0.0000  0.0000
 H   0.8805 -0.8805  0.8805  
 H  -0.8805  0.8805  0.8805    
