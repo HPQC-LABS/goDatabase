@@ -14,6 +14,14 @@ version = 0
 author = 'Vandan Revanur'
 
 def convert_smiles_to_molecular_formula(inchi: str) -> str:
+    # try:
+    #     mol = Chem.MolFromInchi(inchi)
+    #     molecular_formula = rdMolDescriptors.CalcMolFormula(mol)
+    # except:
+    #     molecular_formula = None
+
+
+
 
     ids_slash = [m.start() for m in re.finditer('/', inchi)]
     start_idx = ids_slash[0] + 1
@@ -23,7 +31,7 @@ def convert_smiles_to_molecular_formula(inchi: str) -> str:
     return  molecular_formula
 
 
-def calc_n_atoms(inchi):
+def calc_n_atoms(inchi, xyz):
     try:
         mol = Chem.MolFromInchi(inchi)
         atom_count = 0
@@ -34,7 +42,7 @@ def calc_n_atoms(inchi):
         atom_count_info[smiles] = atom_count
 
     except:
-        atom_count = None
+        atom_count = xyz.count('\n')-2 # 2 corresponds to the 2 lines in the header of the XYZ string
     return atom_count
 
 
@@ -54,8 +62,8 @@ with open("gw5000.txt", "w") as text_file:
         smiles = row.canonical_smiles.strip('\n').strip('\t')
         inchi = row.inchi
         molecular_formula = convert_smiles_to_molecular_formula(inchi)
-        atom_count = calc_n_atoms(inchi)
         xyz = row.xyz_pbe_relaxed
+        atom_count = calc_n_atoms(inchi, xyz)
         reference_code = f'# Reference code: {row.refcode_csd}'
         name = f'NAME = {molecular_formula}:GW500.v{version}'
         smiles_info = f'# SMILES : {smiles}'
