@@ -79,6 +79,10 @@ def calculate_n_electrons_in_mol(xyz):
 
     return n_electrons
 
+def remove_xyz_header(xyz):
+    end_idx_header = [m.start() for m in re.finditer('\n', xyz)][2]
+    xyz_header_removed = xyz[end_idx_header+1:]
+    return xyz_header_removed
 
 source_paper = '# Source paper: https://doi.org/10.1038/s41597-020-0385-y (Stuke et al.)'
 source_data_host = '# Source data host: https://doi.org/10.14459/2019mp1507656'
@@ -104,6 +108,8 @@ with open("gw5000.txt", "w") as text_file:
         smiles = row.canonical_smiles.strip('\n').strip('\t')
         inchi = row.inchi
         xyz = row.xyz_pbe_relaxed
+        xyz = remove_xyz_header(xyz)
+
         molecular_formula = convert_smiles_to_molecular_formula(inchi)
         n_electrons_in_mol = calculate_n_electrons_in_mol(xyz)
         n_elec_info = f'Number of electrons = {n_electrons_in_mol}'
@@ -115,7 +121,7 @@ with open("gw5000.txt", "w") as text_file:
         reference_code = f'# Reference code: {row.refcode_csd}'
         name = f'NAME = {molecular_formula}:GW500.v{version}'
         smiles_info = f'# SMILES : {smiles}'
-        n_atoms = f'# Number of atoms: {atom_count}.'
+        n_atoms = f'# Number of atoms: {atom_count}'
         inchi_info = f'# InChI = {inchi}'
         molecule_info = f'{name}\n{n_atoms}\n{common_name}\n{inchi_info}\n{smiles_info}\n\n{smarts}\n\n{reference_code}\n{cas}\n{meta_data_comments}\n{xyz}\n'
         text_file.write(molecule_info)
