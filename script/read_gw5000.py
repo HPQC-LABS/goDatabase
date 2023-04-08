@@ -119,7 +119,7 @@ with open("gw5000.txt", "w") as text_file:
         atom_count = row.number_of_atoms
         # atom_count = calc_n_atoms(inchi, xyz)
         reference_code = f'# Reference code: {row.refcode_csd}'
-        name = f'NAME = {molecular_formula}:GW500.v{version}'
+        name = f'NAME = {molecular_formula}:GW5000.v{version}'
         smiles_info = f'# SMILES : {smiles}'
         n_atoms = f'# Number of atoms: {atom_count}'
         inchi_info = f'# InChI = {inchi}'
