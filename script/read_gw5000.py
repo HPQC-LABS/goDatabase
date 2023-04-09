@@ -90,9 +90,9 @@ source_download_link = '# Source download link: https://dataserv.ub.tum.de/index
 source_method = '# Source method: PBE_TS-vdW'
 date_added = f'# Date added: 2023-02-05  14:14:48 ({author})'
 date_modified = f'# Date modified: {datetime.today()} ({author})'
-common_name = '# common name: Unknown'
+common_name = '# Common name: Unknown'
 smarts = '# Smarts: Unknown'
-cas = '# cas: Unknown'
+cas = '# CAS: Unknown'
 spin_multiplicity = 'Singlet'
 electronic_state = 'Ground'
 charge = 0
@@ -122,7 +122,7 @@ with open("gw5000.txt", "w") as text_file:
         name = f'NAME = {molecular_formula}:GW5000.v{version}'
         smiles_info = f'# SMILES : {smiles}'
         n_atoms = f'# Number of atoms: {atom_count}'
-        inchi_info = f'# InChI = {inchi}'
+        inchi_info = f'#{inchi}'
         molecule_info = f'{name}\n{n_atoms}\n{common_name}\n{inchi_info}\n{smiles_info}\n\n{smarts}\n\n{reference_code}\n{cas}\n{meta_data_comments}\n{xyz}\n'
         text_file.write(molecule_info)
 
