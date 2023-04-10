@@ -6,7 +6,7 @@ from tqdm import tqdm
 from dateutil import tz
 from datetime import datetime
 
-def convert_smiles_to_molecular_formula(inchi: str) -> str:
+def convert_inchi_to_molecular_formula(inchi: str) -> str:
     ids_slash = [m.start() for m in re.finditer('/', inchi)]
     start_idx = ids_slash[0] + 1
     end_idx = ids_slash[1]
@@ -105,7 +105,7 @@ def write_geom_database(mol_info_filepath, out_geom_database_filepath):
             zip(inchi_col_vals,smiles_col_vals,xyz_col_vals, n_atoms_col_vals, csd_code_col_vals),
             desc='Generating gw5k dataset: ', total=df_5k.shape[0]):
 
-        molecular_formula = convert_smiles_to_molecular_formula(inchi)
+        molecular_formula = convert_inchi_to_molecular_formula(inchi)
         n_electrons_in_mol = calculate_n_electrons_in_mol(xyz)
         n_elec_info = f'Number of electrons = {n_electrons_in_mol}'
         properties = f'# Properties: {n_elec_info}, {spm_info}, {electron_state_info}, {charge_info}, {point_group_info}'
