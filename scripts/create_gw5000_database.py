@@ -5,6 +5,7 @@ from collections import Counter
 from tqdm import tqdm
 from dateutil import tz
 from datetime import datetime
+from dataclasses import dataclass
 
 def convert_inchi_to_molecular_formula(inchi: str) -> str:
     ids_slash = [m.start() for m in re.finditer('/', inchi)]
@@ -66,27 +67,29 @@ def remove_xyz_header(xyz):
     return xyz_header_removed
 
 
-def write_geom_database(mol_info_filepath, out_geom_database_filepath):
+def write_geom_database(geom_info):
+    mol_info_filepath = geom_info.mol_info_filepath
+    output_geom_database_filepath = geom_info.output_geom_database_filepath
+    spin_multiplicity = geom_info.spin_multiplicity
+    electronic_state= geom_info.electronic_state
+    charge = geom_info.charge
+    point_group = geom_info.point_group
+    source_paper = geom_info.source_paper
+    source_data_host = geom_info.source_data_host
+    source_download_link = geom_info.source_download_link
+    source_method = geom_info.source_method
+    date_added = geom_info.date_added
+    date_modified = geom_info.date_modified
+    version = geom_info.version
+    common_name = geom_info.common_name
+    smarts = geom_info.smarts
+    cas = geom_info.cas
+
     s_time = datetime.now(tz=tz.gettz('Europe/Stockholm'))
 
     print(f'Started at time : {s_time.isoformat(sep=" ", timespec="seconds")}')
     df_5k = pd.read_json(mol_info_filepath,orient='split')
 
-    version = 0
-    author = 'Vandan Revanur'
-    source_paper = '# Source paper: https://doi.org/10.1038/s41597-020-0385-y (Stuke et al.)'
-    source_data_host = '# Source data host: https://doi.org/10.14459/2019mp1507656'
-    source_download_link = '# Source download link: https://dataserv.ub.tum.de/index.php/s/m1507656 , Filename: df_5k.json'
-    source_method = '# Source method: PBE_TS-vdW'
-    date_added = f'# Date added: 2023-02-05  14:14:48 ({author})'
-    date_modified = f'# Date modified: {datetime.today().isoformat(sep=" ", timespec="seconds")} ({author})'
-    common_name = '# Common name: Unknown'
-    smarts = '# Smarts: Unknown'
-    cas = '# CAS: Unknown'
-    spin_multiplicity = 'Singlet'
-    electronic_state = 'Ground'
-    charge = 0
-    point_group = 'Unknown'
     spm_info = f'Spin multiplicity = {spin_multiplicity}'
     electron_state_info = f'Electronic state = {electronic_state}'
     charge_info = f'Charge = {charge}'
@@ -128,7 +131,7 @@ def write_geom_database(mol_info_filepath, out_geom_database_filepath):
 
         output_info.append(molecule_info)
 
-    with open(out_geom_database_filepath, "w") as text_file:
+    with open(output_geom_database_filepath, "w") as text_file:
         for mol_str in output_info:
             text_file.write(mol_str)
 
@@ -138,7 +141,27 @@ def write_geom_database(mol_info_filepath, out_geom_database_filepath):
     print(f'time diff: {e_time - s_time}')
 
 
+@dataclass
+class GeomInfo():
+    output_geom_database_filepath: str = 'gw5000.txt'
+    mol_info_filepath: str = '/Users/vandanrevanur/personal/codes/chemistry/goDatabase/data/gw5000/df_5k.json'
+    version: int = 0
+    author: str = 'Vandan Revanur'
+    source_paper: str = '# Source paper: https://doi.org/10.1038/s41597-020-0385-y (Stuke et al.)'
+    source_data_host: str = '# Source data host: https://doi.org/10.14459/2019mp1507656'
+    source_download_link: str = '# Source download link: https://dataserv.ub.tum.de/index.php/s/m1507656 , Filename: df_5k.json'
+    source_method: str = '# Source method: PBE_TS-vdW'
+    date_added: str = f'# Date added: 2023-02-05  14:14:48 ({author})'
+    date_modified: str = f'# Date modified: {datetime.today().isoformat(sep=" ", timespec="seconds")} ({author})'
+    common_name: str = '# Common name: Unknown'
+    smarts: str = '# Smarts: Unknown'
+    cas: str = '# CAS: Unknown'
+    spin_multiplicity: str = 'Singlet'
+    electronic_state: str = 'Ground'
+    charge: int = 0
+    point_group: str = 'Unknown'
+
+
 if __name__ == '__main__':
-    output_geom_database_filepath = "gw5000.txt"
-    mol_info_filepath = '/Users/vandanrevanur/personal/codes/chemistry/goDatabase/data/gw5000/df_5k.json'
-    write_geom_database(mol_info_filepath, output_geom_database_filepath)
+    geom_info = GeomInfo()
+    write_geom_database(geom_info)
