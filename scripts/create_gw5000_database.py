@@ -68,7 +68,8 @@ def remove_xyz_header(xyz):
 
 def write_geom_database(mol_info_filepath, out_geom_database_filepath):
     s_time = datetime.now(tz=tz.gettz('Europe/Stockholm'))
-    print(f'Started at time : {s_time}')
+
+    print(f'Started at time : {s_time.isoformat(sep=" ", timespec="seconds")}')
     df_5k = pd.read_json(mol_info_filepath,orient='split')
 
     version = 0
@@ -78,7 +79,7 @@ def write_geom_database(mol_info_filepath, out_geom_database_filepath):
     source_download_link = '# Source download link: https://dataserv.ub.tum.de/index.php/s/m1507656 , Filename: df_5k.json'
     source_method = '# Source method: PBE_TS-vdW'
     date_added = f'# Date added: 2023-02-05  14:14:48 ({author})'
-    date_modified = f'# Date modified: {datetime.today()} ({author})'
+    date_modified = f'# Date modified: {datetime.today().isoformat(sep=" ", timespec="seconds")} ({author})'
     common_name = '# Common name: Unknown'
     smarts = '# Smarts: Unknown'
     cas = '# CAS: Unknown'
@@ -132,7 +133,8 @@ def write_geom_database(mol_info_filepath, out_geom_database_filepath):
             text_file.write(mol_str)
 
     e_time = datetime.now(tz=tz.gettz('Europe/Stockholm'))
-    print(f'Endded at time : {e_time}')
+
+    print(f'Endded at time : {e_time.isoformat(sep=" ", timespec="seconds")}')
     print(f'time diff: {e_time - s_time}')
 
 
