@@ -5,7 +5,7 @@ from tqdm import tqdm
 from dateutil import tz
 from datetime import datetime
 from dataclasses import dataclass
-
+import os
 def convert_inchi_to_molecular_formula(inchi: str) -> str:
     ids_slash = [m.start() for m in re.finditer('/', inchi)]
     start_idx = ids_slash[0] + 1
@@ -79,23 +79,24 @@ def remove_xyz_header(xyz):
 
 
 def write_geom_database(geom_info):
-    mol_info_filepath = geom_info.mol_info_filepath
-    output_geom_database_filepath = geom_info.output_geom_database_filepath
+    mol_info_filepath = os.path.join(geom_info.mol_info_dir_path,f'df_{geom_info.number_of_molecules//1000}k.json')
+    output_geom_database_filepath =  f'gw{geom_info.number_of_molecules}.txt'
     spin_multiplicity = geom_info.spin_multiplicity
     electronic_state= geom_info.electronic_state
     charge = geom_info.charge
     point_group = geom_info.point_group
-    source_paper = geom_info.source_paper
-    source_data_host = geom_info.source_data_host
-    source_download_link = geom_info.source_download_link
-    source_method = geom_info.source_method
-    date_added = geom_info.date_added
-    date_modified = geom_info.date_modified
+    source_paper =  f'# Source paper: {geom_info.source_paper_link} ({geom_info.source_paper_authors})'
+    source_data_host = f'# Source data host: {geom_info.source_data_host}'
+    source_download_link = f'# Source download link: {geom_info.source_download_link} , Filename: df_{geom_info.number_of_molecules//1000}k.json'
+    source_method =  f'# Source method: {geom_info.source_method}'
     version = geom_info.version
-    common_name = geom_info.common_name
-    smarts = geom_info.smarts
-    cas = geom_info.cas
+    common_name =  f'# Common name: {geom_info.common_name}'
+    smarts =  f'# Smarts: {geom_info.smarts}'
+    cas = f'# CAS: {geom_info.cas}'
     number_of_molecules = geom_info.number_of_molecules
+
+    date_added: str = f'# Date added: {geom_info.date_of_database_creation} ({geom_info.author_creator})'
+    date_modified: str = f'# Date modified: {datetime.today().isoformat(sep=" ", timespec="seconds")} ({geom_info.author_modifier})'
 
     s_time = datetime.now(tz=tz.gettz('Europe/Stockholm'))
 
@@ -156,19 +157,19 @@ def write_geom_database(geom_info):
 @dataclass
 class GeomInfo():
     number_of_molecules : int = 62000
-    output_geom_database_filepath: str = f'gw{number_of_molecules}.txt'
-    mol_info_filepath: str = f'/Users/vandanrevanur/personal/codes/chemistry/goDatabase/data/gw5000/df_{number_of_molecules//1000}k.json'
+    mol_info_dir_path: str = f'/Users/vandanrevanur/personal/codes/chemistry/goDatabase/data/gw5000'
     version: int = 0
-    author: str = 'Vandan Revanur'
-    source_paper: str = '# Source paper: https://doi.org/10.1038/s41597-020-0385-y (Stuke et al.)'
-    source_data_host: str = '# Source data host: https://doi.org/10.14459/2019mp1507656'
-    source_download_link: str = f'# Source download link: https://dataserv.ub.tum.de/index.php/s/m1507656 , Filename: df_{number_of_molecules//1000}k.json'
-    source_method: str = '# Source method: PBE_TS-vdW'
-    date_added: str = f'# Date added: 2023-02-05  14:14:48 ({author})'
-    date_modified: str = f'# Date modified: {datetime.today().isoformat(sep=" ", timespec="seconds")} ({author})'
-    common_name: str = '# Common name: Unknown'
-    smarts: str = '# Smarts: Unknown'
-    cas: str = '# CAS: Unknown'
+    author_creator: str = 'Vandan Revanur'
+    author_modifier: str = 'Vandan Revanur'
+    date_of_database_creation: str ='2023-02-05 14:14:48'
+    source_paper_authors = 'Stuke et al.'
+    source_paper_link: str = 'https://doi.org/10.1038/s41597-020-0385-y'
+    source_data_host: str = 'https://doi.org/10.14459/2019mp1507656'
+    source_download_link: str = 'https://dataserv.ub.tum.de/index.php/s/m1507656'
+    source_method: str = 'PBE_TS-vdW'
+    common_name: str = 'Unknown'
+    smarts: str = 'Unknown'
+    cas: str = 'Unknown'
     spin_multiplicity: str = 'Singlet'
     electronic_state: str = 'Ground'
     charge: int = 0
