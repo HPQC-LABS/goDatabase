@@ -95,11 +95,12 @@ def write_geom_database(geom_info):
     common_name = geom_info.common_name
     smarts = geom_info.smarts
     cas = geom_info.cas
+    number_of_molecules = geom_info.number_of_molecules
 
     s_time = datetime.now(tz=tz.gettz('Europe/Stockholm'))
 
     print(f'Started at time : {s_time.isoformat(sep=" ", timespec="seconds")}')
-    df_5k = pd.read_json(mol_info_filepath,orient='split')
+    df_molecules = pd.read_json(mol_info_filepath,orient='split')
 
     spm_info = f'Spin multiplicity = {spin_multiplicity}'
     electron_state_info = f'Electronic state = {electronic_state}'
@@ -109,16 +110,16 @@ def write_geom_database(geom_info):
     molecule_names = []
     output_info = []
 
-    inchi_col_vals = df_5k.inchi.values
-    smiles_col_vals = df_5k.canonical_smiles.map(lambda x: x.strip('\n').strip('\t'))
-    xyz_col_vals = df_5k.xyz_pbe_relaxed.map(lambda x: remove_xyz_header(x))
-    n_atoms_col_vals = df_5k.number_of_atoms
-    csd_code_col_vals = df_5k.refcode_csd
+    inchi_col_vals = df_molecules.inchi.values
+    smiles_col_vals = df_molecules.canonical_smiles.map(lambda x: x.strip('\n').strip('\t'))
+    xyz_col_vals = df_molecules.xyz_pbe_relaxed.map(lambda x: remove_xyz_header(x))
+    n_atoms_col_vals = df_molecules.number_of_atoms
+    csd_code_col_vals = df_molecules.refcode_csd
 
 
     for inchi,smiles, xyz, atom_count, csd_code in tqdm(
             zip(inchi_col_vals,smiles_col_vals,xyz_col_vals, n_atoms_col_vals, csd_code_col_vals),
-            desc='Generating gw5k dataset: ', total=df_5k.shape[0]):
+            desc='Generating gw5k dataset: ', total=df_molecules.shape[0]):
 
         molecular_formula = convert_inchi_to_molecular_formula(inchi)
         n_electrons_in_mol = calculate_n_electrons_in_mol(xyz)
@@ -129,9 +130,9 @@ def write_geom_database(geom_info):
 
         if molecular_formula in molecule_names:
             n_times_molecule = molecule_names.count(molecular_formula)
-            name = f'NAME = {molecular_formula}({n_times_molecule + 1}):GW5000.v{version}'
+            name = f'NAME = {molecular_formula}({n_times_molecule + 1}):GW{number_of_molecules}.v{version}'
         else:
-            name = f'NAME = {molecular_formula}:GW5000.v{version}'
+            name = f'NAME = {molecular_formula}:GW{number_of_molecules}.v{version}'
 
         molecule_names.append(molecular_formula)
 
@@ -154,13 +155,14 @@ def write_geom_database(geom_info):
 
 @dataclass
 class GeomInfo():
-    output_geom_database_filepath: str = 'gw5000.txt'
-    mol_info_filepath: str = '/Users/vandanrevanur/personal/codes/chemistry/goDatabase/data/gw5000/df_5k.json'
+    number_of_molecules : int = 62000
+    output_geom_database_filepath: str = f'gw{number_of_molecules}.txt'
+    mol_info_filepath: str = f'/Users/vandanrevanur/personal/codes/chemistry/goDatabase/data/gw5000/df_{number_of_molecules//1000}k.json'
     version: int = 0
     author: str = 'Vandan Revanur'
     source_paper: str = '# Source paper: https://doi.org/10.1038/s41597-020-0385-y (Stuke et al.)'
     source_data_host: str = '# Source data host: https://doi.org/10.14459/2019mp1507656'
-    source_download_link: str = '# Source download link: https://dataserv.ub.tum.de/index.php/s/m1507656 , Filename: df_5k.json'
+    source_download_link: str = f'# Source download link: https://dataserv.ub.tum.de/index.php/s/m1507656 , Filename: df_{number_of_molecules//1000}k.json'
     source_method: str = '# Source method: PBE_TS-vdW'
     date_added: str = f'# Date added: 2023-02-05  14:14:48 ({author})'
     date_modified: str = f'# Date modified: {datetime.today().isoformat(sep=" ", timespec="seconds")} ({author})'
