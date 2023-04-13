@@ -157,7 +157,7 @@ def write_geom_database(geom_info):
 @dataclass
 class GeomInfo():
     number_of_molecules : int = 62000
-    mol_info_dir_path: str = f'/Users/vandanrevanur/personal/codes/chemistry/goDatabase/data/gw5000'
+    mol_info_dir_path: str = f'/Users/vandanrevanur/personal/codes/chemistry/goDatabase/data/gw_molecules'
     version: int = 0
     author_creator: str = 'Vandan Revanur'
     author_modifier: str = 'Vandan Revanur'
