@@ -73,7 +73,7 @@ def calculate_n_electrons_in_mol(xyz):
     return n_electrons
 
 def remove_xyz_header(xyz):
-    end_idx_header = [m.start() for m in re.finditer('\n', xyz)][2]
+    end_idx_header = [m.start() for m in re.finditer('\n', xyz)][1]
     xyz_header_removed = xyz[end_idx_header+1:]
     return xyz_header_removed
 
