@@ -6,6 +6,8 @@ from dateutil import tz
 from datetime import datetime
 from dataclasses import dataclass
 import os
+from rdkit.Chem.rdmolops import GetFormalCharge
+from rdkit import Chem
 def convert_inchi_to_molecular_formula(inchi: str) -> str:
     ids_slash = [m.start() for m in re.finditer('/', inchi)]
     start_idx = ids_slash[0] + 1
@@ -77,7 +79,14 @@ def remove_xyz_header(xyz):
     xyz_header_removed = xyz[end_idx_header+1:]
     return xyz_header_removed
 
+def get_formal_charge_on_mol(inchi):
+    try:
+        mol = Chem.MolFromInchi(inchi)
+        formal_charge = GetFormalCharge(mol)
+    except:
+        formal_charge = 0
 
+    return formal_charge
 def write_geom_database(geom_info):
     mol_info_filepath = os.path.join(geom_info.mol_info_dir_path,f'df_{geom_info.number_of_molecules//1000}k.json')
     output_geom_database_filepath =  f'gw{geom_info.number_of_molecules}.txt'
@@ -116,14 +125,14 @@ def write_geom_database(geom_info):
     xyz_col_vals = df_molecules.xyz_pbe_relaxed.map(lambda x: remove_xyz_header(x))
     n_atoms_col_vals = df_molecules.number_of_atoms
     csd_code_col_vals = df_molecules.refcode_csd
-
+    formal_charge = df_molecules.inchi.map(lambda x: get_formal_charge_on_mol(x))
 
     for inchi,smiles, xyz, atom_count, csd_code in tqdm(
             zip(inchi_col_vals,smiles_col_vals,xyz_col_vals, n_atoms_col_vals, csd_code_col_vals),
             desc='Generating gw5k dataset: ', total=df_molecules.shape[0]):
 
         molecular_formula = convert_inchi_to_molecular_formula(inchi)
-        n_electrons_in_mol = calculate_n_electrons_in_mol(xyz)
+        n_electrons_in_mol = calculate_n_electrons_in_mol(xyz) + formal_charge
         n_elec_info = f'Number of electrons = {n_electrons_in_mol}'
         properties = f'# Properties: {n_elec_info}, {spm_info}, {electron_state_info}, {charge_info}, {point_group_info}'
         meta_data_comments = f'{source_paper}\n{source_data_host}\n{source_download_link}\n{source_method}\n{properties}\n{date_added}\n{date_modified}\n'
