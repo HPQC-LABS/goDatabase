@@ -79,9 +79,9 @@ def remove_xyz_header(xyz):
     xyz_header_removed = xyz[end_idx_header+1:]
     return xyz_header_removed
 
-def get_formal_charge_on_mol(inchi):
+def get_formal_charge_on_mol(smiles):
     try:
-        mol = Chem.MolFromInchi(inchi)
+        mol = Chem.MolFromSmiles(smiles)
         formal_charge = GetFormalCharge(mol)
     except:
         formal_charge = 0
@@ -129,7 +129,7 @@ def write_geom_database(geom_info):
     xyz_col_vals = df_molecules.xyz_pbe_relaxed.map(lambda x: remove_xyz_header(x))
     n_atoms_col_vals = df_molecules.number_of_atoms
     csd_code_col_vals = df_molecules.refcode_csd
-    formal_charge = df_molecules.inchi.map(lambda x: get_formal_charge_on_mol(x))
+    formal_charge = df_molecules.canonical_smiles.map(lambda x: get_formal_charge_on_mol(x))
 
     for inchi,smiles, xyz, atom_count, csd_code in tqdm(
             zip(inchi_col_vals,smiles_col_vals,xyz_col_vals, n_atoms_col_vals, csd_code_col_vals),
