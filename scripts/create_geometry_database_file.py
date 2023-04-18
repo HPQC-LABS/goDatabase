@@ -88,22 +88,26 @@ def get_formal_charge_on_mol(inchi):
 
     return formal_charge
 def write_geom_database(geom_info):
-    mol_info_filepath = os.path.join(geom_info.mol_info_dir_path,f'df_{geom_info.number_of_molecules//1000}k.json')
-    output_geom_database_filepath =  f'gw{geom_info.number_of_molecules}.txt'
+    database_identifier_header = geom_info.database_identifier_header
+    output_geom_database_filepath = f'{database_identifier_header}.txt'
+    database_header_name = f'{database_identifier_header}.v{geom_info.version}'
+
+    mol_info_filepath = geom_info.mol_info_filepath
     spin_multiplicity = geom_info.spin_multiplicity
     electronic_state= geom_info.electronic_state
     charge = geom_info.charge
+
     point_group = geom_info.point_group
+
+    mol_info_filename = os.path.basename(mol_info_filepath)
+
     source_paper =  f'# Source paper: {geom_info.source_paper_link} ({geom_info.source_paper_authors})'
     source_data_host = f'# Source data host: {geom_info.source_data_host}'
-    source_download_link = f'# Source download link: {geom_info.source_download_link} , Filename: df_{geom_info.number_of_molecules//1000}k.json'
+    source_download_link = f'# Source download link: {geom_info.source_download_link} , Filename: {mol_info_filename}'
     source_method =  f'# Source method: {geom_info.source_method}'
-    version = geom_info.version
     common_name =  f'# Common name: {geom_info.common_name}'
     smarts =  f'# Smarts: {geom_info.smarts}'
     cas = f'# CAS: {geom_info.cas}'
-    number_of_molecules = geom_info.number_of_molecules
-
     date_added: str = f'# Date added: {geom_info.date_of_database_creation} ({geom_info.author_creator})'
     date_modified: str = f'# Date modified: {datetime.today().isoformat(sep=" ", timespec="seconds")} ({geom_info.author_modifier})'
 
@@ -129,7 +133,7 @@ def write_geom_database(geom_info):
 
     for inchi,smiles, xyz, atom_count, csd_code in tqdm(
             zip(inchi_col_vals,smiles_col_vals,xyz_col_vals, n_atoms_col_vals, csd_code_col_vals),
-            desc='Generating gw5k dataset: ', total=df_molecules.shape[0]):
+            desc=f'Generating {mol_info_filename} dataset: ', total=df_molecules.shape[0]):
 
         molecular_formula = convert_inchi_to_molecular_formula(inchi)
         n_electrons_in_mol = calculate_n_electrons_in_mol(xyz) + formal_charge
@@ -140,9 +144,9 @@ def write_geom_database(geom_info):
 
         if molecular_formula in molecule_names:
             n_times_molecule = molecule_names.count(molecular_formula)
-            name = f'NAME = {molecular_formula}({n_times_molecule + 1}):GW{number_of_molecules}.v{version}'
+            name = f'NAME = {molecular_formula}({n_times_molecule + 1}):{database_header_name}'
         else:
-            name = f'NAME = {molecular_formula}:GW{number_of_molecules}.v{version}'
+            name = f'NAME = {molecular_formula}:{database_header_name}'
 
         molecule_names.append(molecular_formula)
 
@@ -165,8 +169,6 @@ def write_geom_database(geom_info):
 
 @dataclass
 class GeomInfo():
-    number_of_molecules : int = 62000
-    mol_info_dir_path: str = f'/Users/vandanrevanur/personal/codes/chemistry/goDatabase/data/gw_molecules'
     version: int = 0
     author_creator: str = 'Vandan Revanur'
     author_modifier: str = 'Vandan Revanur'
@@ -183,7 +185,8 @@ class GeomInfo():
     electronic_state: str = 'Ground'
     charge: int = 0
     point_group: str = 'Unknown'
-
+    database_identifier_header : str = 'OE62'
+    mol_info_filepath = '/Users/vandanrevanur/personal/codes/chemistry/goDatabase/data/gw_molecules/df_62k.json'
 
 if __name__ == '__main__':
     geom_info = GeomInfo()
