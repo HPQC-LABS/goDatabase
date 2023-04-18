@@ -136,7 +136,7 @@ def write_geom_database(geom_info):
             desc=f'Generating {mol_info_filename} dataset: ', total=df_molecules.shape[0]):
 
         molecular_formula = convert_inchi_to_molecular_formula(inchi)
-        n_electrons_in_mol = calculate_n_electrons_in_mol(xyz) + formal_charge
+        n_electrons_in_mol = calculate_n_electrons_in_mol(xyz) - formal_charge
         n_elec_info = f'Number of electrons = {n_electrons_in_mol}'
         properties = f'# Properties: {n_elec_info}, {spm_info}, {electron_state_info}, {charge_info}, {point_group_info}'
         meta_data_comments = f'{source_paper}\n{source_data_host}\n{source_download_link}\n{source_method}\n{properties}\n{date_added}\n{date_modified}\n'
