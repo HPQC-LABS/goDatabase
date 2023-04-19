@@ -39,7 +39,7 @@ def calc_custom_molecular_formula(xyz):
     return custom_molecular_formula
 
 
-def calculate_n_electrons_in_mol(xyz):
+def calculate_n_electrons_in_mol(xyz, inchi):
     molecular_formula = calc_custom_molecular_formula(xyz)
     # corner case: C20H19AsCl2P
 
@@ -72,6 +72,9 @@ def calculate_n_electrons_in_mol(xyz):
         atom_number = atom_number_map[atom_symbol]
         n_electrons += atom_number*n_atoms
 
+    charge_on_mol = get_charge_on_mol(inchi)
+    n_electrons = n_electrons - charge_on_mol
+
     return n_electrons
 
 def remove_xyz_header(xyz):
@@ -79,7 +82,7 @@ def remove_xyz_header(xyz):
     xyz_header_removed = xyz[end_idx_header+1:]
     return xyz_header_removed
 
-def get_formal_charge_on_mol(inchi):
+def get_charge_on_mol(inchi):
     try:
         mol = Chem.MolFromInchi(inchi)
         formal_charge = GetFormalCharge(mol)
@@ -129,14 +132,13 @@ def write_geom_database(geom_info):
     xyz_col_vals = df_molecules.xyz_pbe_relaxed.map(lambda x: remove_xyz_header(x))
     n_atoms_col_vals = df_molecules.number_of_atoms
     csd_code_col_vals = df_molecules.refcode_csd
-    formal_charge = df_molecules.inchi.map(lambda x: get_formal_charge_on_mol(x))
 
     for inchi,smiles, xyz, atom_count, csd_code in tqdm(
             zip(inchi_col_vals,smiles_col_vals,xyz_col_vals, n_atoms_col_vals, csd_code_col_vals),
             desc=f'Generating {mol_info_filename} dataset: ', total=df_molecules.shape[0]):
 
         molecular_formula = convert_inchi_to_molecular_formula(inchi)
-        n_electrons_in_mol = calculate_n_electrons_in_mol(xyz) - formal_charge
+        n_electrons_in_mol = calculate_n_electrons_in_mol(xyz, inchi)
         n_elec_info = f'Number of electrons = {n_electrons_in_mol}'
         properties = f'# Properties: {n_elec_info}, {spm_info}, {electron_state_info}, {charge_info}, {point_group_info}'
         meta_data_comments = f'{source_paper}\n{source_data_host}\n{source_download_link}\n{source_method}\n{properties}\n{date_added}\n{date_modified}\n'
