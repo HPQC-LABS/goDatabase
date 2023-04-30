@@ -918,7 +918,7 @@ H 0.0000 0.0000 0.0000
 F 0.0000 0.0000 0.9169
 
 4
-Amonia; experimental structure from HCP92; s
+Ammonia; experimental structure from HCP92; s
 N  0.0000  0.0000  0.0000
 H  0.0000 -0.9377 -0.3816
 H  0.8121  0.4689 -0.3816
