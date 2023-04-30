@@ -24,7 +24,7 @@ H     2.2473809   -0.8820350    1.1803103
 H     2.2474159    0.8821780    1.1802303 
 
 3
-Ozon; experimental structure from HCP92; s
+Ozone; experimental structure from HCP92; s
 O  0.0000 0.0000 0.0000
 O  1.0869 0.0000 0.6600
 O -1.0869 0.0000 0.6600
