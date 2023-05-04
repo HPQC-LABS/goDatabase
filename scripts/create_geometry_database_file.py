@@ -6,15 +6,12 @@ from dateutil import tz
 from datetime import datetime
 from dataclasses import dataclass
 import os
-from rdkit.Chem.rdmolops import GetFormalCharge
+from rdkit.Chem import rdMolDescriptors
 from rdkit import Chem
 def convert_inchi_to_molecular_formula(inchi: str) -> str:
-    ids_slash = [m.start() for m in re.finditer('/', inchi)]
-    start_idx = ids_slash[0] + 1
-    end_idx = ids_slash[1]
-
-    molecular_formula = inchi[start_idx: end_idx]
-    return  molecular_formula
+    mol = Chem.MolFromInchi(inchi)
+    molecular_formula = rdMolDescriptors.CalcMolFormula(mol)
+    return molecular_formula
 
 
 def calc_custom_molecular_formula(xyz):
