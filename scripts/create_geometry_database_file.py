@@ -82,12 +82,38 @@ def remove_xyz_header(xyz):
     xyz_header_removed = xyz[end_idx_header+1:]
     return xyz_header_removed
 
+
 def get_charge_on_mol(inchi):
-    try:
-        mol = Chem.MolFromInchi(inchi)
-        formal_charge = GetFormalCharge(mol)
-    except:
-        formal_charge = 0
+    search_pattern_q_not_end_of_line = '/q(.*?)/'
+    search_pattern_q_end_of_line = '/q(.*)\n'
+    formal_charge = 0
+
+    if '/q' in inchi:
+        p = re.compile(search_pattern_q_not_end_of_line, flags=re.DOTALL)
+        if (p.search(inchi)):
+            charge_info = p.search(inchi).group(1)
+        else:
+            p = re.compile(search_pattern_q_end_of_line, flags=re.DOTALL)
+            charge_info = p.search(inchi).group(1)
+
+        if ';' in charge_info:
+            charges_of_charged_atoms = charge_info.split(';')
+            formal_charge += sum([eval(c) for c in charges_of_charged_atoms if c != ''])
+        else:
+            formal_charge += int(charge_info)
+
+    if '/p' in inchi:
+        search_pattern_p_not_end_of_line = '/p(.*?)/'
+        search_pattern_p_end_of_line = '/p(.*)'
+
+        p = re.compile(search_pattern_p_not_end_of_line, flags=re.DOTALL)
+        if (p.search(inchi)):
+            protonation_info = p.search(inchi).group(1)
+        else:
+            p = re.compile(search_pattern_p_end_of_line, flags=re.DOTALL)
+            protonation_info = p.search(inchi).group(1)
+
+        formal_charge += int(protonation_info)
 
     return formal_charge
 def write_geom_database(geom_info):
