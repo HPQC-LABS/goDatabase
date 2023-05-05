@@ -6,15 +6,24 @@ from dateutil import tz
 from datetime import datetime
 from dataclasses import dataclass
 import os
-from rdkit.Chem import rdMolDescriptors
-from rdkit import Chem
-def convert_inchi_to_molecular_formula(inchi: str) -> str:
-    mol = Chem.MolFromInchi(inchi)
-    molecular_formula = rdMolDescriptors.CalcMolFormula(mol)
+
+def get_molecular_formula(xyz):
+    atom_names, n_atoms = calc_atoms_and_its_multiplicity(xyz)
+    atom_multiplicity_info = {a:n for a, n in zip(atom_names, n_atoms)}
+
+    molecular_formula_info = []
+    for atom, n in sorted(atom_multiplicity_info.items()):
+        molecular_formula_info.append(atom)
+        if n==1:
+            molecular_formula_info.append('')
+        else:
+            molecular_formula_info.append(str(n))
+
+    molecular_formula = ''.join(molecular_formula_info)
+
     return molecular_formula
 
-
-def calc_custom_molecular_formula(xyz):
+def calc_atoms_and_its_multiplicity(xyz):
     atoms = []
     for line in xyz.split('\n'):
         str_regex = '[a-zA-Z]+'
@@ -26,6 +35,11 @@ def calc_custom_molecular_formula(xyz):
 
     atom_names = list(counter.keys())
     n_atoms = list(counter.values())
+
+    return atom_names, n_atoms
+
+def calc_custom_molecular_formula(xyz):
+    atom_names, n_atoms = calc_atoms_and_its_multiplicity(xyz)
 
     molecular_formula_info = []
     for atom, n in zip(atom_names, n_atoms):
@@ -160,7 +174,7 @@ def write_geom_database(geom_info):
             zip(inchi_col_vals,smiles_col_vals,xyz_col_vals, n_atoms_col_vals, csd_code_col_vals),
             desc=f'Generating {mol_info_filename} dataset: ', total=df_molecules.shape[0]):
 
-        molecular_formula = convert_inchi_to_molecular_formula(inchi)
+        molecular_formula = get_molecular_formula(xyz)
         n_electrons_in_mol = calculate_n_electrons_in_mol(xyz, inchi)
         n_elec_info = f'Number of electrons = {n_electrons_in_mol}'
         properties = f'# Properties: {n_elec_info}, {spm_info}, {electron_state_info}, {charge_info}, {point_group_info}'
