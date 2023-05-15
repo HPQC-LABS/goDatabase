@@ -1,0 +1,57 @@
+NAME = AgArI  2017
+# Point Group: Coov 
+# Shape: Linear # Can be inferred by lack of angle given?
+# Bond lengths: r0 (angstroms)
+# Source paper: Medcraft C, Mullaney JC, Walker NR, Legon AC (2017) A complex Ar⋅⋅⋅Ag–I produced by laser ablation and
+characterized by rotational spectroscopy and ab initio calculations: Variation of properties along the series
+Ar⋅⋅⋅Ag–X (X = F, Cl, Br and I). J Mol Spectrosc 335(5):61-67
+# Date first added: 2023-05-15 (by Nike Dattani)
+
+Ar Ag 2.6759 
+Ag I  2.5356 
+
+NAME = AgHS  2012
+# Point Group: Cs
+# Shape: Planar  # Can be inferred by there being only 3 atoms
+# Bond lengths: r0     (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Okabayashi T, Yamamoto T, Mizuguchi D, Okabayashi EY, Tanimoto M (2012) Microwave spectroscopy of
+silver hydrosulfide AgSH. Chem Phys Lett 551:26-30
+# Date first added: 2023-05-15 (by Nike Dattani)
+
+Ag S    2.31219(75)
+S  H    1.375(15)
+Ag S H 92.49(81)
+
+# Bond lengths: rs     (angstroms)
+# Bond angles:  thetas (degrees)
+
+Ag S    2.313(20)
+S  H    1.373(15)
+Ag S H 92.21(42)
+
+# Bond lengths: rz     (angstroms)
+# Bond angles:  thetaz (degrees)
+
+Ag S    2.313713(99)
+S  H    1.3472(18)
+Ag S H 93.120(90)
+
+NAME = AgH2  2011
+# Point Group: C2v 
+# Shape: Isosceles
+# Bond lengths: r0 (angstroms)
+# Source Paper: Dryza V, Bieske EJ (2011) Infrared spectroscopy of the Ag+-H2 complex: Exploring the connection between vibrational band-shifts and binding energies. J Phys Chem Lett 2(7):719-724
+# Date first added: 2023-05-15 (by Nike Dattani)
+
+H2 Ag 2.02
+
+NAME = ArH2  2013
+# Point Group: C2v 
+# Shape: Isosceles
+# Bond lengths: r0 (angstroms)
+# Source Paper: McKellar ARW (2013) High resolution infrared spectra of H2-Xe and D2-Xe van der Waals complexes. Can J
+Phys 91(11):957-962
+# Date first added: 2023-05-15 (by Nike Dattani)
+
+H2 Ar 3.957
