@@ -130,17 +130,32 @@ def get_charge_on_mol(inchi):
 def write_geom_database(geom_info):
     database_identifier_header = geom_info.database_identifier_header
     output_geom_database_filepath = f'{database_identifier_header}.txt'
-    database_header_name = f'{database_identifier_header}.v{geom_info.version}'
 
-    mol_info_filepath = geom_info.mol_info_filepath
+    mol_info_filepath_oe_62 = geom_info.mol_info_filepath_oe_62
+    mol_info_filename = os.path.basename(mol_info_filepath_oe_62)
+    df_molecules = pd.read_json(mol_info_filepath_oe_62, orient='split')
+
+    mol_info_filepath_oe_31 = geom_info.mol_info_filepath_oe_31
+    df_molecules_31 = pd.read_json(mol_info_filepath_oe_31, orient='split')
+    xyz_col_vals_oe_31 = df_molecules_31.xyz_pbe_relaxed.map(lambda x: remove_xyz_header(x))
+    molecular_formula_oe_31 = []
+    for xyz_31 in xyz_col_vals_oe_31:
+        molecular_formula_oe_31.append(get_molecular_formula(xyz_31))
+
+    mol_info_filepath_gw_5000 = geom_info.mol_info_filepath_gw_5000
+    df_molecules_gw_5000 = pd.read_json(mol_info_filepath_gw_5000, orient='split')
+    xyz_col_vals_gw_5000 = df_molecules_gw_5000.xyz_pbe_relaxed.map(lambda x: remove_xyz_header(x))
+    molecular_formula_gw_5000 = []
+    for xyz_gw_5000 in xyz_col_vals_gw_5000:
+        molecular_formula_gw_5000.append(get_molecular_formula(xyz_gw_5000))
+
     spin_multiplicity = geom_info.spin_multiplicity
     electronic_state= geom_info.electronic_state
     charge = geom_info.charge
-
     point_group = geom_info.point_group
 
-    mol_info_filename = os.path.basename(mol_info_filepath)
-
+    # version = f'Version = v{geom_info.version}'
+    database_version = f'# Source Database = {database_identifier_header},v{geom_info.version}'
     source_paper =  f'# Source paper: {geom_info.source_paper_link} ({geom_info.source_paper_authors})'
     source_data_host = f'# Source data host: {geom_info.source_data_host}'
     source_download_link = f'# Source download link: {geom_info.source_download_link} , Filename: {mol_info_filename}'
@@ -154,7 +169,6 @@ def write_geom_database(geom_info):
     s_time = datetime.now(tz=tz.gettz('Europe/Stockholm'))
 
     print(f'Started at time : {s_time.isoformat(sep=" ", timespec="seconds")}')
-    df_molecules = pd.read_json(mol_info_filepath,orient='split')
 
     spm_info = f'Spin multiplicity = {spin_multiplicity}'
     electron_state_info = f'Electronic state = {electronic_state}'
@@ -173,7 +187,7 @@ def write_geom_database(geom_info):
     for inchi,smiles, xyz, atom_count, csd_code in tqdm(
             zip(inchi_col_vals,smiles_col_vals,xyz_col_vals, n_atoms_col_vals, csd_code_col_vals),
             desc=f'Generating {mol_info_filename} dataset: ', total=df_molecules.shape[0]):
-
+        sub_groups = []
         molecular_formula = get_molecular_formula(xyz)
         n_electrons_in_mol = calculate_n_electrons_in_mol(xyz, inchi)
         n_elec_info = f'Number of electrons = {n_electrons_in_mol}'
@@ -183,16 +197,26 @@ def write_geom_database(geom_info):
 
         if molecular_formula in molecule_names:
             n_times_molecule = molecule_names.count(molecular_formula)
-            name = f'NAME = {molecular_formula}({n_times_molecule + 1}):{database_header_name}'
+            name = f'NAME = {molecular_formula}({n_times_molecule + 1})'
         else:
-            name = f'NAME = {molecular_formula}:{database_header_name}'
+            name = f'NAME = {molecular_formula}'
+
+        if molecular_formula in molecular_formula_gw_5000:
+            sub_groups.append('GW5000')
+        if molecular_formula in molecular_formula_oe_31:
+            sub_groups.append('OE31')
+
+        if sub_groups == []:
+            sub_groups_info = '# SubGroups= None'
+        else:
+            sub_groups_info ='# SubGroups= ' + ','.join(sub_groups)
 
         molecule_names.append(molecular_formula)
 
         smiles_info = f'# SMILES : {smiles}'
         n_atoms = f'# Number of atoms: {atom_count}'
         inchi_info = f'# {inchi}'
-        molecule_info = f'{name}\n{n_atoms}\n{common_name}\n{inchi_info}\n{smiles_info}\n\n{smarts}\n\n{reference_code}\n{cas}\n{meta_data_comments}\n{xyz}\n'
+        molecule_info = f'{name}\n{n_atoms}\n{database_version}\n{sub_groups_info}\n{common_name}\n{inchi_info}\n{smiles_info}\n\n{smarts}\n\n{reference_code}\n{cas}\n{meta_data_comments}\n{xyz}\n'
 
         output_info.append(molecule_info)
 
@@ -225,7 +249,9 @@ class GeomInfo():
     charge: int = 0
     point_group: str = 'Unknown'
     database_identifier_header : str = 'OE62'
-    mol_info_filepath = '/Users/vandanrevanur/personal/codes/chemistry/goDatabase/data/gw_molecules/df_62k.json'
+    mol_info_filepath_oe_62 = '/Users/vandanrevanur/personal/codes/chemistry/goDatabase/data/gw_molecules/df_62k.json'
+    mol_info_filepath_oe_31 = '/Users/vandanrevanur/personal/codes/chemistry/goDatabase/data/gw_molecules/df_31k.json'
+    mol_info_filepath_gw_5000 = '/Users/vandanrevanur/personal/codes/chemistry/goDatabase/data/gw_molecules/df_5k.json'
 
 if __name__ == '__main__':
     geom_info = GeomInfo()
