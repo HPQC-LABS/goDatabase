@@ -55,3 +55,1372 @@ Phys 91(11):957-962
 # Date first added: 2023-05-15 (by Nike Dattani)
 
 H2 Ar 3.957
+
+NAME = AsHO  2011
+# Point Group: Cs
+# Shape: Trigonal Planar
+# Bond lengths: r0 (angstroms)
+# Source Paper: Grimminger R, Clouthier DJ (2011) The electronic spectrum of the previously unknown HAsO transient molecule. J Chem Phys 135(18):184308/1-184308/8
+doi:10.1063/1.3658645
+# Date first added: 2023-05-19 (by Arpit Arun Kumaar)
+
+H As    1.576(3)
+As O    1.6342(5)
+H As O  101.5(4)
+
+NAME = AsH2  2012
+# Point Group: C2v
+# Shape: Seesaw
+# Bond lengths: r0 (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Grimminger RA, Clouthier DJ (2012) Toward an improved understanding of the AsH2 free radical: Laser spectroscopy, ab initio calculations, and normal coordinate analysis. J Chem Phys 137(22):224307/1-224307/12 http://dx.doi.org/10.1063/1.4769778
+# Date first added: 2023-05-19 (by Arpit Arun Kumaar)
+
+As H    1.519(1)    
+H As H  90.75(9)
+
+# Bond lengths: rz     (angstroms)
+# Bond angles:  thetaz (degrees)
+
+As H    1.5322(8)
+H As H  90.7(2)
+
+# Bond lengths: re     (angstroms)
+# Bond angles:  thetae (degrees)
+
+As H    1.5169(8)
+H As H  90.7(2)
+
+NAME = BFH  2009
+# Point Group: Cs
+# Shape: Seesaw
+# Bond lengths: r0 (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Sunahori FX, Clouthier DJ (2009) The electronic spectrum of the fluoroborane free radical. II. Analysis of laser- induced fluorescence and single vibronic level emission spectra. J Chem Phys 130(16):164310/1-164310/10 doi: 10.1063/1.3122031
+# Date first added: 2023-05-19 (by Arpit Arun Kumaar)
+
+B H    1.214(2)
+B F    1.3034(5)
+F B H  120.7(1)
+
+NAME = BF2 2011
+# Point Group: C2v
+# Shape: Trigonal Planar
+# Bond lengths: r0 (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Yang J, Ellis B, Clouthier DJ (2011) The complex spectrum of a “simple” free radical: The A-X band system of the jet-cooled boron difluoride free radical. J Chem Phys 135(9):094305/1-094305/9
+doi:10.1063/1.3624528
+# Date first added: 2023-05-19 (by Arpit Arun Kumaar)
+
+B F     1.3102(9)
+F B F   119.7(6)
+
+NAME = BH2 2015
+# Point Group: C2v
+# Shape: Seesaw
+# Bond lengths: r0 (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Sunahori FX, Gharaibeh M, Clouthier DJ, Tarroni R (2015) BH2 revisited: New, extensive measurements of laser-induced fluorescence transitions and ab initio calculations of near-spectroscopic accuracy. J Chem Phys 142(17):174302/1-174302/13
+[http://dx.doi.org/10.1063/1.4919094]
+# Date first added: 2023-05-19 (by Arpit Arun Kumaar)
+
+B H     1.197(2)
+H B H   129.6(2)
+
+NAME = BeI2 2015
+# Point Group: D∞h
+# Shape: Linear
+# Bond lengths: rg (angstroms)
+# Bond angles:  thetag (degrees)
+# Source Paper: Shlykov SA, Zhabanov YA, Giricheva NI, Girichev AG, Girichev GV (2015) Combined gas electron diffraction/mass spectrometric study of beryllium diiodide assisted by quantum chemical calculations: structure and thermodynamics of beryllium dihalides. Struct Chem 26 (5-6):1451-1458
+[http://dx.doi.org/10.1063/1.4919094]
+# Date first added: 2023-05-19 (by Arpit Arun Kumaar)
+
+# T = 501(5) K
+Be I     2.163(6)
+I Be I   165(3)
+
+# T = 722(10) K
+Be I     2.172(7)
+I Be I   162(4)
+
+NAME = Be2O 2011
+# Point Group: D∞h
+# Shape: Linear
+# Bond lengths: r0 (angstroms)
+# Source Paper: Antonov IO, Barker BJ, Heaven MC (2011) Pulsed-field ionization zero electron kinetic energy spectrum of the ground electronic state of BeOBe+. J Chem Phys 134(4):044306/1-044306/4
+doi:10.1063/1.3541255
+# Date first added: 2023-05-19 (by Arpit Arun Kumaar)
+
+Be O     1.392(8)
+
+NAME = BrGeH 2009
+# Point Group: Cs
+# Shape: Seesaw
+# Bond lengths: r0 (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Kang L, Sunahori F, Minei AJ, Clouthier DJ, Novick SE (2009) Fourier transform microwave spectroscopy of monobromogermylene (HGeBr and DGeBr), a heavy atom carbene analog. J Chem Phys 130(12):124317/1- 124317/11
+doi: 10.1063/1.3080161
+# Date first added: 2023-05-19 (by Arpit Arun Kumaar)
+
+Ge Br    2.3276(9)
+Ge H     1.6093(7)
+H Ge Br  92.44(4)
+
+# Bond lengths: rm (angstroms)
+# Bond angles:  thetam (degrees)
+
+Ge Br    2.3243(2)
+Ge H     1.563(9)
+H Ge Br  93.55(24)
+
+NAME = BrHO 2010
+# Point Group: Cs
+# Shape: Seesaw
+# Bond lengths: re (angstroms)
+# Bond angles:  thetae (degrees)
+# Source Paper: Cohen EA, Müller HSP, Tan TL, McRae GA (2010) High resolution spectroscopy of DOBr and molecular properties of hypobromous acid. J Mol Spectrosc 262(1):30-36
+# Date first added: 2023-05-19 (by Arpit Arun Kumaar)
+
+H O      0.9640(3)
+O Br     1.82800(1)
+H O Br   102.99(1)
+
+NAME = Br2Fe 1991, 2011
+# Point Group: D∞h
+# Shape: Linear
+# Bond lengths: rg (angstroms)
+# Bond angles:  thetaa (degrees)
+# Source Paper: a. Varga Z, Kolonits M, Hargittai M (2011) Iron dihalides: Structures and thermodynamic properties from computation and an electron diffraction study of iron diiodide. Struct Chem 22 (2):327-336
+b. Hargittai M, Subbotina NY, Kolonits M, Gershikov AG (1991) Molecular structure of first-row transition metal dihalides from combined electron diffraction and vibrational spectroscopic analysis. J Chem Phys 94: 7278-7286.
+# Date first added: 2023-05-19 (by Arpit Arun Kumaar)
+
+Fe Br     2.289(8)
+Br Br     4.476(12)
+Br Fe Br  155.9(29)
+
+# Bond lengths: re (angstroms)
+# Bond angles:  thetaa (degrees)
+
+Fe Br     2.276(10)
+Br Fe Br  155.9(29)
+
+NAME = BrHO 2010
+# Point Group: Cs
+# Shape: Trigonal Planar
+# Bond lengths: re (angstroms)
+# Bond angles:  thetae (degrees)
+# Source Paper: Cohen EA, Müller HSP, Tan TL, McRae GA (2010) High resolution spectroscopy of DOBr and molecular properties of hypobromous acid. J Mol Spectrosc 262(1):30-36
+# Date first added: 2023-05-19 (by Arpit Arun Kumaar)
+
+H O      0.9640(3)
+O Br     1.82800(1)
+H O Br   102.99(1)
+
+NAME = ClHZn 2009
+# Point Group: C∞v
+# Shape: Linear
+# Bond lengths: r0 (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Pulliam RL, Sun M, Flory MA, Ziurys LM (2009) The sub-millimeter and Fourier transform microwave
+spectrum of HZnCl (X1Σ+). J Mol Spectrosc 257(2):128-132
+# Date first added: 2023-05-19 (by Arpit Arun Kumaar)
+
+H  Zn     1.519
+Zn Cl     2.083
+
+# Bond lengths: rs (angstroms)
+# Bond angles:  thetas (degrees)
+
+H  Zn     1.519
+Zn Cl     2.082
+
+# Bond lengths: rm (angstroms)
+# Bond angles:  thetam (degrees)
+
+H  Zn     1.5050(17)
+Zn Cl     2.08293(21)
+
+NAME = Cl2V 1985, 2010
+# Point Group: D∞h
+# Shape: Linear
+# Bond lengths: rg (angstroms)
+# Bond angles:  thetaa (degrees)
+# Source Paper: a. Varga Z, Vest B, Schwerdtfeger P, Hargittai M (2010) Molecular geometry of vanadium dichloride and vanadium trichloride: A gas-phase electron diffraction and computational study. Inorg Chem 49 (6):2816-2821 b. Hargittai M, Dorofeeva O, Tremmel J (1985) Molecular structure of vanadium dichloride and chromium dichloride from electron diffraction. Inorg Chem 24:3963-3965.
+# Date first added: 2023-05-19 (by Arpit Arun Kumaar)
+
+V Cl     2.213(21)
+V Cl V   155(8)
+
+# Bond lengths: re (angstroms)
+# Bond angles:  thetaa (degrees)
+
+V Cl     2.185(23)
+V Cl V   155(8)
+
+NAME = CrF2 2010
+# Point Group: -
+# Shape: Linear
+# Bond lengths: rg (angstroms)
+# Source Paper: a. Vest B, Schwerdtfeger P, Kolonits M, Hargittai M (2009) Chromium difluoride: Probing the limits of structure determination. Chem Phys Lett 468 (4-6):143-147
+b. Zasorin EZ, Gershikov AG, Spiridonov VP, Ivanov AA (1987) Semirigid model of the deformation-rotation Hamiltonian in the electron diffraction analysis of triatomic molecules. III. Chromium difluoride. Russ J Struct Chem/Zh Strukt Khim 28/28(5/5), 680-684/56-60
+# Date first added: 2023-05-23 (by Arpit Arun Kumaar)
+
+Cr  F    1.792(5)
+
+# Bond lengths: re (angstroms)
+
+Cr  F    1.778(6)
+
+NAME = CrH2 2009
+# Point Group: C2v
+# Shape: Isosceles
+# Bond lengths: r0 (angstroms)
+# Source Paper: Dryza V, Bieske EJ (2009) The Cr+-D2 cation complex: Accurate experimental dissociation energy, intermolecular bond length, and vibrational parameters. J Chem Phys 131(16):164303/1-164303/6 doi:10.1063/1.3250985
+# Date first added: 2023-05-23 (by Arpit Arun Kumaar)
+
+Cr  H    2.023
+
+NAME = CuHS 2012
+# Point Group: Cs
+# Shape: Seesaw
+# Bond lengths: rz (angstroms)
+# Bond angles:  thetaz (degrees)
+# Source Paper: Okabayashi T, Yamamoto T, Mizuguchi D, Okabayashi EY, Tanimoto M (2012) Microwave spectroscopy of silver hydrosulfide AgSH. Chem Phys Lett 551:26-30
+# Date first added: 2023-05-23 (by Arpit Arun Kumaar)
+
+Cu S    2.09309(14)
+S  H    1.3507(20)
+Cu S H  93.67(13)
+
+NAME = FH2 2013
+# Point Group: C2v
+# Shape: Seesaw
+# Bond lengths: re (angstroms)
+# Bond angles:  thetae (degrees)
+# Source Paper: Fujimori R, Hirata Y, Morino I, Kawaguchi K (2013) FTIR spectroscopy of three fundamental bands of H2F+. J Phys Chem A 117(39):9882-9888
+# Date first added: 2023-05-23 (by Arpit Arun Kumaar)
+
+F H    0.9608(6)
+H F H  112.2(2)
+
+NAME = FeI2 2011
+# Point Group: D∞h
+# Shape: Linear
+# Bond lengths: rg (angstroms)
+# Bond angles:  thetaa (degrees)
+# Source Paper: Varga Z, Kolonits M, Hargittai M (2011) Iron dihalides: Structures and thermodynamic properties from computation and an electron diffraction study of iron diiodide. Struct Chem 22 (2):327-336
+# Date first added: 2023-05-23 (by Arpit Arun Kumaar)
+
+Fe I    2.478(11)
+I  I    4.856(26)
+I Fe I  157(3)
+
+# Bond lengths: re (angstroms)
+
+Fe I   2.464(16)
+
+NAME = HISi 2012
+# Point Group: Cs
+# Shape: Seesaw
+# Bond lengths: r0 (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Kang L, Gharaibeh MA, Clouthier DJ, Novick SE (2012) Fourier transform microwave spectroscopy of the reactive intermediate monoiodosilylene, HSiI and DSiI. J Mol Spectrosc 271(1):33-37
+# Date first added: 2023-05-23 (by Arpit Arun Kumaar)
+
+Si I    2.46143(9)
+Si H    1.5405(1)
+H Si I  92.68(6)
+
+NAME = HKS 2013
+# Point Group: Cs
+# Shape: Seesaw
+# Bond lengths: r0 (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Bucchino MP, Sheridan PM, Young JP, Binns MKL, Ewing DW, Ziurys LM (2013) Trends in alkali metal hydrosulfides: A combined Fourier transform microwave/millimeter-wave spectroscopic study of KSH (X1A'). J Chem Phys 139(21):214307/1-214307/10
+[http://dx.doi.org/10.1063/1.4834656]
+# Date first added: 2023-05-23 (by Arpit Arun Kumaar)
+
+K S    2.806(1)
+S H    1.357(1)
+K S H  95.0(1)
+
+NAME = HNO 2017
+# Point Group: Cs
+# Shape: Seesaw
+# Bond lengths: r0 (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Zaleski DP, Prozument K (2017) Pseudo-equilibrium geometry of HNO determined by an E-band CP-FTmmW spectrometer.” Chem Phys Lett 680(978):101-108
+# Date first added: 2023-05-23 (by Arpit Arun Kumaar)
+
+H N    1.068(4)
+N O    1.2107(8)
+H N O  108.1(3)
+
+# Bond lengths: rm (angstroms)
+# Bond angles:  thetam (degrees)
+
+H N    1.0506(2)
+N O    1.20880(2)
+H N O  108.073(6)
+
+NAME = HNSi 2015
+# Point Group: C∞v
+# Shape: Linear
+# Bond lengths: r0 (angstroms)
+# Source Paper: McCarthy MC, Tamassia F, Thorwirth S (2015) High-resolution rotational spectroscopy of iminosilylene, HNSi. Mol Phys 113(15-16):2204-2216
+# Date first added: 2023-05-23 (by Arpit Arun Kumaar)
+
+H N    0.987(1)
+N Si   1.554(1)
+
+# Bond lengths: re (angstroms)
+# Bond angles:  thetae (degrees)
+
+H N    0.9991(1)
+N O    1.5485(1)
+
+NAME = HOSi 2008
+# Point Group: Cs
+# Shape: Seesaw
+# Bond lengths: r0 (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: McCarthy MC, Tamassia F, Woon DE, Thaddeus P (2008) A laboratory and theoretical study of silicon hydroxide SiOH. J Chem Phys 129(18):184301/1-184301/6
+https://doi.org/10.1063/1.3002914
+# Date first added: 2023-05-23 (by Arpit Arun Kumaar)
+
+Si O    1.648(2)
+O H     0.969(4)
+H O Si  118.5
+
+NAME = HOY 2015
+# Point Group: C∞v
+# Shape: Linear
+# Bond lengths: r0 (angstroms)
+# Source Paper: Halfen DT, Keogh JP, Ziurys LM (2015) The Fourier transform microwave/millimeter-wave spectrum of YOH and YOD (X1Σ+). J. Mol. Spectrosc. 314:79-82
+# Date first added: 2023-05-23 (by Arpit Arun Kumaar)
+
+Y O   1.949(1)
+O H   0.921(1)
+
+NAME = HOZn 2012
+# Point Group: C∞v
+# Shape: Seesaw
+# Bond lengths: r0 (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Zack LN, Sun M, Bucchino MP, Clouthier DJ, Ziurys LM (2012) Gas-phase synthesis and structure of monomeric ZnOH: A model species for metalloenzymes and catalytic surfaces. J Phys Chem A 116(6):1542- 1550
+# Date first added: 2023-05-23 (by Arpit Arun Kumaar)
+
+Zn O    0.987(1)
+O  H    0.964(7)
+Zn O H  114.1(5)
+
+# Bond lengths: re (angstroms)
+# Bond angles:  thetae (degrees)
+
+Zn O    1.795(1)
+O  H    0.967(3)
+Zn O H  114.2(2)
+
+NAME = HPS 2011
+# Point Group: Cs
+# Shape: Trigonal Planar
+# Bond lengths: r0 (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Halfen DT, Clouthier DJ, Ziurys LM, Lattanzi V, McCarthy MC, Thaddeus P, Thorwirth S (2011) The pure rotational spectrum of HPS (X1A'): Chemical bonding in second-row elements. J Chem Phys 134(13):134302/1- 134302/9
+doi:10.1063/1.3562374
+# Date first added: 2023-05-23 (by Arpit Arun Kumaar)
+
+H P    1.444(5)
+P S    1.931(1)
+H P S  101.6(5)
+
+# Bond lengths: rm (angstroms)
+# Bond angles:  thetam (degrees)
+
+H P    1.438(1)
+P S    1.9320(1)
+H P S  101.85(9)
+
+# Bond lengths: re (angstroms)
+# Bond angles:  thetae (degrees)
+
+H P    1.4321(2)
+P S    1.9287(1)
+H P S  101.78(1)
+
+NAME = HPSi 2010
+# Point Group: Cs
+# Shape: Isosceles
+# Bond lengths: re (angstroms)
+# Bond angles:  thetae (degrees)
+# Source Paper: Lattanzi V, Thorwirth S, Halfen DT, Mück LA, Ziurys LM, Thaddeus P, Gauss J, McCarthy M. C (2010) Bonding in the heavy analogue of hydrogen cyanide: The curious case of bridged HPSi. Angew Chem 122(33):5795-5798; Angew Chem Int Ed 49(33):5661-5664
+# Date first added: 2023-05-24 (by Arpit Arun Kumaar)
+
+H P      1.488(4)
+P Si     2.0454(1)
+H Si     1.843(6)
+H P Si   60.5(3)
+
+NAME = HSZn 2017
+# Point Group: Cs
+# Shape: Seesaw
+# Bond lengths: r0 (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Bucchino MP, Adande GR, Halfen DT, Ziurys LM (2017) Examining transition metal hydrosulfides: The pure rotational spectrum of ZnSH (X2A'). J Chem Phys 147(15):154313/1-154313/9 https://doi.org/10.1063/1.4999924
+# Date first added: 2023-05-24 (by Arpit Arun Kumaar)
+
+Zn S     2.2194(6) 
+S  H     1.355(6)   
+Zn S H   90.5(6)   
+
+# Bond lengths: rm (angstroms)
+# Bond angles:  thetam (degrees)
+
+Zn S     2.213(5)
+S  H     1.351(3)
+Zn S H   90.6(1)
+
+NAME = H2Mg 2009
+# Point Group: C2v
+# Shape: Isosceles
+# Bond lengths: r0 (angstroms)
+# Source Paper: Dryza V, Poad BLJ, Bieske EJ (2009) Infrared spectra of mass-selected Mg+-H2 and Mg+-D2 complexes. J Phys Chem A 113(1):199-204
+# Date first added: 2023-05-24 (by Arpit Arun Kumaar)
+
+H Mg   2.716
+
+NAME = H2Mn 2009
+# Point Group: C2v
+# Shape: Isosceles
+# Bond lengths: r0 (angstroms)
+# Source Paper: Dryza V, Poad BLJ, Bieske EJ (2009) Spectroscopic study of the benchmark Mn+-H2 complex. J Phys Chem A 113(21):6044-6048
+# Date first added: 2023-05-24 (by Arpit Arun Kumaar)
+
+H Mn   2.73
+
+NAME = H2Ne 2013
+# Point Group: C2v
+# Shape: Isosceles
+# Bond lengths: r0 (angstroms)
+# Source Paper: McKellar ARW (2013) High resolution infrared spectra of H2-Xe and D2-Xe van der Waals complexes. Can J Phys 91(11):957-962
+# Date first added: 2023-05-24 (by Arpit Arun Kumaar)
+
+H Ne   4.031
+
+NAME = H2Si 2016
+# Point Group: C2v
+# Shape: Seesaw
+# Bond lengths: re (angstroms)
+# Bond angles:  thetae (degrees)
+# Source Paper: Kokkin DL, Ma T, Steimle T, Sears TJ (2016) Detection and characterization of singly deuterated silylene, SiHD, via optical spectroscopy. J Chem Phys. 144(24):244304/1-244304/13 [http://dx.doi.org/10.1063/1.4954702]
+# Date first added: 2023-05-24 (by Arpit Arun Kumaar)
+
+Si H       1.5137(3)
+H  Si  H   92.04(5)
+
+NAME = H2Xe 2013
+# Point Group: C2v
+# Shape: Isosceles
+# Bond lengths: r0 (angstroms)
+# Source Paper: McKellar ARW (2013) High resolution infrared spectra of H2-Xe and D2-Xe van der Waals complexes. Can J Phys 91(11):957-962
+# Date first added: 2023-05-24 (by Arpit Arun Kumaar)
+
+H Xe   4.245
+
+NAME = H2Zn 2009
+# Point Group: C2v
+# Shape: Isosceles
+# Bond lengths: r0 (angstroms)
+# Source Paper: Dryza V, Bieske EJ (2009) Structure and properties of the Zn+-D2 complex. J Chem Phys 131(22):224304/1- 224304/7
+doi:10.1063/1.3266935
+# Date first added: 2023-05-24 (by Arpit Arun Kumaar)
+
+H Zn   2.32
+
+NAME = OSSi 2011
+# Point Group: C∞v
+# Shape: Linear
+# Bond lengths: re (angstroms)
+# Source Paper: Thorwirth S, Mück LA, Gauss J, Tamassia F, Lattanzi V, McCarthy MC (2011) Silicon oxysulfide, OSiS: Rotational spectrum, quantum-chemical calculations, and equilibrium structure. J Phys Chem Lett 2(11):1228- 1231
+# Date first added: 2023-05-24 (by Arpit Arun Kumaar)
+
+O Si    1.5064
+S Si    1.9133
+
+NAME = O2S 2009
+# Point Group: C2v
+# Shape: Seesaw
+# Bond lengths: re (angstroms)
+# Bond angles:  thetae (degrees)
+# Source Paper: Lafferty WJ, Flaud JM, Ngom EHA, Sams RL (2009) 34S16O2: High-resolution analysis of the (030), (101), (111), (002) and (201) vibrational states; determination of equilibrium rotational constants for sulfur dioxide and anharmonic vibrational constants. J Mol Spectrosc 253(1):51-54
+# Date first added: 2023-05-25 (by Arpit Arun Kumaar)
+
+S O     1.4307932(40)
+O S O   119.32898(24)
+
+NAME = SSi2 2009
+# Point Group: C2v
+# Shape: Trigonal Planar
+# Bond lengths: r0 (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Lafferty WJ, Flaud JM, Ngom EHA, Sams RL (2009) 34S16O2: High-resolution analysis of the (030), (101), (111), (002) and (201) vibrational states; determination of equilibrium rotational constants for sulfur dioxide and anharmonic vibrational constants. J Mol Spectrosc 253(1):51-54
+# Date first added: 2023-05-25 (by Arpit Arun Kumaar)
+
+S  Si     2.1335
+Si Si     2.3789
+Si Si Si  67.77
+
+# Bond lengths: re (angstroms)
+# Bond angles:  thetae (degrees)
+
+S  Si     2.1301
+Si Si     2.3744
+Si Si Si  67.74
+
+NAME = S2Si 2012
+# Point Group: C2v
+# Shape: Trigonal Planar
+# Bond lengths: r0 (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Mück LA, Lattanzi V, Thorwirth S, McCarthy MC, Gauss J (2012) Cyclic SiS2: A new perspective on the Walsh rules. Angew Chem 124(15):3755-3758; Angew Chem Int Ed 51(15):3695-3698
+# Date first added: 2023-05-25 (by Arpit Arun Kumaar)
+
+S S      2.1560(10)
+S Si     2.1099(10)
+S Si S   61.45(10)
+
+NAME = CAgN 2009
+# Point Group: C∞v
+# Shape: Linear
+# Bond lengths: r0 (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Okabayashi T, Okabayashi EY, Koto F, Ishida T, Tanimoto M (2009) Detection of free monomeric silver(I) and gold(I) cyanides, AgCN and AuCN: Microwave spectra and molecular structure. J Amer Chem Soc 131(33):11712-11718
+# Date first added: 2023-05-25 (by Arpit Arun Kumaar)
+
+Ag C    2.03324(45)
+C  N    1.15527(67)
+
+# Bond lengths: rs (angstroms)
+# Bond angles:  thetas (degrees)
+
+Ag C    2.034182(27)
+C  N    1.154733(20)
+
+# Bond lengths: rm (angstroms)
+# Bond angles:  thetam (degrees)
+
+Ag C    2.031197(23)
+C  N    1.160260(26)
+
+NAME = CAlN 2015
+# Point Group: C∞v
+# Shape: Linear
+# Bond lengths: r0 (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Mück LA, Thorwirth S, Gauss J (2015) The semiexperimental equilibrium structures of AlCCH and AlNC. J Mol Spectrosc 311:49-53
+# Date first added: 2023-05-25 (by Arpit Arun Kumaar)
+
+Al N    1.8504(1)
+N  C    1.1806(1)
+
+NAME = CAuN 2009
+# Point Group: C∞v
+# Shape: Linear
+# Bond lengths: r0 (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Okabayashi T, Okabayashi EY, Koto F, Ishida T, Tanimoto M (2009) Detection of free monomeric silver(I) and gold(I) cyanides, AgCN and AuCN: Microwave spectra and molecular structure. J Amer Chem Soc 131(33):11712-11718
+# Date first added: 2023-05-25 (by Arpit Arun Kumaar)
+
+Au C    1.91251(16)
+C  N    1.15856(24)
+
+# Bond lengths: r0 (angstroms)
+# Bond angles:  theta0 (degrees)
+
+Au C    1.9122519(84)
+C  N    1.1586545(97)
+
+NAME = CFeN 2011
+# Point Group: C∞v
+# Shape: Linear
+# Bond lengths: r0 (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Flory MA, Ziurys LM (2011) Millimeter-wave rotational spectroscopy of FeCN (X4Δi) and FeNC (X6Δi): Determining the lowest energy isomer. J Chem Phys 135(18):184303/1-184303/11 doi:10.1063/1.3653809
+# Date first added: 2023-05-25 (by Arpit Arun Kumaar)
+
+Fe C    1.9244(8)
+C  N    1.157(1)
+
+# Bond lengths: rs (angstroms)
+# Bond angles:  thetas (degrees)
+
+Fe C    1.9355(68)
+C  N    1.146(23) 
+
+# Bond lengths: rm (angstroms)
+# Bond angles:  thetam (degrees)
+
+Fe C    1.917(12)
+C  N    1.128(21)
+
+NAME = CFeO 2015
+# Point Group: C∞v
+# Shape: Linear
+# Bond lengths: re (angstroms)
+# Bond angles:  thetae (degrees)
+# Source Paper: Tanaka K, Nakamura M, Shirasaka M, Sakamoto A, Harada K, Tanaka T (2015) Millimeter-wave spectroscopy of the FeCO radical in the ν2 and ν3 vibrationally excited states. J Chem Phys 143(1):014303/1-014303/10 [http://dx.doi.org/10.1063/1.4923215]
+# Date first added: 2023-05-25 (by Arpit Arun Kumaar)
+
+Fe C   1.725 
+C  O   1.1587
+
+NAME = CHN 2011
+# Point Group: C∞v
+# Shape: Linear
+# Bond lengths: r0 (angstroms)
+# Source Paper: Vogt N, Vogt J, Demaison J (2011) Accuracy of the rotational constants. J Mol Struct 988(1-3):119-127
+# Date first added: 2023-05-25 (by Arpit Arun Kumaar)
+
+H C   1.065049(6)
+C N   1.153317(2)
+
+# Bond lengths: rm (angstroms)
+# Bond angles:  thetam (degrees)
+
+H C   1.065042(5)
+C N   1.153225(23)
+
+NAME = CNP 2012
+# Point Group: C∞v
+# Shape: Linear
+# Bond lengths: r0 (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Halfen DT, Sun M, Clouthier DJ, Ziurys LM (2012) The microwave and millimeter rotational spectra of the PCN radical (X3Σ-). J Chem Phys 136(14):144312/1-144312/12
+[http://dx.doi.org/10.1063/1.3696893]
+# Date first added: 2023-05-25 (by Arpit Arun Kumaar)
+
+P  C    1.732(2)
+C  N    1.167(2)
+
+NAME = CNPt 2010
+# Point Group: C∞v
+# Shape: Linear
+# Bond lengths: r0 (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Okabayashi EY, Okabayashi T, Furuya T, Tanimoto M (2010) Millimeter- and submillimeter-wave spectroscopy of platinum monocyanide, PtCN. Chem Phys Lett 492(1-3):25-29
+# Date first added: 2023-05-25 (by Arpit Arun Kumaar)
+
+Pt C    1.90114(22)
+C  N    1.16073(33)
+
+# Bond lengths: rs (angstroms)
+# Bond angles:  thetas (degrees)
+
+Pt C    1.900385(65)
+C  N    1.160956(28) 
+
+# Bond lengths: rm (angstroms)
+# Bond angles:  thetam (degrees)
+
+Pt C    1.900037(45)
+C  N    1.160722(27)
+
+NAME = CNiO 2011
+# Point Group: ?
+# Shape: Linear
+# Bond lengths: r0 (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Okabayashi T, Yamamoto T, Okabayashi EY, Tanimoto M (2011) Low-energy vibrations of the group 10 metal monocarbonyl MCO (M = Ni, Pd, and Pt): Rotational spectroscopy and force field analysis. J Phys Chem A 115(10):1869-1877
+# Date first added: 2023-05-25 (by Arpit Arun Kumaar)
+
+Ni C     1.6715(19)
+C  O     1.1596(25)
+Ni C  O  171.68
+
+NAME = COPd 2011
+# Point Group: ?
+# Shape: Linear
+# Bond lengths: re (angstroms)
+# Bond angles:  thetae (degrees)
+# Source Paper: Okabayashi T, Yamamoto T, Okabayashi EY, Tanimoto M (2011) Low-energy vibrations of the group 10 metal monocarbonyl MCO (M = Ni, Pd, and Pt): Rotational spectroscopy and force field analysis. J Phys Chem A 115(10):1869-1877
+# Date first added: 2023-05-25 (by Arpit Arun Kumaar)
+
+Pd C    1.8439(10)
+C  O    1.1484(15)
+Pd C O  170.65
+
+NAME = COPt 2011
+# Point Group: Cs
+# Shape: Linear
+# Bond lengths: re (angstroms)
+# Bond angles:  thetae (degrees
+# Source Paper: Okabayashi T, Yamamoto T, Okabayashi EY, Tanimoto M (2011) Low-energy vibrations of the group 10 metal monocarbonyl MCO (M = Ni, Pd, and Pt): Rotational spectroscopy and force field analysis. J Phys Chem A 115(10):1869-1877
+# Date first added: 2023-05-26 (by Arpit Arun Kumaar)
+
+Pt C    1.7615(15)
+C  O    1.1545(21)
+Pt C O  172.36
+
+NAME = CS2 2015
+# Point Group: D∞h
+# Shape: Linear
+# Bond lengths: r0 (angstroms)
+# Source Paper: Yang J, Beck J, Uiterwaal CJ, Centurion M (2015) Imaging of alignment and structural changes of carbon disulfide molecules using ultrafast electron diffraction. Nat Commun 6:9172/9171-9172/9179
+# Date first added: 2023-05-26 (by Arpit Arun Kumaar)
+
+C S   1.553
+S S   3.105
+
+NAME = CSi2 2015
+# Point Group: C2v
+# Shape: Seesaw
+# Bond lengths: r0 (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: McCarthy MC, Baraban JH, Changala PB, Stanton JF, Martin-Drumel MA, Thorwirth S, Gottlieb CA, Reilly NJ (2015) Discovery of a missing link: detection and structure of the elusive disilicon carbide cluster. J Phys Chem Lett 6(11):2107-2111
+# Date first added: 2023-05-26 (by Arpit Arun Kumaar)
+
+C  Si      1.692(1)
+Si C  Si   115.8(2)
+
+# Bond lengths: re (angstroms)
+# Bond angles:  thetae (degrees)
+
+C Si      1.69272(2)
+Si C Si   114.871(3)
+
+NAME = C2Al 2011
+# Point Group: C2v
+# Shape: Isosceles
+# Bond lengths: r0 (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Yang J, Judge RH, Clouthier DJ (2011) Pulsed discharge jet electronic spectroscopy of the aluminum dicarbide (AlC2) free radical. J Chem Phys 135(12):124302/1-124302/7
+doi:10.1063/1.3638049
+# Date first added: 2023-05-26 (by Arpit Arun Kumaar)
+
+C  C     1.271(2)
+Al C     1.926(1)
+C Al C   38.5(2)
+
+NAME = C2As 2009
+# Point Group: C∞v
+# Shape: Linear
+# Bond lengths: r0 (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Sun M, Clouthier DJ, Ziurys LM (2009) The Fourier transform microwave spectrum of the arsenic dicarbide radical (CCAs: X2Π1/2) and its 13C isotopologues. J Chem Phys 131(22):224317/1-224317/10 doi:10.1063/1.3267483
+# Date first added: 2023-05-26 (by Arpit Arun Kumaar)
+
+C As   1.7362(33)
+C C    1.2884(48)
+
+# Bond lengths: rs (angstroms)
+# Bond angles:  thetas (degrees)
+
+C As   1.7427(5)
+C C    1.2851(4)
+
+# Bond lengths: rm (angstroms)
+# Bond angles:  thetam (degrees)
+
+C As   1.7455(3)
+C C    1.2872(4)
+
+NAME = C2P 2009
+# Point Group: C∞v
+# Shape: Linear
+# Bond lengths: r0 (angstroms)
+# Source Paper: Halfen DT, Sun M, Clouthier DJ, Ziurys LM (2009) The rotational spectrum of the CCP (X2Πr) radical and its 13C isotopologues at microwave, millimeter, and submillimeter wavelengths. J Chem Phys 130(1):014305/1- 014305/11
+doi: 10.1063/1.3043367
+# Date first added: 2023-05-26 (by Arpit Arun Kumaar)
+
+C C   1.291(2)
+C P   1.615(2)
+
+# Bond lengths: rs (angstroms)
+# Bond angles:  thetas (degrees)
+
+C C   1.288(3)
+C P   1.619(3)
+
+# Bond lengths: rm (angstroms)
+# Bond angles:  thetam (degrees)
+
+C C   1.289(1)
+C P   1.621(1)
+
+NAME = C2Sc 2014
+# Point Group: C2v
+# Shape: Isosceles
+# Bond lengths: r0 (angstroms)
+# Source Paper: Min J, Halfen DT, Ziurys LM (2014) Fourier transform microwave/millimeter-wave spectroscopy of the ScC2 (X2A1) radical: A model system for endohedral metallofullerenes. Chem Phys Lett 609:70-75
+# Date first added: 2023-05-26 (by Arpit Arun Kumaar)
+
+Sc C     2.057
+C  C     1.259
+C Sc C   35.6
+
+NAME = C2Y 2013
+# Point Group: C2v
+# Shape: Trigonal Planar
+# Bond lengths: r0 (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Halfen DT, Min J, Ziurys LM (2013) The Fourier transform microwave spectrum of YC2 (X2A1) and its 13C isotopologues: Chemical insight into metal dicarbides. Chem Phys Lett. 555:31-37
+# Date first added: 2023-05-26 (by Arpit Arun Kumaar)
+
+C Y     2.194(2)
+C C     1.264(2)
+C Y C   33.5(1)
+
+# Bond lengths: rm (angstroms)
+# Bond angles:  thetam (degrees)
+
+C Y     2.187(4)
+C C     1.270(4)
+C Y C   33.74(7)
+
+NAME = C3 2013
+# Point Group: D∞h
+# Shape: Linear
+# Bond lengths: r0 (angstroms)
+# Source Paper: Breier AA, Büchling T, Schnierer R, Lutter V, Fuchs GW, Yamada KMT, Mookerjea B, Stutzki J, Giesen TF (2016) Lowest bending mode of 13C-substituted C3 and an experimentally derived structure. J Chem Phys 145(23):234302/1-234302/10
+[http://dx.doi.org/10.1063/1.4971854]
+# Date first added: 2023-05-26 (by Arpit Arun Kumaar)
+
+C C    1.27746(22)
+
+# Bond lengths: rm (angstroms)
+
+C C    1.28955(31)
+
+# Bond lengths: re (angstroms)
+
+C C    1.29471(5)
+
+# Point Group: D∞h
+# Bond lengths: r0 (angstroms)
+# Bond angles:  theta0 (degrees)
+
+B H     1.17
+H B H   180
+
+NAME = BO2 1981, 1988
+# Point Group: D∞h
+# Shape: ?
+# Bond lengths: r0 (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Kawaguchi, K., Hirota, E., Yamada, c.: Mol. Phys. 44 (1981) 509. 
+Maki, A.G., Burkholder, J.B., Sinha, A., Howard, C.J.: J. Mol. Spectrosc. 130 (1988) 238.
+# Date first added: 2023-05-26 (by Arpit Arun Kumaar)
+
+B O    1.26485(5)
+
+NAME = CaHO 1983
+# Point Group: C∞v
+# Shape: Linear
+# Bond lengths: r0 (angstroms)
+# Energy: 0 eV
+# Source Paper: Hilbom, R.C., Zhu Quingshi, Harris, D.O.: J. Mol. Spectrosc. 97 (1983) 73.
+# Date first added: 2023-05-26 (by Arpit Arun Kumaar)
+
+Ca O    1.986
+O  H    0.901
+
+# Bond lengths: re (angstroms)
+# Bond angles:  thetae (degrees)
+
+Ca O    1.976(4)
+O  H    0.930(7)
+
+NAME = CdI2 1992
+# Point Group: D∞h
+# Shape: ?
+# Bond lengths: r0 (angstroms)
+# Energy: 0 eV
+# Source Paper: Vogt, N., Hargittai, M., Kolonits, M., Hargittai, 1.: Chem. Phys. Lett. 199 (1992) 441.
+# Date first added: 2023-05-26 (by Arpit Arun Kumaar)
+
+Cd I    2.582(5)
+
+# Bond lengths: re (angstroms)
+
+Cd I    2.570(6)
+
+NAME = ClHO 1986
+# Point Group: Cs
+# Shape: Seesaw
+# Bond lengths: r0 (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Anderson, W.D., Gerry, M.C.L., Davis, R.W.: J. Mol. Spectrosc. 115 (1986) 117.
+# Date first added: 2023-05-26 (by Arpit Arun Kumaar)
+
+O H     0.964(75)
+O Cl    1.695(27)
+H O Cl  103(16)
+
+# Bond lengths: rs (angstroms)
+# Bond angles:  thetas (degrees)
+
+O H     0.962(5)
+O Cl    1.693(3)
+H O Cl  102.4(3)
+
+# Bond lengths: rz (angstroms)
+# Bond angles:  thetaz (degrees)
+
+O H     0.9732(23)
+O Cl    1.6974(7)
+H O Cl  102.45(42)
+
+# Bond lengths: re (angstroms)
+# Bond angles:  thetae (degrees)
+
+O H     0.9636(25)
+O Cl    1.6908(10)
+H O Cl  102.45(42)
+
+NAME = CIHSi 1979
+# Point Group: Cs
+# Shape: ?
+# Bond lengths: re (angstroms)
+# Bond angles:  thetae (degrees)
+# Source Paper: Gilchrist, W.A., Reyna, E., Coon, J.B.: J. Mol. Spectrosc. 74 (1979) 345.
+# Date first added: 2023-05-26 (by Arpit Arun Kumaar)
+
+H Si     1.510(10)
+Si Cl    2.0465(14)
+Cl H Si  116.1(8)
+
+NAME = CuHO 1990
+# Point Group: Cs
+# Shape: ?
+# Bond lengths: re (angstroms)
+# Bond angles:  thetae (degrees)
+# Source Paper: Jarman, C.N., Femando, W.T.M., Bemath, P.F.: J. Mol. Spectrosc. 
+[2] 145 (1991) 151.
+# Date first added: 2023-05-26 (by Arpit Arun Kumaar)
+
+Cu O     1.7689(2)
+O  H     0.952(5)
+Cu O H   110.24(8)
+
+NAME = FHN 1992
+# Point Group: Cs
+# Shape: ?
+# Bond lengths: r0 (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Chen, J., Dagdigian, P.J.: J. Chem. Phys. 96 (1992) 7333.
+# Date first added: 2023-05-26 (by Arpit Arun Kumaar)
+
+N H     1.09(1)
+N F     1.364(7)
+H N F   109(1)
+
+NAME = FHSi 1985
+# Point Group: Cs
+# Shape: ?
+# Bond lengths: r0 (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Suzuki, T., Hakuta, K., Saito, S., Hirota, E.: J. Chern. Phys. 82 (1985) 3580.
+# Date first added: 2023-05-26 (by Arpit Arun Kumaar)
+
+Si H     1.530
+Si F     1.605
+H Si F   97
+
+NAME = FOS 1981
+# Point Group: Cs
+# Shape: ?
+# Bond lengths: r0 (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Endo, Y., Saito, S. Hirota, E.: J. Chem. Phys. 74 (1981) 1568.
+# Date first added: 2023-05-26 (by Arpit Arun Kumaar)
+
+F F     1.602(3)
+S O     1.452(3)
+F S O   108.32(6)
+
+NAME = FO2 1984
+# Point Group: Cs
+# Shape: Seesaw
+# Bond lengths: r0 (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Yamada, C., Hirota, E.: J. Chem. Phys. 80 (1984) 4694.
+# Date first added: 2023-05-26 (by Arpit Arun Kumaar)
+
+O O     1.200
+F O     1.649
+F O O   111.2
+
+NAME = F2H- 1986
+# Point Group: Cs
+# Shape: ?
+# Bond lengths: r0 (angstroms)
+# Source Paper: Kawaguchi, K., Hirota, E.: J. ehern. Phys. 84 (1986) 2953.
+# Date first added: 2023-05-26 (by Arpit Arun Kumaar)
+
+F F    2.304432(52)
+
+# Bond lengths: re (angstroms)
+
+F F    2.27771(7)
+
+NAME = F2S 1979
+# Point Group: Cs
+# Shape: ?
+# Bond lengths: re (angstroms)
+# Bond angles:  thetae (degrees)
+# Source Paper: Endo, Y., Saito, S., Hirota, E., Chikaraishi, T.: J. Mol. Spectrosc. 77 (1979) 222.
+# Date first added: 2023-05-26 (by Arpit Arun Kumaar)
+
+S F     1.58745(12)
+S F S   98.048(13)
+
+NAME = F2Xe 1993
+# Point Group: D∞h
+# Shape: ?
+# Bond lengths: r0 (angstroms)
+# Source Paper: Bürger, H., Ma, S.: J. Mol. Speetrose. 157 (1993) 536.
+# Date first added: 2023-05-26 (by Arpit Arun Kumaar)
+
+F Xe     1.977965(15)
+
+# Bond lengths: re (angstroms)
+
+F Xe     1.974355(30)
+
+NAME = HKO 1976
+# Point Group: C∞v
+# Shape: ?
+# Bond lengths: r0 (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Pearson, E.F., Winnewisser, B.P., Trueblood, M.B.: Z. Naturforsch. 31a (1976) 1259.
+# Date first added: 2023-05-26 (by Arpit Arun Kumaar)
+
+K O   2.212(5)
+O H   0.912(10)
+
+# Bond lengths: re (angstroms)
+# Bond angles:  thetae (degrees)
+
+K O   2.196(3)
+O H   0.960(10)
+
+NAME = HNaO 1976
+# Point Group: C∞v
+# Shape: ?
+# Bond lengths: r0 (angstroms)
+# Source Paper: Kuijpers, P., Törring, T., Dymanus, A: Chem. Phys.15 (1976) 457.
+# Date first added: 2023-05-26 (by Arpit Arun Kumaar)
+
+Na O   1.95(5)
+
+NAME = HOS 1980
+# Point Group: C∞v
+# Shape: Seesaw
+# Bond lengths: r0 (angstroms)
+# Source Paper: Obhashi, N., Kakimoto, M., Saito, S., Hirota, E.: J. Mol. Spectrosc. 84 (1980) 204.
+# Date first added: 2023-05-26 (by Arpit Arun Kumaar)
+
+S O    1.494(5)
+S H    1.389(5)
+H S O  106.6(5)
+
+NAME = H02 1986
+# Point Group: Cs
+# Shape: ?
+# Bond lengths: r0 (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: ro: Barnes, c.E., Brown, J.M. Radford, H.E.: J. Mol. Spectrosc. 84 (1980) 179. re: Uehara, H., Kawaguchi, K., Hirota, E.: J. Chem. Phys. 83 (1985) 5479.
+# Date first added: 2023-05-26 (by Arpit Arun Kumaar)
+
+O H     0.9774(30)
+O O     1.3339(10)
+H O O   104.15(30)
+
+# Bond lengths: re (angstroms)
+# Bond angles:  thetae (degrees)
+
+O H     0.9708(21)
+O O     1.33051(94)
+H O O   104.30(39)
+
+NAME = H2N- 1986
+# Point Group: C2v
+# Shape: ?
+# Bond lengths: r0 (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Tack, L.M., Rosenbaum, N.H., Owrutsky, J.c., Saykally, RJ.: J. Chem. Phys. 85 (1986) 4222.
+# Date first added: 2023-05-26 (by Arpit Arun Kumaar)
+
+N H     1.037(15)
+H N H   102.0(33)
+
+# Bond lengths: re (angstroms)
+# Bond angles:  thetae (degrees)
+
+N H     1.028
+H N H   101.9
+
+NAME = H2N 1982
+# Point Group: C2v
+# Shape: ?
+# Bond lengths: re (angstroms)
+# Bond angles:  thetae (degrees)
+# Source Paper: Burkholder, J.B., Howard, c.J., MeKellar, A.R.W.: J. Mol. Speetrose. 127 (1988) 415.
+Amano, T., Bemath, P.F., MeKelIar, A.R.W.: J. Mol. Speetrose. 94 (1982) 100.
+# Date first added: 2023-05-26 (by Arpit Arun Kumaar)
+
+N H     1.025(1)
+H N H   102.9(3)
+
+NAME = H2N+ 1989
+# Point Group: C2v or D∞h
+# Shape: ?
+# Bond lengths: re (angstroms)
+# Bond angles:  thetae (degrees)
+# Source Paper: Okumura, M., Rehfuss, B.D., Dinelli, B.M., MeLean, A.D.: Chem. Phys. Lett. 90 (1989) 5918.
+# Date first added: 2023-05-26 (by Arpit Arun Kumaar)
+
+N H     1.029
+H N H   165
+
+NAME = H20 1987
+# Point Group: C2v 
+# Shape: ?
+# Bond lengths: re (angstroms)
+# Bond angles:  thetae (degrees)
+# Source Paper: Jensen, P.: J. Mol. Spectrosc. 133 (1989) 438. Bartlett, R., Cole, S.J., Purvis, G.D., Ermler, W.C., Hsieh, H.C., Shavitt, 1: J. Chem. Phys. 87 (1987) 6579.
+# Date first added: 2023-05-26 (by Arpit Arun Kumaar)
+
+O H     0.95843(1) 
+H O H   104.43976
+
+NAME = H20+ 1991
+# Point Group: C2v 
+# Shape: Seesaw
+# Bond lengths: re (angstroms)
+# Bond angles:  thetae (degrees)
+# Source Paper: Zajfman, D., Belkacem, A, Graber, T., Kanter, E.P., MitchelI, RE., Naaman, R, Vager, Z., Zabransky, BJ.: J. Chem. Phys. 94 (1991) 2543.
+# Date first added: 2023-05-26 (by Arpit Arun Kumaar)
+
+O H     1.00(4)
+H O H   108.4(5)
+
+NAME = D20+ 1976
+# Point Group: C2v 
+# Shape: Seesaw
+# Bond lengths: r0 (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Lew, H., Groleau, R: Can. 1. Phys. 65 (1987) 739. 
+Lew, H.: Can. J. Phys. 54 (1976) 2028.
+# Date first added: 2023-05-26 (by Arpit Arun Kumaar)
+
+O D     0.9987(2)
+D O D   110.17(2)
+
+NAME = H2P 1967
+# Point Group: C2v 
+# Shape: Seesaw
+# Bond lengths: r0 (angstroms)
+# Bond angles:  theta0 (degrees)
+# Energy: 0 eV
+# Source Paper: Dixon, R.N., Duxbury, G., Ramsay, D.A.: Proc. Roy. Soc. (London) Sero A 296 (1967) 137.
+# Date first added: 2023-05-26 (by Arpit Arun Kumaar)
+
+P H     1.429
+H P H   91.67
+
+NAME = H2S 1975
+# Point Group: C2v 
+# Shape: ?
+# Bond lengths: rs (angstroms)
+# Bond angles:  thetas (degrees)
+# Source Paper: Cook, R.L., DeLucia, F.c., Helminger, P.: J. Mol. Struct. 28 (1975) 237.
+# Date first added: 2023-05-26 (by Arpit Arun Kumaar)
+
+H S     1.3376(50)
+D S     1.3362(50)
+H S H   91.6(5)
+D S D   92.2(5)
+
+# Bond lengths: rav (angstroms)
+# Bond angles:  thetaav (degrees)
+
+H S     1.3518(30)
+D S     1.3474(30)
+H S H   92.13(30)
+D S D   92.11(30)
+
+# Bond lengths: re (angstroms)
+# Bond angles:  thetae (degrees)
+
+H S     1.3356(30)
+D S     1.3362(30)
+H S H   92.11(30)
+D S D   92.06(30)
+
+NAME = H2S+ 1972
+# Point Group: C2v 
+# Shape: ?
+# Bond lengths: rs (angstroms)
+# Bond angles:  thetas (degrees)
+# Source Paper: Duxbury, G., Horani, M., Rostas, J.: Proc. Roy. Soc. (London) Sero A 331 (1972) 109.
+# Date first added: 2023-05-26 (by Arpit Arun Kumaar)
+
+S H     1.358
+H S H   91.97
+
+NAME = H3+ 1986
+# Point Group: D3h 
+# Shape: ?
+# Bond lengths: re (angstroms)
+# Source Paper: Foster, S.C., McKellar, A.RW., Watson, J.K.G.: J. Chem. Phys. 85 (1986) 664.
+Foster, S.C., McKellar, A.RW., Peterkin, I.R., Watson, J.K.G., Pan, ES., Crofton, M.W.,
+Altman, RS., Oka, T.: J. Chem. Phys. 84 (1986) 91.
+# Date first added: 2023-05-26 (by Arpit Arun Kumaar)
+
+H H    0.877
+
+NAME = N2O 1989
+# Point Group: C∞v 
+# Shape: ?
+# Bond lengths: re (angstroms)
+# Source Paper: Teffo, J.L., Chedin, A.: J. Mol. Spectrosc. 135 (1989) 389.
+# Date first added: 2023-05-26 (by Arpit Arun Kumaar)
+
+N N    1.127292(37)
+N O    1.185089(37)
+
+
+NAME = N2O+ 1974
+# Point Group: C∞v 
+# Shape: ?
+# Bond lengths: r0 (angstroms)
+# Bond angles:  theta0 (degrees)
+# Energy: 0 eV
+# Source Paper: Callomon, J.H., Creutzberg, F.: Phil. Trans. Roy. Soc. (London) Ser. A 277 (1974) 157.
+# Date first added: 2023-05-26 (by Arpit Arun Kumaar)
+
+N N     1.155(9)
+N O     1.185(9)
+N N O   180
+
+NAME = OS2 1988
+# Point Group: C2v
+# Shape: ?
+# Bond lengths: r0 (angstroms)
+# Bond angles:  theta0 (degrees)
+# Energy: 0 eV
+# Source Paper: Morino, Y., Tanimoto, M., Saito, S.: Acta ehern. Scand. Sero A 42 (1988) 346.
+# Date first added: 2023-05-26 (by Arpit Arun Kumaar)
+
+S S     1.43080(1)
+O S O   119.329(2)
+
+NAME = O3 1974
+# Point Group: C2v 
+# Shape: ?
+# Bond lengths: re (angstroms)
+# Bond angles:  thetae (degrees)
+# Source Paper: Depannemaecker, J.-C., Bellet, J.: J. Mol. Spectrosc. 66 (1977) 106.
+# Date first added: 2023-05-26 (by Arpit Arun Kumaar)
+
+O O     1.27156(20)
+O O O   117.792(33)
+
+NAME = CBrN+ 1989
+# Point Group: C2v 
+# Shape: ?
+# Bond lengths: re (angstroms)
+# Bond angles:  thetae (degrees)
+# Source Paper: Rösslein, M., Hanratty, M.A., Maier, J.P.: Mol. Phys. 68 (1989) 823.
+# Date first added: 2023-05-26 (by Arpit Arun Kumaar)
+
+C Br   1.745(14)
+C N    1.195(16)
+
+NAME = CClN 1977
+# Point Group: C∞v 
+# Shape: ?
+# Bond lengths: re (angstroms)
+# Bond angles:  thetae (degrees)
+# Source Paper: Cazzoli, G., Favero, P.G., Degli Esposti, C.: Chem. Phys. Lett. 50 (1977) 336.
+# Date first added: 2023-05-26 (by Arpit Arun Kumaar)
+
+C N    1.1606(28)
+C Cl   1.6290(24)
+
+NAME = CFO 1981
+# Point Group: Cs
+# Shape: ?
+# Bond lengths: r0 (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Nagai, K., Yamada, C., Endo, Y., Hirota, E.: J. Mol. Spectrosc. 90 (1981) 249.
+# Date first added: 2023-05-26 (by Arpit Arun Kumaar)
+
+C O     1.169(60)
+C F     1.334(60)
+F C O   127.3(6)
+
+NAME = CFP 1980
+# Point Group: C∞v 
+# Shape: ?
+# Bond lengths: r0 (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Kroto, H.W., Nixon, J.F., Sirnrnons, N.P.C.: J. Mol. Spectrosc. 82 (1980) 185.
+# Date first added: 2023-05-26 (by Arpit Arun Kumaar)
+
+F C    1.285(5)
+C P    1.541(5)
+
+NAME = CHCl 1980
+# Point Group: C∞v 
+# Shape: ?
+# Bond lengths: r0 (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Kakimoto, M., Saito, S., Hirota, E.: J. Mol. Spectrosc. 97 (1983) 194.
+# Date first added: 2023-05-26 (by Arpit Arun Kumaar)
+
+C H      1.130(36)
+C Cl     1.687(11)
+H C Cl   105.1(47)
+
+# Bond lengths: rs (angstroms)
+# Bond angles:  thetas (degrees)
+
+C H      1.1188(71)
+C Cl     1.6961(25)
+H C Cl   101.4(12)
+
+NAME = CHN 1992
+# Point Group: C∞v 
+# Shape: ?
+# Bond lengths: r0 (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Carter, S., Mills, I.M., Handy, N.C.: J. Chem. Phys. 97 (1992) 1606.
+# Date first added: 2023-05-26 (by Arpit Arun Kumaar)
+
+H C      1.06501(8)
+C N      1.15324(2)
+
+NAME = CHN+ 1992
+# Point Group: C∞v 
+# Shape: ?
+# Bond lengths: r0 (angstroms)
+# Source Paper: So, S.R., Richards, W.G.: J. Chern. Soc., Faraday Trans. 11 71 (1975) 62.
+# Date first added: 2023-05-29 (by Arpit Arun Kumaar)
+
+H C      1.09
+C N      1.21
+
+NAME = H2Se 1992
+# Point Group: C∞v 
+# Shape: Seesaw
+# Bond lengths: r0 (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Helminger, P., DeLucia, F.c.: J. Mol. Spectrosc. 58 (1975) 375.
+# Date first added: 2023-05-29 (by Arpit Arun Kumaar)
+
+Se H     1.460
+H Se H   90.9
+
