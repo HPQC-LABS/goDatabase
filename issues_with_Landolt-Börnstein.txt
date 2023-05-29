@@ -1,0 +1,6 @@
+2019 Vogt:
+- H2I2Si diagram is not as non-planar as Sichao's version of the diagram.
+- CFO2 diagram has 1 single and 1 double bond, but the table has two double bonds
+
+Kuchitsu?
+- D3v point group for GeH3F
