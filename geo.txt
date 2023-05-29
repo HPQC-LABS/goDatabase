@@ -5,6 +5,7 @@ NAME = AgArI  2017
 # Source paper: Medcraft C, Mullaney JC, Walker NR, Legon AC (2017) A complex Ar⋅⋅⋅Ag–I produced by laser ablation and
 characterized by rotational spectroscopy and ab initio calculations: Variation of properties along the series
 Ar⋅⋅⋅Ag–X (X = F, Cl, Br and I). J Mol Spectrosc 335(5):61-67
+# Notes: No uncertainties given in the paper
 # Date first added: 2023-05-15 (by Nike Dattani)
 
 Ar Ag 2.6759 
