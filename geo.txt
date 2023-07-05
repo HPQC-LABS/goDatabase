@@ -499,3 +499,288 @@ S  Cl           2.0700(3)
 Cl S O (2)      107.703(6)
 Cl S Cl         96.929
 Cl S O (2)...Cl 103.58(3)
+
+NAME = Cl4Te
+# Point Group: C2v
+# Shape: Seesaw
+# Bond lengths: rg     (angstroms)
+# Bond angles:  thetag (degrees)
+# Source Paper: Shlykov SA, Giricheva NI, Titov AV, Szwak M, Lentz D, Girichev GV (2010) The structures of
+tellurium(IV) halides in the gas phase and as solvated molecules. Dalton Trans 39 (13):3245-3255
+# Date first added: 2023-07-05 (by Sichao Xiong)
+
+Te     Cl(ax)    2.428(4)
+Te     Cl(eq)    2.289(3)
+Cl(ax) Te Cl(ax) 176.7(10)
+Cl(eq) Te Cl(eq) 102.5(7)
+
+NAME = CuFH2
+# Point Group: C2v
+# Shape: Linear --- Linear
+# Bond lengths: rs     (angstroms)
+# Source Paper: Frohman DJ, Grubbs GS, Yu Z, Novick SE (2013) Probing the chemical nature of dihydrogen complexation to
+transition metals, a gas phase case study: H2-CuF. Inorg Chem 52(2):816-822
+# Date first added: 2023-07-05 (by Sichao Xiong)
+
+Cu F   1.7409(1)
+Rcm(b) 1.5246(5)
+H H    0.750593
+(b) Distance between the centers of mass of the monomer subunits. 
+
+NAME = CuFH3N
+# Point Group: C3v
+# Shape: Linear --- Trigonal pyramidal
+# Bond lengths: r0     (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Bittner DM, Stephens SL, Zaleski DP, Tew DP, Walker NR, Legon AC (2016) Gas phase complexes of
+H3N⋅⋅⋅CuF and H3N⋅⋅⋅CuI studied by rotational spectroscopy and ab initio calculations: the effect of X (X = F,
+Cl, Br, I) in OC⋅⋅⋅CuX and H3N⋅⋅⋅CuX. Phys Chem Chem Phys 18(19):13638-13645
+# Date first added: 2023-07-05 (by Sichao Xiong)
+
+Cu   F      1.74919(55)
+Cu...N      1.89276(13)
+N    H      1.0187
+H    N...Cu 111.462(26) #problem with label in Landolt–Börnstein H-N-Cu page 84
+
+# Bond lengths: rs     (angstroms)
+# Bond angles:  thetas (degrees)
+
+Cu...N      1.89(5)
+H    N...Cu 111.500(50)
+
+NAME = CuH3IN
+# Point Group: C3v
+# Shape: Linear --- Trigonal pyramidal
+# Bond lengths: r0     (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Bittner DM, Stephens SL, Zaleski DP, Tew DP, Walker NR, Legon AC (2016) Gas phase complexes of
+H3N⋅⋅⋅CuF and H3N⋅⋅⋅CuI studied by rotational spectroscopy and ab initio calculations: the effect of X (X = F,
+Cl, Br, I) in OC⋅⋅⋅CuX and H3N⋅⋅⋅CuX. Phys Chem Chem Phys 18(19):13638-13645
+# Date first added: 2023-07-05 (by Sichao Xiong)
+
+Cu   I      2.35525(46)
+Cu...N      1.9357(13)
+N    H      1.0185
+H    N...Cu 111.430(54)
+
+# Bond lengths: rs     (angstroms)
+# Bond angles:  thetas (degrees)
+
+Cu...N      1.9361(13)
+H    N...Cu 111.535(30)
+
+NAME = FH3Si
+# Point Group: C3v
+# Shape: Tetrahedral
+# Bond lengths: r0     (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Puzzarini C, Cazzoli G, Gauss J (2010) Rotational spectra of isotopic species of silyl fluoride. Part II:
+Theoretical and semiexperimental equilibrium structure. J Mol Spectrosc 262(1):37-41
+# Date first added: 2023-07-05 (by Sichao Xiong)
+
+F  Si   1.5953(9)
+Si H    1.4743(14)
+F  Si H 108.13(15)
+
+# Bond lengths: rm(1)     (angstroms)
+# Bond angles:  thetam(1) (degrees)
+
+F  Si   1.5882(9)
+Si H    1.4691(1)
+F  Si H 108.304(7)
+
+# Bond lengths: re(se)     (angstroms)
+# Bond angles:  thetae(se) (degrees)
+
+F  Si   1.59048(6)
+Si H    1.46948(9)
+F  Si H 108.304(9)
+
+NAME = F3N
+# Point Group: C3v
+# Shape: Trigonal pyramidal
+# Bond lengths: r0     (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Najib H (2015) Experimental values of the rotational and vibrational constants and equilibrium structure of
+nitrogen trifluoride. J Mol Spectrosc 312:1-5
+# Date first added: 2023-07-05 (by Sichao Xiong)
+
+N F   1.37132(66)
+F N F 102.11761(46)
+
+# Bond lengths: re     (angstroms)
+# Bond angles:  thetae (degrees)
+
+N F   1.36757(58)
+F N F 101.8513(10)
+
+NAME = F3P 2014
+# Point Group: C3v
+# Shape: Trigonal pyramidal
+# Bond lengths: r0     (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Najib H (2015) Experimental values of the rotational and vibrational constants and equilibrium structure of
+nitrogen trifluoride. J Mol Spectrosc 312:1-5
+# Date first added: 2023-07-05 (by Sichao Xiong)
+
+P F   1.56324405(11)
+F P F 97.752232(29)
+
+# Bond lengths: re     (angstroms)
+# Bond angles:  thetae (degrees)
+
+N F   1.560986(43)
+F N F 97.566657(64)
+
+NAME = F4Te
+# Point Group: C2v
+# Shape: Seesaw
+# Bond lengths: rg     (angstroms)
+# Bond angles:  thetag (degrees)
+# Source Paper: Shlykov SA, Giricheva NI, Titov AV, Szwak M, Lentz D, Girichev GV (2010) The structures of tellurium(IV)
+halides in the gas phase and as solvated molecules. Dalton Trans 39(13):3245-3255
+# Date first added: 2023-07-05 (by Sichao Xiong)
+
+Te    F(ax)    1.899(4)
+Te    F(eq)    1.846(4)
+F(ax) Te F(ax) 164.3(12)
+F(eq) Te F(eq) 99.5(3)
+
+NAME = HO3
+# Point Group: Cs
+# Shape: Bent
+# Bond lengths: r0(a)     (angstroms)
+# Bond angles:  theta0(a) (degrees)
+# Source Paper:  a. McCarthy MC, Lattanzi V, Kokkin D, Martinez O, Stanton JF (2012) On the molecular structure of HOOO. J
+Chem Phys 136(3):034303/1-034303/10 b. Barreau L, Martinez O, Crabtree KN, Womack CC, Stanton JF, McCarthy MC (2017) Oxygen-18 isotopic
+studies of HOOO and DOOO. J Phys Chem A 121(33):6296-6303
+[doi:10.1063/1.3673875]
+# Date first added: 2023-07-05 (by Sichao Xiong)
+
+H    O(1)      0.913(26)
+O(1) O(2)      1.684(3)
+O(2) O(3)      1.235
+H    O(1) O(2) 92.4(14)
+O(1) O(2) O(3) 110.7(3)
+
+# Bond lengths: re(se)(b)     (angstroms)
+# Bond angles:  thetae(se)(b) (degrees)
+
+H    O(1)      0.944
+O(1) O(2)      1.660
+O(2) O(3)      1.225
+H    O(1) O(2) 95.3
+O(1) O(2) O(3) 110.3
+
+NAME = H2I2Si
+# Point Group: C2v
+# Shape: Seesaw
+# Bond lengths: r0     (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Arsenault EA, Obenchain DA, Orellana W, Novick SE (2017) Nuclear quadrupole coupling in SiH2I2 due to the
+presence of two iodine nuclei. J Mol Spectrosc 338(2):72-76
+# Date first added: 2023-07-05 (by Sichao Xiong)
+
+Si I    2.4236(19)
+Si H    1.475(21)
+I  Si I 111.27(13)
+H  Si H 105.9(19)
+
+NAME = H2OS
+# Point Group: C1
+# Shape: Bent
+# Bond lengths:     re     (angstroms)
+# Bond angles:      thetae (degrees)
+# Dihedral angles:  taue   (degrees)
+# Source Paper: Ross SC, Yamada KMT, Ito F (2010) Torsion-rotation coupling and the determination of the torsional potential
+energy function of HSOH. Phys Chem Chem Phys 12(36):11133-11150
+# Date first added: 2023-07-05 (by Sichao Xiong)
+
+S O     1.669514(30)
+S H     1.3414
+O H     0.9601
+H S O   97.1784(17)
+H O S   107.01
+H O S H 84.659(21)
+
+NAME = H2O2Si
+# Point Group: C2v
+# Shape: Seesaw
+# Bond lengths: r0     (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: McCarthy MC, Gauss J (2016) Exotic SiO2H2 isomers: Theory and experiment working in harmony. J Phys
+Chem Lett 7(10):1895-1900
+# Date first added: 2023-07-05 (by Sichao Xiong)
+
+Si O    1.642(1)
+Si H    1.462(1)
+O  Si O 59.1(3)
+H  Si H 113.0(7)
+
+# Bond lengths: re(se)     (angstroms)
+# Bond angles:  thetae(se) (degrees)
+
+Si O    1.6373(5)
+Si H    1.4641(5)
+O  Si O 58.94(10)
+H  Si H 113.24(14)
+
+NAME = H3NSi2
+# Point Group: C3v
+# Shape: Tetrahedral
+# Bond lengths: r0     (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Crabtree KN, Martinez O, McCarthy MC (2013) Detection of two highly stable silicon nitrides: HSiNSi and
+H3SiNSi. J Phys Chem A 117(44):11282-11288
+# Date first added: 2023-07-05 (by Sichao Xiong)
+
+Si(2) = N           1.560(7)
+N       Si(1)       1.712(7)
+Si(1)   H           1.487
+Si(1)   N  =  Si(2) 180.0
+H       Si(1) N     109.99(6)
+
+NAME = H3S 2009
+# Point Group: C3v
+# Shape: Tetrahedral
+# Bond lengths: re(se)     (angstroms)
+# Bond angles:  thetae(se) (degrees)
+# Source Paper: Dore L, Bizzocchi L, Degli Esposti C (2009) Millimeter-wave spectroscopy of deuterated hydrogen sulfide,
+SH2D+. J Mol Spectrosc 254(1):33-38.
+# Date first added: 2023-07-05 (by Sichao Xiong)
+
+S H   1.349872(13)
+H S H 94.1405(26)
+
+NAME = O2S2 2015
+# Point Group: C2v
+# Shape: Planar
+# Bond lengths: re(se)     (angstroms)
+# Bond angles:  thetae(se) (degrees)
+# Source Paper: Martin-Drumel MA, van Wijngaarden J, Zingsheim O, Lewen F, Harding ME, Schlemmer S, Thorwirth S
+(2015) Millimeter- and submillimeter-wave spectroscopy of disulfur dioxide, OSSO. J Mol Spectrosc 307:33-39
+# Date first added: 2023-07-05 (by Sichao Xiong)
+
+S = O     1.467(1)
+S = S     2.011(3)
+S = S = O 113.0(1)
+
+NAME = O4Os 2012
+# Point Group: Td
+# Shape: Tetrahedral
+# Bond lengths: re     (angstroms)
+# Source Paper: Louviot M, Boudon V, Manceron L, Roy P, Bermejo D, Martinez RZ (2012) High-resolution spectroscopy and
+structure of osmium tetroxide. A benchmark study on 192OsO4. Inorg Chem 51(19):10356-10365
+# Date first added: 2023-07-05 (by Sichao Xiong)
+
+Os = O 1.70919(16)
+
+NAME = P4 2010
+# Point Group: Td
+# Shape: Tetrahedron
+# Bond lengths: rg     (angstroms)
+# Source Paper: Cossairt BM, Cummins CC, Head AR, Lichtenberger DL, Berger RJF, Hayes SA, Mitzel NW, Wu G (2010) On
+the molecular and electronic structures of AsP3 and P4. J Am Chem Soc 132 (24):8459-8465 
+# Date first added: 2023-07-05 (by Sichao Xiong)
+
+P P 2.1994(3)
