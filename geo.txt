@@ -56,3 +56,415 @@ Phys 91(11):957-962
 # Date first added: 2023-05-15 (by Nike Dattani)
 
 H2 Ar 3.957
+
+NAME = AgClH3N  2010
+# Point Group: C3v
+# Shape: Trigonal pyramidal --- Linear
+# Bond lengths: r0     (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Mikhailov VA, Tew DP, Walker NR, Legon AC (2010) H3N⋅⋅⋅Ag–Cl: Synthesis in a supersonic jet and
+characterization by rotational spectroscopy. Chem Phys Lett 499(1-3):16-20
+# Date first added: 2023-07-05 (by Sichao Xiong)
+
+Ag   Cl     2.26333(6)
+Ag...N      2.15444(6)
+N    H      1.0129
+H    N...Ag 113.48(2)
+
+# Bond lengths: rs     (angstroms)
+
+Ag   Cl     2.2633(9)
+Ag...N      2.1545(8)
+
+NAME = AgH3IN
+# Point Group: C3v
+# Shape: Trigonal pyramidal --- Linear
+# Bond lengths: r0     (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Medcraft C, Gougoula E, Bittner DM, Mullaney JC, Blanco S, Tew DP, Walker NR, Legon AC (2017)
+Molecular geometries and other properties of H2O⋅⋅⋅AgI and H3N⋅⋅⋅AgI as characterized by rotational
+spectroscopy and ab initio calculations. J Chem Phys 147(23):234308/1-234308/8
+https://doi.org/10.1063/1.5008744
+# Date first added: 2023-07-05 (by Sichao Xiong)
+
+Ag   I   2.5375(3)
+Ag...N   2.180(1)
+Ag   N H 110.86(5)
+
+# Bond lengths: rs     (angstroms)
+# Bond angles:  thetas (degrees)
+
+Ag...N   2.182(1)
+Ag   N H 110.93(3)
+
+NAME = AgH3IP
+# Point Group: C3v
+# Shape: Trigonal pyramidal --- Linear
+# Bond lengths: r0     (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Stephens SL, Tew DP, Walker NR, Legon AC (2016) H3P⋅⋅⋅AgI: generation by laser-ablation and
+characterization by rotational spectroscopy and ab initio calculations. Phys Chem Chem Phys 18(28):18971-
+18977
+# Date first added: 2023-07-05 (by Sichao Xiong)
+
+Ag  I   2.5483(1)
+P...Ag  2.3488(20)
+P   H   1.4086
+H   P H 118.92 
+
+NAME = AlBr3
+# Point Group: D3h
+# Shape: Trigonal planar
+# Bond lengths: rg(a)     (angstroms)
+# Source Paper: a. Varga Z, Kolonits M, Hargittai M (2012) Comprehensive study of the structure of aluminum trihalides from
+electron diffraction and computation. Struct Chem 23 (3):879-893
+b. Hargittai M, Kolonits M, Gödörházy L (1996) Molecular geometry of monomeric and dimeric aluminium
+tribromide from gas phase electron diffraction. Chem Phys Lett 257:321-326.
+# Date first added: 2023-07-05 (by Sichao Xiong)
+
+Al Br 2.229(5)
+
+# Bond lengths: re(M)(a,b)     (angstroms)
+
+Al Br 2.216(8)
+
+NAME = AlCl3
+# Point Group: D3h
+# Shape: Trigonal planar
+# Bond lengths: rg     (angstroms)
+# Source Paper: Varga Z, Kolonits M, Hargittai M (2012) Comprehensive study of the structure of aluminum trihalides from
+electron diffraction and computation. Struct Chem 23 (3):879-893 
+# Date first added: 2023-07-05 (by Sichao Xiong)
+
+Al Cl 2.073(4)
+
+# Bond lengths: re(M)  (angstroms)
+
+Al Cl 2.061(5)
+
+NAME = AlF3 
+# Point Group: D3h
+# Shape: Trigonal planar
+# Bond lengths: rg(a)     (angstroms)
+# Source Paper: a. Varga Z, Kolonits M, Hargittai M (2012) Comprehensive study of the structure of aluminum trihalides from
+electron diffraction and computation. Struct Chem 23 (3):879-893
+b. Hargittai M, Kolonits M, Tremmel J, Fourquet J-L, Ferey G (1990) The molecular geometry of iron trifluoride
+from electron diffraction and a reinvestigation of aluminum trifluoride. Struct Chem 1:75-78 
+# Date first added: 2023-07-05 (by Sichao Xiong)
+
+Al F 1.632(3)
+
+# Bond lengths: re(M)(a,b)  (angstroms)
+
+Al F 1.621(4)
+
+NAME = ArH2
+# Point Group: C2v
+# Shape: Linear --- Linear
+# Bond lengths: r0     (angstroms)
+# Source Paper: McKellar ARW (2013) High resolution infrared spectra of H2-Xe and D2-Xe van der Waals complexes. Can J
+Phys 91(11):957-962
+# Date first added: 2023-07-05 (by Sichao Xiong)
+
+Rcm(b) 3.957
+(b) Distance between Ar and the center-of-mass of H2.
+
+NAME = AsCl3 2009
+# Point Group: C3v
+# Shape: Trigonal pyramidal
+# Bond lengths: rh1     (angstroms)
+# Bond angles:  thetah1 (degrees)
+# Source Paper: Noble-Eddy R, Masters SL, Rankin DWH, Robertson HE, Guillemin JC (2010) Molecular structures of
+vinylarsine, vinyldichloroarsine and arsine studied by gas-phase electron diffraction and quantum chemical
+calculations. J Mol Struct 978 (1-3):26-34 
+# Date first added: 2023-07-05 (by Sichao Xiong)
+
+As Cl    2.164(4)
+Cl As Cl 98.9(3) 
+
+NAME = AsHO
+# Point Group: Cs
+# Shape: Bent
+# Bond lengths: r0     (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Grimminger R, Clouthier DJ (2011) The electronic spectrum of the previously unknown HAsO transient
+molecule. J Chem Phys 135(18):184308/1-184308/8
+doi:10.1063/1.3658645
+# Date first added: 2023-07-05 (by Sichao Xiong)
+
+H As   1.576(3)
+As=O   1.6342(5)
+H As=O 101.5(4)
+
+NAME = AsH2
+# Point Group: C2v
+# Shape: Bent
+# Bond lengths: r0     (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Grimminger RA, Clouthier DJ (2012) Toward an improved understanding of the AsH2 free radical: Laser
+spectroscopy, ab initio calculations, and normal coordinate analysis. J Chem Phys 137(22):224307/1-224307/12
+http://dx.doi.org/10.1063/1.4769778
+# Date first added: 2023-07-05 (by Sichao Xiong)
+
+As H    1.519(1)
+H  As H 90.75(9)
+
+# Bond lengths: rz     (angstroms)
+# Bond angles:  thetaz (degrees)
+
+As H    1.5322(8)
+H  As H 90.7(2)
+
+# Bond lengths: re     (angstroms)
+# Bond angles:  thetae (degrees)
+
+As H    1.5169(8)
+H  As H 90.7(2)
+
+NAME = AsP3 2010
+# Point Group: C3v
+# Shape: Tetrahedral
+# Bond lengths: rg     (angstroms)
+# Source Paper: Cossairt BM, Cummins CC, Head AR, Lichtenberger DL, Berger RJF, Hayes SA, Mitzel NW, Wu G (2010)
+On the molecular and electronic structures of AsP3 and P4. J Am Chem Soc 132 (24):8459-8465
+# Date first added: 2023-07-05 (by Sichao Xiong)
+
+As P 2.1949(28)
+P  P 2.3041(12)
+
+NAME = AuClH2
+# Point Group: C2v
+# Shape: Linear --- Linear
+# Bond lengths: reff     (angstroms)
+# Source Paper: Obenchain DA, Frank DS, Grubbs GS, Pickett HM, Novick SE (2017) The covalent interaction between
+dihydrogen and gold: A rotational spectroscopic study of H2-AuCl. J Chem Phys 146(20):204302/1-204302/7
+[http://dx.doi.org/10.1063/1.4983042]
+# Date first added: 2023-07-05 (by Sichao Xiong)
+
+H H 0.92(1)
+
+NAME = BFH
+# Point Group: Cs
+# Shape: Bent
+# Bond lengths: r0     (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Sunahori FX, Clouthier DJ (2009) The electronic spectrum of the fluoroborane free radical. II. Analysis of laserinduced fluorescence and single vibronic level emission spectra. J Chem Phys 130(16):164310/1-164310/10
+doi: 10.1063/1.3122031
+# Date first added: 2023-07-05 (by Sichao Xiong)
+
+B H   1.214(2)
+B F   1.3034(5)
+F B H 120.7(1)
+
+NAME = BFH2O
+# Point Group: Cs (syn)
+# Shape: Planar
+# Bond lengths: re(se)     (angstroms)
+# Bond angles:  thetae(se) (degrees)
+# Source Paper: Vogt N, Demaison J, Vogt J, Rudolph HD (2014) Why it is sometimes difficult to determine the accurate
+position of a hydrogen atom by the semiexperimental method: structure of molecules containing the OH or the
+CH3 group. J Comput Chem 35(32):2333-2342
+# Date first added: 2023-07-05 (by Sichao Xiong)
+
+B H   1.1900(1)
+B F   1.3200(3)
+B O   1.3464(3)
+O H   0.9584(3)
+H B F 119.38(10)
+F B O 117.203(5)
+B O H 122.65(3)
+
+NAME = BF2
+# Point Group: C2v
+# Shape: Bent
+# Bond lengths: r0     (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Yang J, Ellis B, Clouthier DJ (2011) The complex spectrum of a “simple” free radical: The A-X band system of
+the jet-cooled boron difluoride free radical. J Chem Phys 135(9):094305/1-094305/9
+doi:10.1063/1.3624528
+# Date first added: 2023-07-05 (by Sichao Xiong)
+
+B F   1.3102(9)
+F B F 119.7(6)
+
+NAME = BF2HO
+# Point Group: Cs
+# Shape: Planar
+# Bond lengths: re(se)     (angstroms)
+# Bond angles:  thetae(se) (degrees)
+# Source Paper: Vogt N, Demaison J, Rudolph HD, Perrin A (2015) Interplay of experiment and theory: high resolution infrared
+spectrum and accurate equilibrium structure of BF2OH. Phys Chem Chem Phys 17(45):30440-30449
+# Date first added: 2023-07-05 (by Sichao Xiong)
+
+B F(1)   1.3239(2)
+B F(2)   1.3139(2)
+B O      1.3426(3)
+O H      0.9581(6)
+O B F(1) 122.31(2)
+B O H    113.09(4)
+O B F(2) 119.47(2)
+F B F    118.22(3)
+
+NAME = BH2
+# Point Group: C2v
+# Shape: Bent
+# Bond lengths: r0     (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Sunahori FX, Gharaibeh M, Clouthier DJ, Tarroni R (2015) BH2 revisited: New, extensive measurements of
+laser-induced fluorescence transitions and ab initio calculations of near-spectroscopic accuracy. J Chem Phys
+142(17):174302/1-174302/13
+[http://dx.doi.org/10.1063/1.4919094]
+# Date first added: 2023-07-05 (by Sichao Xiong)
+
+B H   1.197(2)
+H B H 129.6(2)
+
+NAME = BH6N
+# Point Group: C3v
+# Shape: Trigonal pyramidal --- Trigonal pyramidal
+# Bond lengths: rm(1)     (angstroms)
+# Bond angles:  thetam(1) (degrees)
+# Source Paper: Demaison J, Lievin J, Császár AG, Gutle C (2008) Equilibrium structure and torsional barrier of BH3NH3. J
+Phys Chem A 112(19):4477-4482
+# Date first added: 2023-07-05 (by Sichao Xiong)
+
+B...N   1.6576(16)
+B   H   1.2098(2)
+N   H   1.0083(3)
+N...B H 104.73(1)
+B...N H 110.29(2)
+
+# Bond lengths: re(se)     (angstroms)
+# Bond angles:  thetae(se) (degrees)
+
+B...N   1.6453(1)
+B   H   1.2058(3)
+N   H   1.0101(3)
+N...B H 105.00(2)
+B...N H 110.97(2)
+
+NAME = BeI2
+# Point Group: Dooh
+# Shape: Bent
+# Bond lengths: rg     (angstroms)
+# Bond angles:  thetag (degrees)
+# Source Paper: Shlykov SA, Zhabanov YA, Giricheva NI, Girichev AG, Girichev GV (2015) Combined gas electron
+diffraction/mass spectrometric study of beryllium diiodide assisted by quantum chemical calculations: structure
+and thermodynamics of beryllium dihalides. Struct Chem 26 (5-6):1451-1458
+# Date first added: 2023-07-05 (by Sichao Xiong)
+
+Be I (T = 501(5) K)    2.163(6)
+I Be I (T = 501(5) K)  165(3)
+Be I (T = 722(10) K)   2.172(7)
+I Be I (T = 722(10) K) 162(4)
+
+NAME = BrGeH
+# Point Group: Cs
+# Shape: Bent
+# Bond lengths: r0     (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Kang L, Sunahori F, Minei AJ, Clouthier DJ, Novick SE (2009) Fourier transform microwave spectroscopy of
+monobromogermylene (HGeBr and DGeBr), a heavy atom carbene analog. J Chem Phys 130(12):124317/1-
+124317/11
+doi: 10.1063/1.3080161
+# Date first added: 2023-07-05 (by Sichao Xiong)
+
+Ge Br   2.3276(9)
+Ge H    1.6093(7)
+H Ge Br 92.44(4)
+
+# Bond lengths: rm(1)     (angstroms)
+# Bond angles:  thetam(1) (degrees)
+
+Ge Br   2.3243(2)
+Ge H    1.563(9)
+H Ge Br 93.55(24)
+
+NAME = BrHO 2010
+# Point Group: Cs
+# Shape: Bent
+# Bond lengths: re     (angstroms)
+# Bond angles:  thetae (degrees)
+# Source Paper: Cohen EA, Müller HSP, Tan TL, McRae GA (2010) High resolution spectroscopy of DOBr and molecular
+properties of hypobromous acid. J Mol Spectrosc 262(1):30-36
+# Date first added: 2023-07-05 (by Sichao Xiong)
+
+H O    0.9640(3)
+O Br   1.82800(1)
+H O Br 102.99(1)
+
+NAME = Br2Fe
+# Point Group: Dooh
+# Shape: Bent
+# Bond lengths: rg(a)     (angstroms)
+# Bond angles:  thetaa(a) (degrees)
+# Source Paper: a. Varga Z, Kolonits M, Hargittai M (2011) Iron dihalides: Structures and thermodynamic properties from
+computation and an electron diffraction study of iron diiodide. Struct Chem 22 (2):327-336 b. Hargittai M, Subbotina NY, Kolonits M, Gershikov AG (1991) Molecular structure of first-row transition
+metal dihalides from combined electron diffraction and vibrational spectroscopic analysis. J Chem Phys 94:
+7278-7286.
+# Date first added: 2023-07-05 (by Sichao Xiong)
+
+Fe   Br    2.289(8)
+Br...Br    4.476(12)
+Br   Fe Br 155.9(29)
+
+# Bond lengths: re(M)(a,b)     (angstroms)
+
+Fe Br 2.276(10)
+
+NAME = ClCuH3N
+# Point Group: C3v
+# Shape: Linear --- Trigonal pyramidal
+# Bond lengths: r0     (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Bittner DM, Zaleski DP, Stephens SL, Tew DP, Walker NR, Legon AC (2015) A monomeric complex of
+ammonia and cuprous chloride: H3N⋅⋅⋅CuCl isolated and characterized by rotational spectroscopy and ab initio
+calculations. J Chem Phys 142(14):144302/1-144302/10
+[http://dx.doi.org/10.1063/1.4916391]
+# Date first added: 2023-07-05 (by Sichao Xiong)
+
+Cu   Cl     2.0614(7)
+Cu...N      1.9182(13)
+N    H      1.0186
+H    N...Cu 111.40(6)
+
+# Bond lengths: rs     (angstroms)
+# Bond angles:  thetas (degrees)
+
+Cu   Cl     2.058(4)
+Cu...N      1.918(4)
+H    N...Cu 111.5(1)
+
+NAME = ClHZn
+# Point Group: Coov
+# Shape: Linear
+# Bond lengths: r0     (angstroms)
+# Source Paper: Pulliam RL, Sun M, Flory MA, Ziurys LM (2009) The sub-millimeter and Fourier transform microwave
+spectrum of HZnCl (X1 Σ+). J Mol Spectrosc 257(2):128-132
+# Date first added: 2023-07-05 (by Sichao Xiong)
+
+H  Zn 1.519
+Zn Cl 2.083
+
+# Bond lengths: rs     (angstroms)
+
+H  Zn 1.519
+Zn Cl 2.082
+
+# Bond lengths: rm     (angstroms)
+
+H  Zn 1.5050(17)
+Zn Cl 2.08293(21)
+
+NAME = ClH3Si
+# Point Group: C3v
+# Shape: Tetrahedral
+# Bond lengths: re(se)     (angstroms)
+# Bond angles:  thetae(se) (degrees)
+# Source Paper: Cazzoli G, Puzzarini C, Gauss J (2012) Rotational spectrum of silyl chloride: hyperfine structure and equilibrium
+geometry. Mol Phys 110(19-20):2359-2369
+# Date first added: 2023-07-05 (by Sichao Xiong)
+
+Si Cl   2.04584(6)
+Si H    1.46878(16)
+Cl Si H 108.427(13)
