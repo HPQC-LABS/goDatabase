@@ -353,10 +353,13 @@ diffraction/mass spectrometric study of beryllium diiodide assisted by quantum c
 and thermodynamics of beryllium dihalides. Struct Chem 26 (5-6):1451-1458
 # Date first added: 2023-07-05 (by Sichao Xiong)
 
-Be I (T = 501(5) K)    2.163(6)
-I Be I (T = 501(5) K)  165(3)
-Be I (T = 722(10) K)   2.172(7)
-I Be I (T = 722(10) K) 162(4)
+# T = 501(5) K
+Be I   2.163(6)
+I  Be I 165(3)
+
+# T = 722(10) K
+Be I   2.172(7)
+I  Be I 162(4)
 
 NAME = BrGeH
 # Point Group: Cs
@@ -481,18 +484,18 @@ Chem Phys 144(8):084305/1-084305/7
 [http://dx.doi.org/10.1063/1.4942024]
 # Date first added: 2023-07-05 (by Sichao Xiong)
 
-S=O         1.434(9)
-S Cl        2.072(3)
-Cl S=O      108.00(6)
-Cl S Cl     97.08
-Cl S=O...Cl 104.0(3) 
+S  = O           1.434(9)
+S    Cl          2.072(3)
+Cl   S  = O      108.00(6)
+Cl   S    Cl     97.08
+Cl   S  = O...Cl 104.0(3) 
 
 # Bond lengths:     re     (angstroms)
 # Bond angles:      thetae (degrees)
 # Dihedral angles:  taue   (degrees)
 
-S=O         1.4340(7)
-S Cl        2.0700(3)
-Cl S=O      107.703(6)
-Cl S Cl     96.929
-Cl S=O...Cl 103.58(3)
+S  O (2)        1.4340(7)
+S  Cl           2.0700(3)
+Cl S O (2)      107.703(6)
+Cl S Cl         96.929
+Cl S O (2)...Cl 103.58(3)
