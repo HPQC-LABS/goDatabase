@@ -468,3 +468,31 @@ geometry. Mol Phys 110(19-20):2359-2369
 Si Cl   2.04584(6)
 Si H    1.46878(16)
 Cl Si H 108.427(13)
+
+NAME = Cl2OS
+# Point Group: Cs
+# Shape: Trigonal pyramidal
+# Bond lengths:     r0     (angstroms)
+# Bond angles:      theta0 (degrees)
+# Dihedral angles:  tau0   (degrees)
+# Source Paper: Martin-Drumel MA, Roucou A, Brown GG, Thorwirth S, Pirali O, Mouret G, Hindle F, McCarthy MC, Cuisset
+A (2016) High resolution spectroscopy of six SOCl2 isotopologues from the microwave to the far-infrared. J
+Chem Phys 144(8):084305/1-084305/7
+[http://dx.doi.org/10.1063/1.4942024]
+# Date first added: 2023-07-05 (by Sichao Xiong)
+
+S=O         1.434(9)
+S Cl        2.072(3)
+Cl S=O      108.00(6)
+Cl S Cl     97.08
+Cl S=O...Cl 104.0(3) 
+
+# Bond lengths:     re     (angstroms)
+# Bond angles:      thetae (degrees)
+# Dihedral angles:  taue   (degrees)
+
+S=O         1.4340(7)
+S Cl        2.0700(3)
+Cl S=O      107.703(6)
+Cl S Cl     96.929
+Cl S=O...Cl 103.58(3)
