@@ -87,9 +87,9 @@ spectroscopy and ab initio calculations. J Chem Phys 147(23):234308/1-234308/8
 https://doi.org/10.1063/1.5008744
 # Date first added: 2023-07-05 (by Sichao Xiong)
 
-Ag   I   2.5375(3)
-Ag...N   2.180(1)
-Ag   N H 110.86(5)
+Ag   I     2.5375(3)
+Ag...NH3   2.180(1)
+Ag   N H   110.86(5)
 
 # Bond lengths: rs     (angstroms)
 # Bond angles:  thetas (degrees)
@@ -110,7 +110,9 @@ characterization by rotational spectroscopy and ab initio calculations. Phys Che
 Ag  I   2.5483(1)
 P...Ag  2.3488(20)
 P   H   1.4086
-H   P H 118.92 
+H   P H 118.92(b)
+
+(b) assumed
 
 NAME = AlBr3
 # Point Group: D3h
