@@ -67,7 +67,7 @@ characterization by rotational spectroscopy. Chem Phys Lett 499(1-3):16-20
 # Date first added: 2023-07-05 (by Sichao Xiong)
 
 Ag   Cl     2.26333(6)
-Ag...N      2.15444(6)
+Ag...N(H3)  2.15444(6)
 N    H      1.0129
 H    N...Ag 113.48(2)
 
@@ -88,14 +88,14 @@ https://doi.org/10.1063/1.5008744
 # Date first added: 2023-07-05 (by Sichao Xiong)
 
 Ag   I     2.5375(3)
-Ag...NH3   2.180(1)
+Ag...N(H3) 2.180(1)
 Ag   N H   110.86(5)
 
 # Bond lengths: rs     (angstroms)
 # Bond angles:  thetas (degrees)
 
-Ag...N   2.182(1)
-Ag   N H 110.93(3)
+Ag...N(H3) 2.182(1)
+Ag   N H   110.93(3)
 
 NAME = AgH3IP
 # Point Group: C3v
@@ -110,14 +110,14 @@ characterization by rotational spectroscopy and ab initio calculations. Phys Che
 Ag  I   2.5483(1)
 P...Ag  2.3488(20)
 P   H   1.4086
-H   P H 118.92(b)
+H   P H 118.92
 
-(b) assumed
+# Angle H P H of 118.92 is assumed
 
 NAME = AlBr3
 # Point Group: D3h
 # Shape: Trigonal planar
-# Bond lengths: rg(a)     (angstroms)
+# Bond lengths: rg     (angstroms)
 # Source Paper: a. Varga Z, Kolonits M, Hargittai M (2012) Comprehensive study of the structure of aluminum trihalides from
 electron diffraction and computation. Struct Chem 23 (3):879-893
 b. Hargittai M, Kolonits M, Gödörházy L (1996) Molecular geometry of monomeric and dimeric aluminium
@@ -126,7 +126,7 @@ tribromide from gas phase electron diffraction. Chem Phys Lett 257:321-326.
 
 Al Br 2.229(5)
 
-# Bond lengths: re(M)(a,b)     (angstroms)
+# Bond lengths: re^M     (angstroms)
 
 Al Br 2.216(8)
 
@@ -147,7 +147,7 @@ Al Cl 2.061(5)
 NAME = AlF3 
 # Point Group: D3h
 # Shape: Trigonal planar
-# Bond lengths: rg(a)     (angstroms)
+# Bond lengths: rg     (angstroms)
 # Source Paper: a. Varga Z, Kolonits M, Hargittai M (2012) Comprehensive study of the structure of aluminum trihalides from
 electron diffraction and computation. Struct Chem 23 (3):879-893
 b. Hargittai M, Kolonits M, Tremmel J, Fourquet J-L, Ferey G (1990) The molecular geometry of iron trifluoride
@@ -156,20 +156,25 @@ from electron diffraction and a reinvestigation of aluminum trifluoride. Struct 
 
 Al F 1.632(3)
 
-# Bond lengths: re(M)(a,b)  (angstroms)
+# Bond lengths: re^M  (angstroms)
 
 Al F 1.621(4)
 
-NAME = ArH2
-# Point Group: C2v
-# Shape: Linear --- Linear
-# Bond lengths: r0     (angstroms)
-# Source Paper: McKellar ARW (2013) High resolution infrared spectra of H2-Xe and D2-Xe van der Waals complexes. Can J
-Phys 91(11):957-962
+NAME = AlI3 
+# Point Group: D3h
+# Shape: Trigonal planar
+# Bond lengths: rg     (angstroms)
+# Source Paper: a. Varga Z, Kolonits M, Hargittai M (2012) Comprehensive study of the structure of aluminum trihalides from
+electron diffraction and computation. Struct Chem 23 (3):879-893
+b. Hargittai M, Réffy B, Kolonits M (2006) An intricate molecule: Aluminum triiodide. Molecular structure of
+AlI3 and Al2I6 from electron diffraction and computation. J Phys Chem A 110:3770-3777
 # Date first added: 2023-07-05 (by Sichao Xiong)
 
-Rcm(b) 3.957
-(b) Distance between Ar and the center-of-mass of H2.
+Al I 2.447(5)
+
+# Bond lengths: re^M  (angstroms)
+
+Al I 2.435(11)
 
 NAME = AsCl3 2009
 # Point Group: C3v
@@ -223,16 +228,24 @@ H  As H 90.7(2)
 As H    1.5169(8)
 H  As H 90.7(2)
 
-NAME = AsP3 2010
-# Point Group: C3v
+NAME = AsP3
+# Point Group: C3v (assumed)
 # Shape: Tetrahedral
 # Bond lengths: rg     (angstroms)
-# Source Paper: Cossairt BM, Cummins CC, Head AR, Lichtenberger DL, Berger RJF, Hayes SA, Mitzel NW, Wu G (2010)
-On the molecular and electronic structures of AsP3 and P4. J Am Chem Soc 132 (24):8459-8465
+# Source Paper: a. Cossairt BM, Cummins CC, Head AR, Lichtenberger DL, Berger RJF, Hayes SA, Mitzel NW, Wu G (2010)
+On the molecular and electronic structures of AsP3 and P4. J Am Chem Soc 132 (24):8459-8465 b. Daly AM, Cossairt BM, Southwood G, Carey SJ, Cummins CC, Kukolich SG (2012) Microwave spectrum of
+arsenic triphosphide. J Mol Spectrosc 278:68-71
 # Date first added: 2023-07-05 (by Sichao Xiong)
+
+# Temperature = 388 Kelvin
 
 As P 2.1949(28)
 P  P 2.3041(12)
+
+# Bond lengths: r0     (angstroms)
+
+As P 2.311
+P  P 2.201
 
 NAME = AuClH2
 # Point Group: C2v
@@ -261,8 +274,8 @@ F B H 120.7(1)
 NAME = BFH2O
 # Point Group: Cs (syn)
 # Shape: Planar
-# Bond lengths: re(se)     (angstroms)
-# Bond angles:  thetae(se) (degrees)
+# Bond lengths: re^se     (angstroms)
+# Bond angles:  thetae^se (degrees)
 # Source Paper: Vogt N, Demaison J, Vogt J, Rudolph HD (2014) Why it is sometimes difficult to determine the accurate
 position of a hydrogen atom by the semiexperimental method: structure of molecules containing the OH or the
 CH3 group. J Comput Chem 35(32):2333-2342
