@@ -1704,3 +1704,32 @@ Pt   = C(1) 1.7315(14)
 C(1) = C(2) 1.2993(19)
 C(2) = C(3) 1.2759(11)
 
+NAME = C4HNO 2012
+# Point Group: Coov 
+# Shape: Linear
+# Bond lengths: r0 (angstroms)
+# Source paper: Kang L, Novick SE (2012) The microwave spectra of the weakly bound complex between carbon monoxide and
+cyanoacetylene, OC H–C≡C–C≡N. J Mol Spectrosc 276-277:10-13
+# Date first added: 2023-07-11 (by Sichao Xiong)
+
+C(4)...H        2.65315(27)
+C(4)...D        2.64962(27)
+OC4    HC1C2C3N 6.2031
+
+NAME = C4HNO2 2017
+# Point Group: Coov 
+# Shape: Linear --- Linear
+# Bond lengths: r0     (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source paper: Kang L, Davis P, Dorell I, Li K, Oncer O, Wang L, Novick SE, Kukolich SG (2017) Rotational spectrum and
+structure of the T-shaped cyanoacetylene carbon dioxide complex, HCCCN⋅⋅⋅CO2. J Mol Spectrosc 342(6):62-72
+# Date first added: 2023-07-11 (by Sichao Xiong)
+
+OCO NCCCH 4.8311(3)
+ϕ         10(1)
+φ         5.4(5)
+
+# ϕ: Angle of torsional oscillation about the a axis, defined as the angle between this axis and the HCCCN axis
+# φ: Angle of torsional oscillation about an axis parallel to b one (bꞌ), defined as the angle between bꞌ and the
+O=C=O axis
+
