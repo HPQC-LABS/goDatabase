@@ -1659,3 +1659,48 @@ doi:10.1063/1.3578177
 
 C = C     3.539(7)
 C = C = S 90
+
+NAME = C3Ge2
+# Point Group: Dooh 
+# Shape: Linear
+# Bond lengths: re (angstroms)
+# Source paper: Thorwirth S, Lutter V, Javed AJ, Gauss J, Giesen TF (2016) Gas-phase spectroscopic detection and structural
+elucidation of carbon-rich group 14 binary clusters: Linear GeC3Ge. J Phys Chem A 120(2):254-259
+# Date first added: 2023-07-11 (by Sichao Xiong)
+
+C ≡ Ge 1.7695(1)
+C = C  1.2893
+
+# C = C 1.2893 assumed at the CCSD(T)/cc-pwCVQZ value
+
+NAME = C3Pd
+# Point Group: Coov 
+# Shape: Linear
+# Comment: The molecule was found to be linear or quasilinear.
+# Bond lengths: r0 (angstroms)
+# Source paper: Bittner DM, Zaleski DP, Tew DP, Walker NR, Legon AC (2016) Highly unsaturated platinum and palladium
+carbenes PtC3 and PdC3 isolated and characterized in the gas phase. Angew Chem 128(11):3832-3835; Angew
+Chem Int Ed Engl 55(11):3768-3771
+# Date first added: 2023-07-11 (by Sichao Xiong)
+
+Pd   = C(1) 1.79898(4)
+C(1) = C(2) 1.3009
+C(2) = C(3) 1.2789
+
+# C(1) = C(2) 1.3009 and C(2) = C(3) 1.2789 fixed to the value calculated at the level CCSD(T)_ae/aug-cc-pwCV5Z-PP(for Pd) and corrected for r0 ‒ re
+difference assumed to that for PtC3. 
+
+NAME = C3Pt
+# Point Group: Coov 
+# Shape: Linear
+# Comment: The molecule was found to be linear or quasilinear.
+# Bond lengths: r0 (angstroms)
+# Source paper: Bittner DM, Zaleski DP, Tew DP, Walker NR, Legon AC (2016) Highly unsaturated platinum and palladium
+carbenes PtC3 and PdC3 isolated and characterized in the gas phase. Angew Chem 128(11):3832-3835; Angew
+Chem Int Ed Engl 55(11):3768-3771
+# Date first added: 2023-07-11 (by Sichao Xiong)
+
+Pt   = C(1) 1.7315(14)
+C(1) = C(2) 1.2993(19)
+C(2) = C(3) 1.2759(11)
+
