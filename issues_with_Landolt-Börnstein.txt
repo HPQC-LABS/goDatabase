@@ -4,3 +4,5 @@
 
 Kuchitsu?
 - D3v point group for GeH3F
+
+- "G6" point group for methane, is actually called "G6 MS", otherwise it's impossible to know what group it is, without reading the original referenced paper (see #group-theory channel in the HPQC Discord server).
