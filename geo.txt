@@ -337,8 +337,8 @@ H B H 129.6(2)
 NAME = BH6N
 # Point Group: C3v
 # Shape: Trigonal pyramidal --- Trigonal pyramidal
-# Bond lengths: rm(1)     (angstroms)
-# Bond angles:  thetam(1) (degrees)
+# Bond lengths: rm^(1)     (angstroms)
+# Bond angles:  thetam^(1) (degrees)
 # Source Paper: Demaison J, Lievin J, Császár AG, Gutle C (2008) Equilibrium structure and torsional barrier of BH3NH3. J
 Phys Chem A 112(19):4477-4482
 # Date first added: 2023-07-05 (by Sichao Xiong)
@@ -349,8 +349,8 @@ N   H   1.0083(3)
 N...B H 104.73(1)
 B...N H 110.29(2)
 
-# Bond lengths: re(se)     (angstroms)
-# Bond angles:  thetae(se) (degrees)
+# Bond lengths: re^se     (angstroms)
+# Bond angles:  thetae^se (degrees)
 
 B...N   1.6453(1)
 B   H   1.2058(3)
@@ -368,11 +368,13 @@ diffraction/mass spectrometric study of beryllium diiodide assisted by quantum c
 and thermodynamics of beryllium dihalides. Struct Chem 26 (5-6):1451-1458
 # Date first added: 2023-07-05 (by Sichao Xiong)
 
-# T = 501(5) K
+# Temperature = 501(5) Kelvin
+
 Be I   2.163(6)
 I  Be I 165(3)
 
-# T = 722(10) K
+# Temperature = 722(10) Kelvin
+
 Be I   2.172(7)
 I  Be I 162(4)
 
@@ -414,8 +416,8 @@ H O Br 102.99(1)
 NAME = Br2Fe
 # Point Group: Dooh
 # Shape: Bent
-# Bond lengths: rg(a)     (angstroms)
-# Bond angles:  thetaa(a) (degrees)
+# Bond lengths: rg     (angstroms)
+# Bond angles:  thetaa (degrees)
 # Source Paper: a. Varga Z, Kolonits M, Hargittai M (2011) Iron dihalides: Structures and thermodynamic properties from
 computation and an electron diffraction study of iron diiodide. Struct Chem 22 (2):327-336 b. Hargittai M, Subbotina NY, Kolonits M, Gershikov AG (1991) Molecular structure of first-row transition
 metal dihalides from combined electron diffraction and vibrational spectroscopic analysis. J Chem Phys 94:
@@ -426,7 +428,7 @@ Fe   Br    2.289(8)
 Br...Br    4.476(12)
 Br   Fe Br 155.9(29)
 
-# Bond lengths: re(M)(a,b)     (angstroms)
+# Bond lengths: re^M     (angstroms)
 
 Fe Br 2.276(10)
 
@@ -442,7 +444,7 @@ calculations. J Chem Phys 142(14):144302/1-144302/10
 # Date first added: 2023-07-05 (by Sichao Xiong)
 
 Cu   Cl     2.0614(7)
-Cu...N      1.9182(13)
+Cu...N{H3}  1.9182(13)
 N    H      1.0186
 H    N...Cu 111.40(6)
 
@@ -450,7 +452,7 @@ H    N...Cu 111.40(6)
 # Bond angles:  thetas (degrees)
 
 Cu   Cl     2.058(4)
-Cu...N      1.918(4)
+Cu...N{H3}  1.918(4)
 H    N...Cu 111.5(1)
 
 NAME = ClHZn
@@ -469,7 +471,7 @@ Zn Cl 2.083
 H  Zn 1.519
 Zn Cl 2.082
 
-# Bond lengths: rm     (angstroms)
+# Bond lengths: rm^(2)     (angstroms)
 
 H  Zn 1.5050(17)
 Zn Cl 2.08293(21)
@@ -477,8 +479,8 @@ Zn Cl 2.08293(21)
 NAME = ClH3Si
 # Point Group: C3v
 # Shape: Tetrahedral
-# Bond lengths: re(se)     (angstroms)
-# Bond angles:  thetae(se) (degrees)
+# Bond lengths: re^se     (angstroms)
+# Bond angles:  thetae^se (degrees)
 # Source Paper: Cazzoli G, Puzzarini C, Gauss J (2012) Rotational spectrum of silyl chloride: hyperfine structure and equilibrium
 geometry. Mol Phys 110(19-20):2359-2369
 # Date first added: 2023-07-05 (by Sichao Xiong)
@@ -505,9 +507,9 @@ Cl  S  = O      108.00(6)
 Cl  S    Cl     97.08
 Cl  S  = O...Cl 104.0(3) 
 
-# Bond lengths:     re     (angstroms)
-# Bond angles:      thetae (degrees)
-# Dihedral angles:  taue   (degrees)
+# Bond lengths:     re^se     (angstroms)
+# Bond angles:      thetae^se (degrees)
+# Dihedral angles:  taue^se   (degrees)
 
 S = O           1.4340(7)
 S   Cl          2.0700(3)
@@ -538,9 +540,8 @@ transition metals, a gas phase case study: H2-CuF. Inorg Chem 52(2):816-822
 # Date first added: 2023-07-05 (by Sichao Xiong)
 
 Cu F   1.7409(1)
-Rcm(b) 1.5246(5)
-H H    0.750593
-(b) Distance between the centers of mass of the monomer subunits. 
+H2 CuF 1.5246(5)
+H  H   0.750593
 
 NAME = CuFH3N
 # Point Group: C3v
@@ -553,14 +554,14 @@ Cl, Br, I) in OC⋅⋅⋅CuX and H3N⋅⋅⋅CuX. Phys Chem Chem Phys 18(19):136
 # Date first added: 2023-07-05 (by Sichao Xiong)
 
 Cu   F      1.74919(55)
-Cu...N      1.89276(13)
+Cu...N{H3}  1.89276(13)
 N    H      1.0187
-H    N...Cu 111.462(26) #problem with label in Landolt–Börnstein H-N-Cu page 84
+H    N...Cu 111.462(26)
 
 # Bond lengths: rs     (angstroms)
 # Bond angles:  thetas (degrees)
 
-Cu...N      1.89(5)
+Cu...N{H3}  1.89(5)
 H    N...Cu 111.500(50)
 
 NAME = CuH3IN
@@ -574,14 +575,14 @@ Cl, Br, I) in OC⋅⋅⋅CuX and H3N⋅⋅⋅CuX. Phys Chem Chem Phys 18(19):136
 # Date first added: 2023-07-05 (by Sichao Xiong)
 
 Cu   I      2.35525(46)
-Cu...N      1.9357(13)
+Cu...N{H3}  1.9357(13)
 N    H      1.0185
 H    N...Cu 111.430(54)
 
 # Bond lengths: rs     (angstroms)
 # Bond angles:  thetas (degrees)
 
-Cu...N      1.9361(13)
+Cu...N{H3}  1.9361(13)
 H    N...Cu 111.535(30)
 
 NAME = FH3Si
@@ -589,29 +590,46 @@ NAME = FH3Si
 # Shape: Tetrahedral
 # Bond lengths: r0     (angstroms)
 # Bond angles:  theta0 (degrees)
-# Source Paper: Puzzarini C, Cazzoli G, Gauss J (2010) Rotational spectra of isotopic species of silyl fluoride. Part II:
-Theoretical and semiexperimental equilibrium structure. J Mol Spectrosc 262(1):37-41
+# Source Paper: a. Puzzarini C, Cazzoli G, Gauss J (2010) Rotational spectra of isotopic species of silyl fluoride. Part II:
+Theoretical and semiexperimental equilibrium structure. J Mol Spectrosc 262(1):37-41 b. Najib H (2016) Experimental values of the rotational and vibrational constants of deuterated silyl fluoride.
+Mol Phys 114(19):2831-2837
 # Date first added: 2023-07-05 (by Sichao Xiong)
 
 F  Si   1.5953(9)
 Si H    1.4743(14)
 F  Si H 108.13(15)
 
-# Bond lengths: rm(1)     (angstroms)
-# Bond angles:  thetam(1) (degrees)
+# Bond lengths: rm^(1)     (angstroms)
+# Bond angles:  thetam^(1) (degrees)
 
 F  Si   1.5882(9)
 Si H    1.4691(1)
 F  Si H 108.304(7)
 
-# Bond lengths: re(se)     (angstroms)
-# Bond angles:  thetae(se) (degrees)
+# Bond lengths: re^se     (angstroms)
+# Bond angles:  thetae^se (degrees)
 
 F  Si   1.59048(6)
 Si H    1.46948(9)
 F  Si H 108.304(9)
 
-NAME = F3N
+# Bond lengths: r0     (angstroms)
+# Bond angles:  theta0 (degrees)
+
+Si D    1.4755(29)
+Si F    1.5931(26)
+D  Si D 110.472(324)
+D  Si F 108.452(561)
+
+# Bond lengths: re     (angstroms)
+# Bond angles:  thetae (degrees)
+
+Si H    1.46644(447)
+Si F    1.59146(237)
+H  Si H 110.805(506)
+H  Si F 108.102(292)
+
+NAME = F3N 2015
 # Point Group: C3v
 # Shape: Trigonal pyramidal
 # Bond lengths: r0     (angstroms)
@@ -634,8 +652,8 @@ NAME = F3P 2014
 # Shape: Trigonal pyramidal
 # Bond lengths: r0     (angstroms)
 # Bond angles:  theta0 (degrees)
-# Source Paper: Najib H (2015) Experimental values of the rotational and vibrational constants and equilibrium structure of
-nitrogen trifluoride. J Mol Spectrosc 312:1-5
+# Source Paper: Najib H (2014) Experimental rovibrational constants and equilibrium structure of phosphorus trifluoride. J Mol
+Spectrosc 305:17-21
 # Date first added: 2023-07-05 (by Sichao Xiong)
 
 P F   1.56324405(11)
@@ -645,7 +663,7 @@ F P F 97.752232(29)
 # Bond angles:  thetae (degrees)
 
 N F   1.560986(43)
-F N F 97.566657(64)
+F P F 97.566657(64)
 
 NAME = F4Te
 # Point Group: C2v
@@ -661,31 +679,17 @@ Te    F(eq)    1.846(4)
 F(ax) Te F(ax) 164.3(12)
 F(eq) Te F(eq) 99.5(3)
 
-NAME = HO3
-# Point Group: Cs
-# Shape: Bent
-# Bond lengths: r0(a)     (angstroms)
-# Bond angles:  theta0(a) (degrees)
-# Source Paper:  a. McCarthy MC, Lattanzi V, Kokkin D, Martinez O, Stanton JF (2012) On the molecular structure of HOOO. J
-Chem Phys 136(3):034303/1-034303/10 b. Barreau L, Martinez O, Crabtree KN, Womack CC, Stanton JF, McCarthy MC (2017) Oxygen-18 isotopic
-studies of HOOO and DOOO. J Phys Chem A 121(33):6296-6303
-[doi:10.1063/1.3673875]
-# Date first added: 2023-07-05 (by Sichao Xiong)
+NAME = H2I2 2009
+# Point Group: C2h
+# Shape: Linear --- Linear
+# Bond lengths: r0     (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Coudert LH, Belov SP, Willaert F, McElmurry BA, Bevan JW, Hougen JT (2009) Submillimeter spectrum and
+analysis of vibrational and hyperfine coupling effects in (HI)2. Chem Phys Lett 482(4-6):180-188
+# Date first added: 2023-07-11 (by Sichao Xiong)
 
-H    O(1)      0.913(26)
-O(1) O(2)      1.684(3)
-O(2) O(3)      1.235
-H    O(1) O(2) 92.4(14)
-O(1) O(2) O(3) 110.7(3)
-
-# Bond lengths: re(se)(b)     (angstroms)
-# Bond angles:  thetae(se)(b) (degrees)
-
-H    O(1)      0.944
-O(1) O(2)      1.660
-O(2) O(3)      1.225
-H    O(1) O(2) 95.3
-O(1) O(2) O(3) 110.3
+HI HI    4.56372(1)
+H  I...I 46.405(1)
 
 NAME = H2I2Si
 # Point Group: C2v
@@ -701,23 +705,6 @@ Si H    1.475(21)
 I  Si I 111.27(13)
 H  Si H 105.9(19)
 
-NAME = H2OS
-# Point Group: C1
-# Shape: Bent
-# Bond lengths:     re     (angstroms)
-# Bond angles:      thetae (degrees)
-# Dihedral angles:  taue   (degrees)
-# Source Paper: Ross SC, Yamada KMT, Ito F (2010) Torsion-rotation coupling and the determination of the torsional potential
-energy function of HSOH. Phys Chem Chem Phys 12(36):11133-11150
-# Date first added: 2023-07-05 (by Sichao Xiong)
-
-S O     1.669514(30)
-S H     1.3414
-O H     0.9601
-H S O   97.1784(17)
-H O S   107.01
-H O S H 84.659(21)
-
 NAME = H2O2Si
 # Point Group: C2v
 # Shape: Seesaw
@@ -732,13 +719,34 @@ Si H    1.462(1)
 O  Si O 59.1(3)
 H  Si H 113.0(7)
 
-# Bond lengths: re(se)     (angstroms)
-# Bond angles:  thetae(se) (degrees)
+# Bond lengths: re^se     (angstroms)
+# Bond angles:  thetae^se (degrees)
 
 Si O    1.6373(5)
 Si H    1.4641(5)
 O  Si O 58.94(10)
 H  Si H 113.24(14)
+
+NAME = H2SSi
+# Point Group: C2v
+# Shape: Trigonal planar
+# Bond lengths: r0     (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: McCarthy MC, Gottlieb CA, Thaddeus P, Thorwirth S, Gauss J (2011) Rotational spectra and equilibrium
+structures of H2SiS and Si2S. J Chem Phys 134(3):034306/1-034306/10
+doi:10.1063/1.3510732
+# Date first added: 2023-07-11 (by Sichao Xiong)
+
+S  = Si   1.9397
+Si   H    1.4837
+H    Si H 111.64
+
+# Bond lengths: re^se     (angstroms)
+# Bond angles:  thetae^se (degrees)
+
+S  = Si   1.9357
+Si   H    1.4734
+H    Si H 110.32
 
 NAME = H3NSi2
 # Point Group: C3v
@@ -755,6 +763,8 @@ Si(1)   H           1.487
 Si(1)   N  =  Si(2) 180.0
 H       Si(1) N     109.99(6)
 
+# Angle Si(1) N = Si(2) is assumed to be 180.0 by symmetry
+
 NAME = H3S 2009
 # Point Group: C3v
 # Shape: Tetrahedral
@@ -766,19 +776,6 @@ SH2D+. J Mol Spectrosc 254(1):33-38.
 
 S H   1.349872(13)
 H S H 94.1405(26)
-
-NAME = O2S2 2015
-# Point Group: C2v
-# Shape: Planar
-# Bond lengths: re(se)     (angstroms)
-# Bond angles:  thetae(se) (degrees)
-# Source Paper: Martin-Drumel MA, van Wijngaarden J, Zingsheim O, Lewen F, Harding ME, Schlemmer S, Thorwirth S
-(2015) Millimeter- and submillimeter-wave spectroscopy of disulfur dioxide, OSSO. J Mol Spectrosc 307:33-39
-# Date first added: 2023-07-05 (by Sichao Xiong)
-
-S = O     1.467(1)
-S = S     2.011(3)
-S = S = O 113.0(1)
 
 NAME = O4Os 2012
 # Point Group: Td
@@ -799,3 +796,480 @@ the molecular and electronic structures of AsP3 and P4. J Am Chem Soc 132 (24):8
 # Date first added: 2023-07-05 (by Sichao Xiong)
 
 P P 2.1994(3)
+
+NAME = CAgIO
+# Point Group: Coov
+# Shape: Linear --- Linear
+# Bond lengths: r0     (angstroms)
+# Source Paper: Stephens SL, Mizukami W, Tew DP, Walker NR, Legon AC (2012) Molecular geometry of OC⋅⋅⋅AgI
+determined by broadband rotational spectroscopy and ab initio calculations. J Chem Phys 136(6):064306/1-
+064306/9
+[http://dx.doi.org/10.1063/1.3683221]
+# Date first added: 2023-07-11 (by Sichao Xiong)
+
+C  ≡ O 1.1234(8)
+Ag...C 2.051(1)
+Ag   I 2.5336(4)
+
+# Bond lengths: rs     (angstroms)
+
+C  ≡ O 1.1236(5)
+Ag...C 2.053(2)
+Ag   I 2.530(2)
+
+# Bond lengths: rm^(1)     (angstroms)
+
+C  ≡ O 1.12284(7)
+Ag...C 2.05122(9)
+Ag   I 2.5281(2)
+
+NAME = CAgN 2009
+# Point Group: Coov
+# Shape: Linear
+# Bond lengths: r0     (angstroms)
+# Source Paper: Okabayashi T, Okabayashi EY, Koto F, Ishida T, Tanimoto M (2009) Detection of free monomeric silver(I) and
+gold(I) cyanides, AgCN and AuCN: Microwave spectra and molecular structure. J Amer Chem Soc
+131(33):11712-11718
+[http://dx.doi.org/10.1063/1.3683221]
+# Date first added: 2023-07-11 (by Sichao Xiong)
+
+Ag   C 2.03324(45)
+C  ≡ N 1.15527(67)
+
+# Bond lengths: rs     (angstroms)
+
+Ag   C 2.034182(27)
+C  ≡ N 1.154733(20)
+
+# Bond lengths: rm^(2)     (angstroms)
+
+Ag   C 2.031197(23)
+C  ≡ N 1.160260(26)
+
+NAME = CAlN 2014
+# Point Group: Coov
+# Shape: Linear
+# Bond lengths: re^se     (angstroms)
+# Source Paper: Mück LA, Thorwirth S, Gauss J (2015) The semiexperimental equilibrium structures of AlCCH and AlNC. J
+Mol Spectrosc 311:49-53
+# Date first added: 2023-07-11 (by Sichao Xiong)
+
+Al   N 1.8504(1)
+N  ≡ C 1.1806(1)
+
+NAME = CAuN 2009
+# Point Group: Coov
+# Shape: Linear
+# Bond lengths: r0     (angstroms)
+# Source Paper: Okabayashi T, Okabayashi EY, Koto F, Ishida T, Tanimoto M (2009) Detection of free monomeric silver(I) and
+gold(I) cyanides, AgCN and AuCN: Microwave spectra and molecular structure. J Amer Chem Soc
+131(33):11712-11718
+# Date first added: 2023-07-11 (by Sichao Xiong)
+
+Au   C 1.91251(16)
+C  ≡ N 1.15856(24)
+
+# Bond lengths: rs     (angstroms)
+
+Au   C 1.9122519(84)
+C  ≡ N 1.1586545(97)
+
+NAME = CBF3O 2017
+# Point Group: C3v
+# Shape: Tetrahedral
+# Bond lengths: r0     (angstroms)
+# Source Paper: Feng G, Gou Q, Evangelisti L, Grabow JU, Caminati W (2017) Pulsed jet Fourier transform microwave
+spectroscopy of the BF3-CO complex. J Mol Spectrosc 335(5):80-83
+# Date first added: 2023-07-11 (by Sichao Xiong)
+
+C B 2.888(1)
+
+# Bond lengths: rs     (angstroms)
+
+C  ≡ O   1.152(1)
+C    B   2.886(1)
+O ...B   4.038(1)
+O  ≡ C B 180(1)
+
+NAME = CBrClO 2013
+# Point Group: Coov
+# Shape: Linear --- Linear
+# Bond lengths: re     (angstroms)
+# Source Paper: Rivera-Rivera LA, Scott KW, McElmurry BA, Lucchese RR, Bevan JW (2013) Compound model-morphed
+potentials contrasting OC79Br35Cl with the halogen bonded OC35Cl2 and hydrogen-bonded OC-HX (X=19F, 35Cl, 79Br). Chem Phys 425:162-169
+# Date first added: 2023-07-11 (by Sichao Xiong)
+
+OC BrCl 4.270(7)
+
+NAME = CCl2F2
+# Point Group: C2v
+# Shape: Seesaw
+# Bond lengths: re^se     (angstroms)
+# Bond angles:  thetae^se (degrees)
+# Source Paper: Vogt N, Demaison J, Rudolph HD (2014) Accurate equilibrium structures of fluoro- and chloroderivatives of
+methane. Mol Phys 112(22):2873-2883
+# Date first added: 2023-07-11 (by Sichao Xiong)
+
+C  F     1.3287(8)
+C  Cl    1.7519(7)
+F  C  F  107.75(9)
+Cl C  Cl 111.62(7)
+F  C  Cl 109.35(1)
+
+NAME = CCl2O
+# Point Group: C2v
+# Shape: Trigonal planar
+# Bond lengths: re^se     (angstroms)
+# Bond angles:  thetae^se (degrees)
+# Source Paper: Demaison J, Császár AG (2012) Equilibrium CO bond lengths. J Mol Struct 1023:7-14
+# Date first added: 2023-07-11 (by Sichao Xiong)
+
+C  = O     1.1759(4)
+C    Cl    1.7375(2)
+Cl   C  Cl 111.85(2)
+
+NAME = CCl4 2010
+# Point Group: Td
+# Shape: Tetrahedral
+# Bond lengths: ra     (angstroms)
+# Source Paper: a. Zakharov AV, Zhabanov YA (2010) An improved data reduction procedure for processing electron diffraction
+images and its application to structural study of carbon tetrachloride. J Mol Struct 978 (1-3):61-66
+# Date first added: 2023-07-11 (by Sichao Xiong)
+
+C    Cl 1.768(2)
+Cl...Cl 2.885(1)
+
+# Bond lengths: rg     (angstroms)
+
+C    Cl 1.770(2)
+Cl...Cl 2.887(1)
+
+# Bond lengths: rα     (angstroms)
+
+C    Cl 1.767(2)
+Cl...Cl 2.886(1)
+
+# Bond lengths: rh1    (angstroms)
+
+C    Cl 1.769(2)
+Cl...Cl 2.888(1)
+
+NAME = CF2O 2012
+# Point Group: C2v
+# Shape: Trigonal planar
+# Bond lengths: re^se     (angstroms)
+# Bond angles:  thetae^se (degrees)
+# Source Paper: Demaison J, Császár AG (2012) Equilibrium CO bond lengths. J Mol Struct 1023:7-14
+# Date first added: 2023-07-11 (by Sichao Xiong)
+
+C = O   1.1699(4)
+C  F    1.3100(2)
+F  C  F 107.80(3)
+
+NAME = CFeN
+# Point Group: Coov
+# Shape: Linear
+# Bond lengths: r0     (angstroms)
+# Source Paper: Flory MA, Ziurys LM (2011) Millimeter-wave rotational spectroscopy of FeCN (X4
+Δi) and FeNC (X6Δi): Determining the lowest energy isomer. J Chem Phys 135(18):184303/1-184303/11
+doi:10.1063/1.3653809
+[http://dx.doi.org/10.1063/1.3683221]
+# Date first added: 2023-07-11 (by Sichao Xiong)
+
+Fe   C 1.9244(8)
+C  ≡ N 1.157(1)
+
+# Bond lengths: rs     (angstroms)
+
+Fe   C 1.9355(68)
+C  ≡ N 1.146(23)
+
+# Bond lengths: rm^(1)     (angstroms)
+
+Fe   C 1.917(12)
+C  ≡ N 1.128(21)
+
+NAME = CFeO
+# Point Group: Coov
+# Shape: Linear
+# Bond lengths: re     (angstroms)
+# Source Paper: Tanaka K, Nakamura M, Shirasaka M, Sakamoto A, Harada K, Tanaka T (2015) Millimeter-wave spectroscopy
+of the FeCO radical in the ν2 and ν3 vibrationally excited states. J Chem Phys 143(1):014303/1-014303/10
+[http://dx.doi.org/10.1063/1.4923215]
+# Date first added: 2023-07-11 (by Sichao Xiong)
+
+Fe   C 1.725
+C  ≡ O 1.1587
+
+# Bond length C ≡ O 1.1587 asummed according to ab initio calculations
+
+NAME = CHBr3 2009
+# Point Group: C3v
+# Shape: Tetrahedral
+# Bond lengths: rz     (angstroms)
+# Bond angles:  thetaz (degrees)
+# Source Paper: Kisiel Z, Kraśnicki A, Pszczółkowski L, Shipman ST, Alvarez-Valtierra L, Pate BH (2009) Assignment and
+analysis of the rotational spectrum of bromoform enabled by broadband FTMW spectroscopy. J Mol Spectrosc
+257(2):177-186
+# Date first added: 2023-07-11 (by Sichao Xiong)
+
+C  H     1.0831(32)
+C  Br    1.9260(3)
+H  C  Br 107.622(27)
+Br C  Br 111.255(25)
+
+NAME = CHClF2 2014
+# Point Group: Cs
+# Shape: Tetrahedral
+# Bond lengths: re^se     (angstroms)
+# Bond angles:  thetae^se (degrees)
+# Source Paper: Vogt N, Demaison J, Rudolph HD (2014) Accurate equilibrium structures of fluoro- and chloroderivatives of
+methane. Mol Phys 112(22):2873-2883
+# Date first added: 2023-07-11 (by Sichao Xiong)
+
+C H     1.0850(11)
+C F     1.3363(5)
+C Cl    1.7560(9)
+H C  F  109.97(4)
+H C  Cl 109.60(6)
+F C  Cl 109.62(4)
+F C  F  108.06(6)
+
+NAME = CHNS
+# Point Group: Coov
+# Shape: Linear
+# Bond lengths: r0     (angstroms)
+# Source Paper: McGuire BA, Martin-Drumel MA, Thorwirth S, Brünken S, Lattanzi V, Neill JL, Spezzano S, Yu Z, Zaleski DP,
+Remijan AJ, Pate BH, McCarthy MC (2016) Molecular polymorphism: microwave spectra, equilibrium
+structures, and an astronomical investigation of the HNCS isomeric family. Phys Chem Chem Phys
+18(32):22693-22705
+# Date first added: 2023-07-11 (by Sichao Xiong)
+
+H    C 1.051(1)
+C  ≡ N 1.169(3)
+N  = S 1.593(3)
+
+# Bond lengths: re^se     (angstroms)
+
+H    C 1.059(1)
+C  ≡ N 1.160(2)
+N  = S 1.600(2)
+
+NAME = CHNZn
+# Point Group: Coov
+# Shape: Linear
+# Bond lengths: r0     (angstroms)
+# Source Paper: Sun M, Apponi AJ, Ziurys LM (2009) Fourier transform microwave spectroscopy of HZnCN (X1Σ+) and ZnCN (X2Σ+). J Chem Phys 130(3):034309/1-034309/10
+doi: 10.1063/1.3049444
+# Date first added: 2023-07-11 (by Sichao Xiong)
+
+H    Zn 1.4965 (13)
+Zn = C  1.9014 (37)
+C  ≡ N  1.1504 (54)
+
+# Bond lengths: rs     (angstroms)
+
+H    Zn 1.4972
+Zn = C  1.8994
+C  ≡ N  1.1476
+
+# Bond lengths: rm^(1)     (angstroms)
+
+H    Zn 1.4950 (3)
+Zn = C  1.8966 (6)
+C  ≡ N  1.1459 (6)
+
+NAME = CH2BrI 2014
+# Point Group: Cs
+# Shape: Seesaw
+# Bond lengths: r0     (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Bailleux S, Duflot D, Taniguchi K, Sakai S, Ozeki H, Okabayashi T, Bailey WC (2014) Fourier transform
+microwave and millimeter-wave spectroscopy of bromoiodomethane, CH2BrI. J Phys Chem A 118(50):11744-
+11750
+# Date first added: 2023-07-11 (by Sichao Xiong)
+
+C  Br   1.9261
+C  H    1.0830
+C  I    2.1313
+H  C  H 107.66
+Br C  I 113.53
+Br C  H 107.27
+F C  F  108.06(6)
+
+# Bond lenghts C H and C I assumed at the value from CCSD(T)/aug-cc-pVTZ-PP calculations. 
+
+NAME = CH2Br2 2009
+# Point Group: C2v
+# Shape: Seesaw
+# Bond lengths: rz     (angstroms)
+# Bond angles:  thetaz (degrees)
+# Source Paper: Kisiel Z, Kraśnicki A, Pszczółkowski L, Shipman ST, Alvarez-Valtierra L, Pate BH (2009) Assignment and
+analysis of the rotational spectrum of bromoform enabled by broadband FTMW spectroscopy. J Mol Spectrosc
+257(2):177-186
+# Date first added: 2023-07-11 (by Sichao Xiong)
+
+C  H    1.0809(4)
+C  Br   1.9304(3)
+H  C Br 107.760
+Br C Br 112.527(9)
+
+NAME = CH2ClF 2014
+# Point Group: Cs
+# Shape: Seesaw
+# Bond lengths: re^se     (angstroms)
+# Bond angles:  thetae^se (degrees)
+# Source Paper: Vogt N, Demaison J, Rudolph HD (2014) Accurate equilibrium structures of fluoro- and chloroderivatives of
+methane. Mol Phys 112(22):2873-2883
+# Date first added: 2023-07-11 (by Sichao Xiong)
+
+C H     1.0847(2)
+C F     1.3595(3)
+C Cl    1.7641(3)
+H C  H  112.52(3)
+H C  F  109.15(12)
+H C  Cl 107.98(14)
+F C  Cl 110.03(1)
+
+NAME = CH2ClI 2011
+# Point Group: Cs
+# Shape: Seesaw
+# Bond lengths: r0     (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Bailleux S, Ozeki H, Sakai S, Okabayashi T, Kania P, Duflot D (2011) Fourier-transform microwave and
+submillimeter-wave spectroscopy of chloroiodomethane, CH2ICl. J Mol Spectrosc 270(1):51-55
+# Date first added: 2023-07-11 (by Sichao Xiong)
+
+C  I    2.1485
+C  Cl   1.7541
+C  H    1.0832
+Cl C I  113.03
+Cl C H  112.16
+H  C H  107.93
+
+# C H 1.0832 and H C H 107.93 fixed to the value from CCSD(T)/cc-pVTZ calculation.
+
+NAME = CH2Cl2 2014
+# Point Group: C2v
+# Shape: Seesaw
+# Bond lengths: re^se     (angstroms)
+# Bond angles:  thetae^se (degrees)
+# Source Paper: Vogt N, Demaison J, Rudolph HD (2014) Accurate equilibrium structures of fluoro- and chloroderivatives of
+methane. Mol Phys 112(22):2873-2883
+# Date first added: 2023-07-11 (by Sichao Xiong)
+
+C  Cl   1.76425(3)
+C  H    1.0816(2)
+Cl C Cl 112.166(3)
+H  C H  111.772(4)
+H  C Cl 108.237(10)
+
+NAME = CH2FI
+# Point Group: Cs
+# Shape: Seesaw
+# Bond lengths: re^se     (angstroms)
+# Bond angles:  thetae^se (degrees)
+# Source Paper: Puzzarini C, Cazzoli G, López JC, Alonso JL, Baldacci A, Baldan A, Stopkowicz S, Cheng L, Gauss J (2012)
+Rotational spectra of rare isotopic species of fluoroiodomethane: Determination of the equilibrium structure from
+rotational spectroscopy and quantum-chemical calculations. J Chem Phys 137(2):024310/1-024310/11
+# Date first added: 2023-07-11 (by Sichao Xiong)
+
+C F   1.3610(16)
+C I   2.1396(16)
+C H   1.0831(4)
+F C I 110.50(31)
+H C F 109.74(24)
+H C I 106.98(17)
+H C H 112.84(7)
+
+NAME = CH2F2 2014
+# Point Group: C2v
+# Shape: Seesaw
+# Bond lengths: re^se     (angstroms)
+# Bond angles:  thetae^se (degrees)
+# Source Paper: Vogt N, Demaison J, Rudolph HD (2014) Accurate equilibrium structures of fluoro- and chloroderivatives of
+methane. Mol Phys 112(22):2873-2883
+# Date first added: 2023-07-11 (by Sichao Xiong)
+
+C F   1.35323(1)
+C H   1.08703(3)
+F C F 108.282(1)
+H C H 113.442(9)
+H C F 108.750(2)
+
+NAME = CH3ClZn 2016
+# Point Group: C3v
+# Shape: Tetrahedral
+# Bond lengths: r0     (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Min J, Bucchino MP, Kilchenstein KM, Ziurys LM (2016) Rotational spectroscopy of ClZnCH3 (X1
+A1): Gasphase synthesis and characterization of a monomeric Grignard-type reagent. Chem Phys Lett 646(4):174-178
+# Date first added: 2023-07-11 (by Sichao Xiong)
+
+Zn Cl  2.23(7)
+Zn C   1.9201
+C  H   1.105
+Zn C H 110.2(5)
+H  C H 108.7
+
+# Zn C 1.9201, C H 1.105 and H C H 108.7 fixed to the experimental value of CH3ZnI
+
+NAME = CH3IZn 2014
+# Point Group: C3v
+# Shape: Tetrahedral
+# Bond lengths: r0     (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Bucchino MP, Young JP, Sheridan PM, Ziurys LM (2014) Structural determination and gas-phase synthesis of
+monomeric, unsolvated IZnCH3 (X1A1): a model organozinc halide. J Phys Chem A 118(47):11204-11210
+# Date first added: 2023-07-11 (by Sichao Xiong)
+
+Zn I   2.4076(2)
+Zn C   1.9201(2)
+C  H   1.105(9)
+Zn C H 110.2(5)
+H  C H 108.7(5)
+
+NAME = CH3NOS
+# Point Group: C3v
+# Shape: Linear --- Trigonal pyramidal
+# Bond lengths: r0     (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Liu X, Xu Y (2011) Infrared and microwave spectra of the acetylene-ammonia and carbonyl sulfide-ammonia
+complexes: a comparative study of a weak C–H⋅⋅⋅N hydrogen bond and an S⋅⋅⋅N bond. Phys Chem Chem Phys
+13(31):14235-14242
+# Date first added: 2023-07-05 (by Sichao Xiong)
+
+S...N   3.3233(2)
+NH3 SCO 4.3607(2)
+α       25.23(4)
+
+# α: Angular oscillation of the ammonia subunit. 
+
+NAME = CH3O 
+# Point Group: C3v
+# Shape: Seesaw
+# Bond lengths: r0     (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Liu J, Chen MW, Melnik D, Miller TA, Endo Y, Hirota E (2009) The spectroscopic characterization of the
+methoxy radical. II. Rotationally resolved A2A1-X2E electronic and X2E microwave spectra of the perdeuteromethoxy radical CD3O. J Chem Phys 130(7):074303/1-074303/11
+https://doi.org/10.1063/1.2955739
+# Date first added: 2023-07-11 (by Sichao Xiong)
+
+C O   1.36039(8)
+C H   1.10697(9)
+H C H 107.76(1)
+
+NAME = CH4Zn 2010
+# Point Group: C3v
+# Shape: Tetrahedral
+# Bond lengths: r0     (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source Paper: Flory MA, Apponi AJ, Zack LN, Ziurys LM (2010) Activation of methane by zinc: Gas-phase synthesis,
+structure, and bonding of HZnCH3. J Amer Chem Soc 132(48):17186-17192
+# Date first added: 2023-07-11 (by Sichao Xiong)
+
+H  Zn  1.5209(1)
+Zn C   1.9281(2)
+C  H   1.140(9)
+Zn C H 110.2(3)
+H  C H 108.7(3)
