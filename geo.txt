@@ -1733,3 +1733,26 @@ OCO NCCCH 4.8311(3)
 # φ: Angle of torsional oscillation about an axis parallel to b one (bꞌ), defined as the angle between bꞌ and the
 O=C=O axis
 
+NAME = C6H2N2 2016
+# Point Group: Coov 
+# Shape: Linear --- Linear
+# Bond lengths: r0     (angstroms)
+# Bond angles:  theta0 (degrees)
+# Source paper: Kang L, Davis P, Dorell I, Li K, Daly A, Novick SE, Kukolich SG (2016) Rotational spectra and nitrogen
+nuclear quadrupole coupling for the cyanoacetylene dimer: H-C≡C-C≡N⋅⋅⋅H-C≡C-C≡N. J Mol Spectrosc
+321(3):5-12
+# Date first added: 2023-07-11 (by Sichao Xiong)
+
+# Assuming linear model
+
+N(1)...H(2) 2.2489(3)
+
+# Using rigid precession model.
+
+N(1)...H(2)   2.3415
+HCCCN(1) H(2)CCCN 7.0603
+ϕ1            13.0
+ϕ2            8.7
+
+# ϕ1: Angle between the a axis and the axis of the HCCCN(1) subunit.
+# ϕ2: Angle between the a axis and the axis of the other HCCCN subunit
