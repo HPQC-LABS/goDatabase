@@ -3,6 +3,7 @@
 - CFO2 diagram has 1 single and 1 double bond, but the table has two double bonds
 - Br2Fe is confusing in many ways. Br...Br would usually indicate Van der Waals interactions, but here it's just the distance between two atoms that are not "bonded". Did they get the distance from vibrational spectroscopy? Then why are they saying they are not bonded (what does it even mean to be bonded)? Also, it's confusing that Br-Br is not double Fe-Br, until you notice that there's also a Br-Fe-Br angle despite the diagram being linear. I didn't notice the footnote next to Dooh until I was already confused. Ideally there would be two separate diagrams, and two separate point groups given with equal font size, rather than C2v just mentioned in a "comment".
 - H2I2 the dotted line is not the distance given, which confused me. Why no dotted lines for HeN2O?
+- CBF3O this seems like it's a Van der Waals complex from the "Lewis formula" but not from the diagram, althoug there's a dotted line when listing bond lengths, but it's like the Br...Br one described in a point above, not the typical Van der Waals dotted line.
 
 Kuchitsu?
 - D3v point group for GeH3F
