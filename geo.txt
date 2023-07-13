@@ -66,15 +66,15 @@ NAME = AgClH3N  2010
 characterization by rotational spectroscopy. Chem Phys Lett 499(1-3):16-20
 # Date first added: 2023-07-05 (by Sichao Xiong)
 
-Ag   Cl     2.26333(6)
-Ag...N(H3)  2.15444(6)
-N    H      1.0129
+Ag   Cl       2.26333(6)
+Ag...N(H3)    2.15444(6)
+N    H        1.0129
 H    N...Ag 113.48(2)
 
 # Bond lengths: rs     (angstroms)
 
-Ag   Cl     2.2633(9)
-Ag...N      2.1545(8)
+Ag   Cl 2.2633(9)
+Ag...N  2.1545(8)
 
 NAME = AgH3IN
 # Point Group: C3v
@@ -87,14 +87,14 @@ spectroscopy and ab initio calculations. J Chem Phys 147(23):234308/1-234308/8
 https://doi.org/10.1063/1.5008744
 # Date first added: 2023-07-05 (by Sichao Xiong)
 
-Ag   I     2.5375(3)
-Ag...N(H3) 2.180(1)
+Ag   I       2.5375(3)
+Ag...N(H3)   2.180(1)
 Ag   N H   110.86(5)
 
 # Bond lengths: rs     (angstroms)
 # Bond angles:  thetas (degrees)
 
-Ag...N(H3) 2.182(1)
+Ag...N(H3)   2.182(1)
 Ag   N H   110.93(3)
 
 NAME = AgH3IP
@@ -107,9 +107,9 @@ characterization by rotational spectroscopy and ab initio calculations. Phys Che
 18977
 # Date first added: 2023-07-05 (by Sichao Xiong)
 
-Ag  I   2.5483(1)
-P...Ag  2.3488(20)
-P   H   1.4086
+Ag  I     2.5483(1)
+P...Ag    2.3488(20)
+P   H     1.4086
 H   P H 118.92
 
 # Angle H P H of 118.92 is assumed
@@ -186,7 +186,7 @@ vinylarsine, vinyldichloroarsine and arsine studied by gas-phase electron diffra
 calculations. J Mol Struct 978 (1-3):26-34 
 # Date first added: 2023-07-05 (by Sichao Xiong)
 
-As Cl    2.164(4)
+As Cl     2.164(4)
 Cl As Cl 98.9(3) 
 
 NAME = AsHO
@@ -199,8 +199,8 @@ molecule. J Chem Phys 135(18):184308/1-184308/8
 doi:10.1063/1.3658645
 # Date first added: 2023-07-05 (by Sichao Xiong)
 
-H As   1.576(3)
-As=O   1.6342(5)
+H As     1.576(3)
+As=O     1.6342(5)
 H As=O 101.5(4)
 
 NAME = AsH2
@@ -213,19 +213,19 @@ spectroscopy, ab initio calculations, and normal coordinate analysis. J Chem Phy
 http://dx.doi.org/10.1063/1.4769778
 # Date first added: 2023-07-05 (by Sichao Xiong)
 
-As H    1.519(1)
+As H     1.519(1)
 H  As H 90.75(9)
 
 # Bond lengths: rz     (angstroms)
 # Bond angles:  thetaz (degrees)
 
-As H    1.5322(8)
+As H     1.5322(8)
 H  As H 90.7(2)
 
 # Bond lengths: re     (angstroms)
 # Bond angles:  thetae (degrees)
 
-As H    1.5169(8)
+As H     1.5169(8)
 H  As H 90.7(2)
 
 NAME = AsP3
@@ -267,8 +267,8 @@ NAME = BFH
 doi: 10.1063/1.3122031
 # Date first added: 2023-07-05 (by Sichao Xiong)
 
-B H   1.214(2)
-B F   1.3034(5)
+B H     1.214(2)
+B F     1.3034(5)
 F B H 120.7(1)
 
 NAME = BFH2O
@@ -281,10 +281,10 @@ position of a hydrogen atom by the semiexperimental method: structure of molecul
 CH3 group. J Comput Chem 35(32):2333-2342
 # Date first added: 2023-07-05 (by Sichao Xiong)
 
-B H   1.1900(1)
-B F   1.3200(3)
-B O   1.3464(3)
-O H   0.9584(3)
+B H     1.1900(1)
+B F     1.3200(3)
+B O     1.3464(3)
+O H     0.9584(3)
 H B F 119.38(10)
 F B O 117.203(5)
 B O H 122.65(3)
@@ -299,7 +299,7 @@ the jet-cooled boron difluoride free radical. J Chem Phys 135(9):094305/1-094305
 doi:10.1063/1.3624528
 # Date first added: 2023-07-05 (by Sichao Xiong)
 
-B F   1.3102(9)
+B F     1.3102(9)
 F B F 119.7(6)
 
 NAME = BF2HO
@@ -311,10 +311,10 @@ NAME = BF2HO
 spectrum and accurate equilibrium structure of BF2OH. Phys Chem Chem Phys 17(45):30440-30449
 # Date first added: 2023-07-05 (by Sichao Xiong)
 
-B F(1)   1.3239(2)
-B F(2)   1.3139(2)
-B O      1.3426(3)
-O H      0.9581(6)
+B F(1)     1.3239(2)
+B F(2)     1.3139(2)
+B O        1.3426(3)
+O H        0.9581(6)
 O B F(1) 122.31(2)
 B O H    113.09(4)
 O B F(2) 119.47(2)
@@ -331,7 +331,7 @@ laser-induced fluorescence transitions and ab initio calculations of near-spectr
 [http://dx.doi.org/10.1063/1.4919094]
 # Date first added: 2023-07-05 (by Sichao Xiong)
 
-B H   1.197(2)
+B H     1.197(2)
 H B H 129.6(2)
 
 NAME = BH6N
@@ -343,18 +343,18 @@ NAME = BH6N
 Phys Chem A 112(19):4477-4482
 # Date first added: 2023-07-05 (by Sichao Xiong)
 
-B...N   1.6576(16)
-B   H   1.2098(2)
-N   H   1.0083(3)
+B...N     1.6576(16)
+B   H     1.2098(2)
+N   H     1.0083(3)
 N...B H 104.73(1)
 B...N H 110.29(2)
 
 # Bond lengths: re^se     (angstroms)
 # Bond angles:  thetae^se (degrees)
 
-B...N   1.6453(1)
-B   H   1.2058(3)
-N   H   1.0101(3)
+B...N     1.6453(1)
+B   H     1.2058(3)
+N   H     1.0101(3)
 N...B H 105.00(2)
 B...N H 110.97(2)
 
@@ -370,12 +370,12 @@ and thermodynamics of beryllium dihalides. Struct Chem 26 (5-6):1451-1458
 
 # Temperature = 501(5) Kelvin
 
-Be I   2.163(6)
+Be I      2.163(6)
 I  Be I 165(3)
 
 # Temperature = 722(10) Kelvin
 
-Be I   2.172(7)
+Be I      2.172(7)
 I  Be I 162(4)
 
 NAME = BrGeH
@@ -389,12 +389,12 @@ monobromogermylene (HGeBr and DGeBr), a heavy atom carbene analog. J Chem Phys 1
 doi: 10.1063/1.3080161
 # Date first added: 2023-07-05 (by Sichao Xiong)
 
-Ge Br   2.3276(9)
-Ge H    1.6093(7)
+Ge Br    2.3276(9)
+Ge H     1.6093(7)
 H Ge Br 92.44(4)
 
-# Bond lengths: rm(1)     (angstroms)
-# Bond angles:  thetam(1) (degrees)
+# Bond lengths: rm^(1)     (angstroms)
+# Bond angles:  thetam^(1) (degrees)
 
 Ge Br   2.3243(2)
 Ge H    1.563(9)
@@ -409,8 +409,8 @@ NAME = BrHO 2010
 properties of hypobromous acid. J Mol Spectrosc 262(1):30-36
 # Date first added: 2023-07-05 (by Sichao Xiong)
 
-H O    0.9640(3)
-O Br   1.82800(1)
+H O      0.9640(3)
+O Br     1.82800(1)
 H O Br 102.99(1)
 
 NAME = Br2Fe
@@ -424,8 +424,8 @@ metal dihalides from combined electron diffraction and vibrational spectroscopic
 7278-7286.
 # Date first added: 2023-07-05 (by Sichao Xiong)
 
-Fe   Br    2.289(8)
-Br...Br    4.476(12)
+Fe   Br      2.289(8)
+Br...Br      4.476(12)
 Br   Fe Br 155.9(29)
 
 # Bond lengths: re^M     (angstroms)
@@ -443,16 +443,16 @@ calculations. J Chem Phys 142(14):144302/1-144302/10
 [http://dx.doi.org/10.1063/1.4916391]
 # Date first added: 2023-07-05 (by Sichao Xiong)
 
-Cu   Cl     2.0614(7)
-Cu...N{H3}  1.9182(13)
-N    H      1.0186
+Cu   Cl       2.0614(7)
+Cu...N{H3}    1.9182(13)
+N    H        1.0186
 H    N...Cu 111.40(6)
 
 # Bond lengths: rs     (angstroms)
 # Bond angles:  thetas (degrees)
 
-Cu   Cl     2.058(4)
-Cu...N{H3}  1.918(4)
+Cu   Cl       2.058(4)
+Cu...N{H3}    1.918(4)
 H    N...Cu 111.5(1)
 
 NAME = ClHZn
@@ -485,8 +485,8 @@ NAME = ClH3Si
 geometry. Mol Phys 110(19-20):2359-2369
 # Date first added: 2023-07-05 (by Sichao Xiong)
 
-Si Cl   2.04584(6)
-Si H    1.46878(16)
+Si Cl     2.04584(6)
+Si H      1.46878(16)
 Cl Si H 108.427(13)
 
 NAME = Cl2OS
@@ -501,20 +501,20 @@ Chem Phys 144(8):084305/1-084305/7
 [http://dx.doi.org/10.1063/1.4942024]
 # Date first added: 2023-07-05 (by Sichao Xiong)
 
-S = O           1.434(9)
-S   Cl          2.072(3)
+S = O             1.434(9)
+S   Cl            2.072(3)
 Cl  S  = O      108.00(6)
-Cl  S    Cl     97.08
+Cl  S    Cl      97.08
 Cl  S  = O...Cl 104.0(3) 
 
 # Bond lengths:     re^se     (angstroms)
 # Bond angles:      thetae^se (degrees)
 # Dihedral angles:  taue^se   (degrees)
 
-S = O           1.4340(7)
-S   Cl          2.0700(3)
+S = O             1.4340(7)
+S   Cl            2.0700(3)
 Cl  S  = O      107.703(6)
-Cl  S    Cl     96.929
+Cl  S    Cl      96.929
 Cl  S  = O...Cl 103.58(3)
 
 NAME = Cl4Te
@@ -526,8 +526,8 @@ NAME = Cl4Te
 tellurium(IV) halides in the gas phase and as solvated molecules. Dalton Trans 39 (13):3245-3255
 # Date first added: 2023-07-05 (by Sichao Xiong)
 
-Te     Cl(ax)    2.428(4)
-Te     Cl(eq)    2.289(3)
+Te     Cl(ax)      2.428(4)
+Te     Cl(eq)      2.289(3)
 Cl(ax) Te Cl(ax) 176.7(10)
 Cl(eq) Te Cl(eq) 102.5(7)
 
@@ -553,15 +553,15 @@ H3N⋅⋅⋅CuF and H3N⋅⋅⋅CuI studied by rotational spectroscopy and ab in
 Cl, Br, I) in OC⋅⋅⋅CuX and H3N⋅⋅⋅CuX. Phys Chem Chem Phys 18(19):13638-13645
 # Date first added: 2023-07-05 (by Sichao Xiong)
 
-Cu   F      1.74919(55)
-Cu...N{H3}  1.89276(13)
-N    H      1.0187
+Cu   F        1.74919(55)
+Cu...N{H3}    1.89276(13)
+N    H        1.0187
 H    N...Cu 111.462(26)
 
 # Bond lengths: rs     (angstroms)
 # Bond angles:  thetas (degrees)
 
-Cu...N{H3}  1.89(5)
+Cu...N{H3}    1.89(5)
 H    N...Cu 111.500(50)
 
 NAME = CuH3IN
@@ -574,15 +574,15 @@ H3N⋅⋅⋅CuF and H3N⋅⋅⋅CuI studied by rotational spectroscopy and ab in
 Cl, Br, I) in OC⋅⋅⋅CuX and H3N⋅⋅⋅CuX. Phys Chem Chem Phys 18(19):13638-13645
 # Date first added: 2023-07-05 (by Sichao Xiong)
 
-Cu   I      2.35525(46)
-Cu...N{H3}  1.9357(13)
-N    H      1.0185
+Cu   I        2.35525(46)
+Cu...N{H3}    1.9357(13)
+N    H        1.0185
 H    N...Cu 111.430(54)
 
 # Bond lengths: rs     (angstroms)
 # Bond angles:  thetas (degrees)
 
-Cu...N{H3}  1.9361(13)
+Cu...N{H3}    1.9361(13)
 H    N...Cu 111.535(30)
 
 NAME = FH3Si
@@ -591,41 +591,42 @@ NAME = FH3Si
 # Bond lengths: r0     (angstroms)
 # Bond angles:  theta0 (degrees)
 # Source Paper: a. Puzzarini C, Cazzoli G, Gauss J (2010) Rotational spectra of isotopic species of silyl fluoride. Part II:
-Theoretical and semiexperimental equilibrium structure. J Mol Spectrosc 262(1):37-41 b. Najib H (2016) Experimental values of the rotational and vibrational constants of deuterated silyl fluoride.
-Mol Phys 114(19):2831-2837
+Theoretical and semiexperimental equilibrium structure. J Mol Spectrosc 262(1):37-41
 # Date first added: 2023-07-05 (by Sichao Xiong)
 
-F  Si   1.5953(9)
-Si H    1.4743(14)
+F  Si     1.5953(9)
+Si H      1.4743(14)
 F  Si H 108.13(15)
 
 # Bond lengths: rm^(1)     (angstroms)
 # Bond angles:  thetam^(1) (degrees)
 
-F  Si   1.5882(9)
-Si H    1.4691(1)
+F  Si     1.5882(9)
+Si H      1.4691(1)
 F  Si H 108.304(7)
 
 # Bond lengths: re^se     (angstroms)
 # Bond angles:  thetae^se (degrees)
 
-F  Si   1.59048(6)
-Si H    1.46948(9)
+F  Si     1.59048(6)
+Si H      1.46948(9)
 F  Si H 108.304(9)
 
+# Source Paper: b. Najib H (2016) Experimental values of the rotational and vibrational constants of deuterated silyl fluoride.
+Mol Phys 114(19):2831-2837
 # Bond lengths: r0     (angstroms)
 # Bond angles:  theta0 (degrees)
 
-Si D    1.4755(29)
-Si F    1.5931(26)
+Si D      1.4755(29)
+Si F      1.5931(26)
 D  Si D 110.472(324)
 D  Si F 108.452(561)
 
 # Bond lengths: re     (angstroms)
 # Bond angles:  thetae (degrees)
 
-Si H    1.46644(447)
-Si F    1.59146(237)
+Si H      1.46644(447)
+Si F      1.59146(237)
 H  Si H 110.805(506)
 H  Si F 108.102(292)
 
@@ -638,13 +639,13 @@ NAME = F3N 2015
 nitrogen trifluoride. J Mol Spectrosc 312:1-5
 # Date first added: 2023-07-05 (by Sichao Xiong)
 
-N F   1.37132(66)
+N F     1.37132(66)
 F N F 102.11761(46)
 
 # Bond lengths: re     (angstroms)
 # Bond angles:  thetae (degrees)
 
-N F   1.36757(58)
+N F     1.36757(58)
 F N F 101.8513(10)
 
 NAME = F3P 2014
@@ -656,13 +657,13 @@ NAME = F3P 2014
 Spectrosc 305:17-21
 # Date first added: 2023-07-05 (by Sichao Xiong)
 
-P F   1.56324405(11)
+P F    1.56324405(11)
 F P F 97.752232(29)
 
 # Bond lengths: re     (angstroms)
 # Bond angles:  thetae (degrees)
 
-N F   1.560986(43)
+N F    1.560986(43)
 F P F 97.566657(64)
 
 NAME = F4Te
@@ -674,10 +675,10 @@ NAME = F4Te
 halides in the gas phase and as solvated molecules. Dalton Trans 39(13):3245-3255
 # Date first added: 2023-07-05 (by Sichao Xiong)
 
-Te    F(ax)    1.899(4)
-Te    F(eq)    1.846(4)
+Te    F(ax)      1.899(4)
+Te    F(eq)      1.846(4)
 F(ax) Te F(ax) 164.3(12)
-F(eq) Te F(eq) 99.5(3)
+F(eq) Te F(eq)  99.5(3)
 
 NAME = H2I2 2009
 # Point Group: C2h
@@ -688,7 +689,7 @@ NAME = H2I2 2009
 analysis of vibrational and hyperfine coupling effects in (HI)2. Chem Phys Lett 482(4-6):180-188
 # Date first added: 2023-07-11 (by Sichao Xiong)
 
-HI HI    4.56372(1)
+HI HI     4.56372(1)
 H  I...I 46.405(1)
 
 NAME = H2I2Si
@@ -700,8 +701,8 @@ NAME = H2I2Si
 presence of two iodine nuclei. J Mol Spectrosc 338(2):72-76
 # Date first added: 2023-07-05 (by Sichao Xiong)
 
-Si I    2.4236(19)
-Si H    1.475(21)
+Si I      2.4236(19)
+Si H      1.475(21)
 I  Si I 111.27(13)
 H  Si H 105.9(19)
 
@@ -714,17 +715,17 @@ NAME = H2O2Si
 Chem Lett 7(10):1895-1900
 # Date first added: 2023-07-05 (by Sichao Xiong)
 
-Si O    1.642(1)
-Si H    1.462(1)
-O  Si O 59.1(3)
+Si O      1.642(1)
+Si H      1.462(1)
+O  Si O  59.1(3)
 H  Si H 113.0(7)
 
 # Bond lengths: re^se     (angstroms)
 # Bond angles:  thetae^se (degrees)
 
-Si O    1.6373(5)
-Si H    1.4641(5)
-O  Si O 58.94(10)
+Si O      1.6373(5)
+Si H      1.4641(5)
+O  Si O  58.94(10)
 H  Si H 113.24(14)
 
 NAME = H2SSi
@@ -737,15 +738,15 @@ structures of H2SiS and Si2S. J Chem Phys 134(3):034306/1-034306/10
 doi:10.1063/1.3510732
 # Date first added: 2023-07-11 (by Sichao Xiong)
 
-S  = Si   1.9397
-Si   H    1.4837
+S  = Si     1.9397
+Si   H      1.4837
 H    Si H 111.64
 
 # Bond lengths: re^se     (angstroms)
 # Bond angles:  thetae^se (degrees)
 
-S  = Si   1.9357
-Si   H    1.4734
+S  = Si     1.9357
+Si   H      1.4734
 H    Si H 110.32
 
 NAME = H3NSi2
@@ -755,15 +756,14 @@ NAME = H3NSi2
 # Bond angles:  theta0 (degrees)
 # Source Paper: Crabtree KN, Martinez O, McCarthy MC (2013) Detection of two highly stable silicon nitrides: HSiNSi and
 H3SiNSi. J Phys Chem A 117(44):11282-11288
+# Angle Si(1) N = Si(2) is assumed to be 180.0 by symmetry
 # Date first added: 2023-07-05 (by Sichao Xiong)
 
-Si(2) = N           1.560(7)
-N       Si(1)       1.712(7)
-Si(1)   H           1.487
+Si(2) = N             1.560(7)
+N       Si(1)         1.712(7)
+Si(1)   H             1.487
 Si(1)   N  =  Si(2) 180.0
 H       Si(1) N     109.99(6)
-
-# Angle Si(1) N = Si(2) is assumed to be 180.0 by symmetry
 
 NAME = H3S 2009
 # Point Group: C3v
@@ -774,7 +774,7 @@ NAME = H3S 2009
 SH2D+. J Mol Spectrosc 254(1):33-38.
 # Date first added: 2023-07-05 (by Sichao Xiong)
 
-S H   1.349872(13)
+S H    1.349872(13)
 H S H 94.1405(26)
 
 NAME = O4Os 2012
@@ -886,9 +886,9 @@ C B 2.888(1)
 
 # Bond lengths: rs     (angstroms)
 
-C  ≡ O   1.152(1)
-C    B   2.886(1)
-O ...B   4.038(1)
+C  ≡ O     1.152(1)
+C    B     2.886(1)
+O ...B     4.038(1)
 O  ≡ C B 180(1)
 
 NAME = CBrClO 2013
@@ -910,8 +910,8 @@ NAME = CCl2F2
 methane. Mol Phys 112(22):2873-2883
 # Date first added: 2023-07-11 (by Sichao Xiong)
 
-C  F     1.3287(8)
-C  Cl    1.7519(7)
+C  F       1.3287(8)
+C  Cl      1.7519(7)
 F  C  F  107.75(9)
 Cl C  Cl 111.62(7)
 F  C  Cl 109.35(1)
@@ -924,8 +924,8 @@ NAME = CCl2O
 # Source Paper: Demaison J, Császár AG (2012) Equilibrium CO bond lengths. J Mol Struct 1023:7-14
 # Date first added: 2023-07-11 (by Sichao Xiong)
 
-C  = O     1.1759(4)
-C    Cl    1.7375(2)
+C  = O       1.1759(4)
+C    Cl      1.7375(2)
 Cl   C  Cl 111.85(2)
 
 NAME = CCl4 2010
@@ -962,8 +962,8 @@ NAME = CF2O 2012
 # Source Paper: Demaison J, Császár AG (2012) Equilibrium CO bond lengths. J Mol Struct 1023:7-14
 # Date first added: 2023-07-11 (by Sichao Xiong)
 
-C = O   1.1699(4)
-C  F    1.3100(2)
+C = O     1.1699(4)
+C  F      1.3100(2)
 F  C  F 107.80(3)
 
 NAME = CFeN
@@ -996,12 +996,11 @@ NAME = CFeO
 # Source Paper: Tanaka K, Nakamura M, Shirasaka M, Sakamoto A, Harada K, Tanaka T (2015) Millimeter-wave spectroscopy
 of the FeCO radical in the ν2 and ν3 vibrationally excited states. J Chem Phys 143(1):014303/1-014303/10
 [http://dx.doi.org/10.1063/1.4923215]
+# Bond length C ≡ O 1.1587 asummed according to ab initio calculations
 # Date first added: 2023-07-11 (by Sichao Xiong)
 
 Fe   C 1.725
 C  ≡ O 1.1587
-
-# Bond length C ≡ O 1.1587 asummed according to ab initio calculations
 
 NAME = CHBr3 2009
 # Point Group: C3v
@@ -1013,8 +1012,8 @@ analysis of the rotational spectrum of bromoform enabled by broadband FTMW spect
 257(2):177-186
 # Date first added: 2023-07-11 (by Sichao Xiong)
 
-C  H     1.0831(32)
-C  Br    1.9260(3)
+C  H       1.0831(32)
+C  Br      1.9260(3)
 H  C  Br 107.622(27)
 Br C  Br 111.255(25)
 
@@ -1027,9 +1026,9 @@ NAME = CHClF2 2014
 methane. Mol Phys 112(22):2873-2883
 # Date first added: 2023-07-11 (by Sichao Xiong)
 
-C H     1.0850(11)
-C F     1.3363(5)
-C Cl    1.7560(9)
+C H       1.0850(11)
+C F       1.3363(5)
+C Cl      1.7560(9)
 H C  F  109.97(4)
 H C  Cl 109.60(6)
 F C  Cl 109.62(4)
@@ -1087,17 +1086,16 @@ NAME = CH2BrI 2014
 # Source Paper: Bailleux S, Duflot D, Taniguchi K, Sakai S, Ozeki H, Okabayashi T, Bailey WC (2014) Fourier transform
 microwave and millimeter-wave spectroscopy of bromoiodomethane, CH2BrI. J Phys Chem A 118(50):11744-
 11750
+# Bond lenghts C H and C I assumed at the value from CCSD(T)/aug-cc-pVTZ-PP calculations. 
 # Date first added: 2023-07-11 (by Sichao Xiong)
 
-C  Br   1.9261
-C  H    1.0830
-C  I    2.1313
+C  Br     1.9261
+C  H      1.0830
+C  I      2.1313
 H  C  H 107.66
 Br C  I 113.53
 Br C  H 107.27
-F C  F  108.06(6)
-
-# Bond lenghts C H and C I assumed at the value from CCSD(T)/aug-cc-pVTZ-PP calculations. 
+F  C  F 108.06(6)
 
 NAME = CH2Br2 2009
 # Point Group: C2v
@@ -1109,8 +1107,8 @@ analysis of the rotational spectrum of bromoform enabled by broadband FTMW spect
 257(2):177-186
 # Date first added: 2023-07-11 (by Sichao Xiong)
 
-C  H    1.0809(4)
-C  Br   1.9304(3)
+C  H      1.0809(4)
+C  Br     1.9304(3)
 H  C Br 107.760
 Br C Br 112.527(9)
 
@@ -1123,9 +1121,9 @@ NAME = CH2ClF 2014
 methane. Mol Phys 112(22):2873-2883
 # Date first added: 2023-07-11 (by Sichao Xiong)
 
-C H     1.0847(2)
-C F     1.3595(3)
-C Cl    1.7641(3)
+C H       1.0847(2)
+C F       1.3595(3)
+C Cl      1.7641(3)
 H C  H  112.52(3)
 H C  F  109.15(12)
 H C  Cl 107.98(14)
@@ -1138,16 +1136,15 @@ NAME = CH2ClI 2011
 # Bond angles:  theta0 (degrees)
 # Source Paper: Bailleux S, Ozeki H, Sakai S, Okabayashi T, Kania P, Duflot D (2011) Fourier-transform microwave and
 submillimeter-wave spectroscopy of chloroiodomethane, CH2ICl. J Mol Spectrosc 270(1):51-55
+# C H 1.0832 and H C H 107.93 fixed to the value from CCSD(T)/cc-pVTZ calculation.
 # Date first added: 2023-07-11 (by Sichao Xiong)
 
-C  I    2.1485
-C  Cl   1.7541
-C  H    1.0832
+C  I      2.1485
+C  Cl     1.7541
+C  H      1.0832
 Cl C I  113.03
 Cl C H  112.16
 H  C H  107.93
-
-# C H 1.0832 and H C H 107.93 fixed to the value from CCSD(T)/cc-pVTZ calculation.
 
 NAME = CH2Cl2 2014
 # Point Group: C2v
@@ -1158,8 +1155,8 @@ NAME = CH2Cl2 2014
 methane. Mol Phys 112(22):2873-2883
 # Date first added: 2023-07-11 (by Sichao Xiong)
 
-C  Cl   1.76425(3)
-C  H    1.0816(2)
+C  Cl     1.76425(3)
+C  H      1.0816(2)
 Cl C Cl 112.166(3)
 H  C H  111.772(4)
 H  C Cl 108.237(10)
@@ -1174,9 +1171,9 @@ Rotational spectra of rare isotopic species of fluoroiodomethane: Determination 
 rotational spectroscopy and quantum-chemical calculations. J Chem Phys 137(2):024310/1-024310/11
 # Date first added: 2023-07-11 (by Sichao Xiong)
 
-C F   1.3610(16)
-C I   2.1396(16)
-C H   1.0831(4)
+C F     1.3610(16)
+C I     2.1396(16)
+C H     1.0831(4)
 F C I 110.50(31)
 H C F 109.74(24)
 H C I 106.98(17)
@@ -1191,8 +1188,8 @@ NAME = CH2F2 2014
 methane. Mol Phys 112(22):2873-2883
 # Date first added: 2023-07-11 (by Sichao Xiong)
 
-C F   1.35323(1)
-C H   1.08703(3)
+C F     1.35323(1)
+C H     1.08703(3)
 F C F 108.282(1)
 H C H 113.442(9)
 H C F 108.750(2)
@@ -1204,15 +1201,14 @@ NAME = CH3ClZn 2016
 # Bond angles:  theta0 (degrees)
 # Source Paper: Min J, Bucchino MP, Kilchenstein KM, Ziurys LM (2016) Rotational spectroscopy of ClZnCH3 (X1
 A1): Gasphase synthesis and characterization of a monomeric Grignard-type reagent. Chem Phys Lett 646(4):174-178
+# Zn C 1.9201, C H 1.105 and H C H 108.7 fixed to the experimental value of CH3ZnI
 # Date first added: 2023-07-11 (by Sichao Xiong)
 
-Zn Cl  2.23(7)
-Zn C   1.9201
-C  H   1.105
+Zn Cl    2.23(7)
+Zn C     1.9201
+C  H     1.105
 Zn C H 110.2(5)
 H  C H 108.7
-
-# Zn C 1.9201, C H 1.105 and H C H 108.7 fixed to the experimental value of CH3ZnI
 
 NAME = CH3IZn 2014
 # Point Group: C3v
@@ -1223,9 +1219,9 @@ NAME = CH3IZn 2014
 monomeric, unsolvated IZnCH3 (X1A1): a model organozinc halide. J Phys Chem A 118(47):11204-11210
 # Date first added: 2023-07-11 (by Sichao Xiong)
 
-Zn I   2.4076(2)
-Zn C   1.9201(2)
-C  H   1.105(9)
+Zn I     2.4076(2)
+Zn C     1.9201(2)
+C  H     1.105(9)
 Zn C H 110.2(5)
 H  C H 108.7(5)
 
@@ -1237,13 +1233,12 @@ NAME = CH3NOS
 # Source Paper: Liu X, Xu Y (2011) Infrared and microwave spectra of the acetylene-ammonia and carbonyl sulfide-ammonia
 complexes: a comparative study of a weak C–H⋅⋅⋅N hydrogen bond and an S⋅⋅⋅N bond. Phys Chem Chem Phys
 13(31):14235-14242
+# α: Angular oscillation of the ammonia subunit. 
 # Date first added: 2023-07-05 (by Sichao Xiong)
 
-S...N   3.3233(2)
-NH3 SCO 4.3607(2)
+S...N    3.3233(2)
+NH3 SCO  4.3607(2)
 α       25.23(4)
-
-# α: Angular oscillation of the ammonia subunit. 
 
 NAME = CH3O 
 # Point Group: C3v
@@ -1255,8 +1250,8 @@ methoxy radical. II. Rotationally resolved A2A1-X2E electronic and X2E microwave
 https://doi.org/10.1063/1.2955739
 # Date first added: 2023-07-11 (by Sichao Xiong)
 
-C O   1.36039(8)
-C H   1.10697(9)
+C O     1.36039(8)
+C H     1.10697(9)
 H C H 107.76(1)
 
 NAME = CH4Zn 2010
@@ -1268,25 +1263,38 @@ NAME = CH4Zn 2010
 structure, and bonding of HZnCH3. J Amer Chem Soc 132(48):17186-17192
 # Date first added: 2023-07-11 (by Sichao Xiong)
 
-H  Zn  1.5209(1)
-Zn C   1.9281(2)
-C  H   1.140(9)
+H  Zn    1.5209(1)
+Zn C     1.9281(2)
+C  H     1.140(9)
 Zn C H 110.2(3)
 H  C H 108.7(3)
+
+NAME = CN2Si
+# Point Group: Coov
+# Shape: Linear
+# Bond lengths: re^se     (angstroms)
+# Bond angles:  thetae^se (degrees)
+# Source Paper: Thorwirth S, Kaiser RI, Crabtree KN, McCarthy MC (2015) Spectroscopic and structural characterization of
+three silaisocyanides: exploring an elusive class of reactive molecules at high resolution. Chem Comm
+51(56):11305-11308
+# Date first added: 2023-07-13 (by Sichao Xiong)
+
+N(1) C    1.1656(1)
+C    N(2) 1.3037(2)
+N(2) Si   1.5640(2)
 
 NAME = C2AgCl  2015
 # Point Group: Coov 
 # Shape: Linear
 # Bond lengths: r0 (angstroms)
 # Source paper: Zaleski DP, Tew DP, Walker NR, Legon AC (2015) Chemistry in laser-induced plasmas: formation of M-C≡CCl (M = Ag or Cu) and their characterization by rotational spectroscopy. J Phys Chem A 119(12):2919-2925
+# Bond length C ≡ C 1.2219 assumed at the CCSD(T)/aug-cc-pV5Z value
 # Date first added: 2023-07-11 (by Sichao Xiong)
 
 Ag   C  2.015(14)
 C  ≡ C  1.2219
 C    Cl 1.635(6)
 Ag...Cl 4.8722(2)
-
-# Bond length C ≡ C 1.2219 assumed at the CCSD(T)/aug-cc-pV5Z value
 
 # Bond lengths: rs (angstroms)
 
@@ -1297,14 +1305,13 @@ NAME = C2ClCu  2015
 # Shape: Linear
 # Bond lengths: r0 (angstroms)
 # Source paper: Zaleski DP, Tew DP, Walker NR, Legon AC (2015) Chemistry in laser-induced plasmas: formation of M-C≡CCl (M = Ag or Cu) and their characterization by rotational spectroscopy. J Phys Chem A 119(12):2919-2925
+# Bond length C ≡ C 1.2233 assumed at the CCSD(T)/aug-cc-pV5Z value
 # Date first added: 2023-07-11 (by Sichao Xiong)
 
 Cu   C  1.812(16)
 C  ≡ C  1.2233
 C    Cl 1.639(6)
 Cu...Cl 4.6736(2)
-
-# Bond length C ≡ C 1.2233 assumed at the CCSD(T)/aug-cc-pV5Z value
 
 # Bond lengths: rs (angstroms)
 
@@ -1319,16 +1326,40 @@ NAME = C2F3IO
 CO) and a comparison of the efficacy of ICl and ICF3 as iodine donors in halogen bond formation. J Chem Phys
 135(22):224309/1-224309/8
 doi:10.1063/1.3664314
+# ϕ: Angle between the C3 axis of CF3I subunit and CO F3I.
+# φ: Angle between the OC axis and Rcm
 # Date first added: 2023-07-05 (by Sichao Xiong)
 
-Rcm   4.9644(12)
-I...C 3.4281(12)
-ϕ     4.0(5)
-φ     10(3)
+CO F3I  4.9644(12)
+I...C   3.4281(12)
+ϕ       4.0(5)
+φ      10(3)
 
-# Rcm: Distance between the center-of-mass of CO subunit and the center-of-mass of CF3I subunit. 
-# ϕ: Angle between the C3 axis of CF3I subunit and Rcm.
-# φ: Angle between the OC axis and Rcm
+NAME = C2HAg 2013
+# Point Group: Coov 
+# Shape: Linear
+# Bond lengths: r0 (angstroms)
+# Source paper: a. Okabayashi T, Kubota H, Araki M, Kuze N (2013) Microwave spectroscopy of AgCCH and AuCCH in the
+X1 Σ+ states. Chem Phys Lett 577:11-15
+# Date first added: 2023-07-11 (by Sichao Xiong)
+
+Ag   C 2.007
+C  ≡ C 1.227
+C    H 1.052
+
+# Bond lengths: r0 (angstroms)
+# Source paper: b. Stephens SL, Zaleski DP, Mizukami W, Tew DP, Walker NR, Legon AC (2014) Distortion of ethyne on
+coordination to silver acetylide, C2H2⋅⋅⋅AgCCH, characterized by broadband rotational spectroscopy and ab initio
+calculations. J Chem Phys 140(12):124310/1-124310/13
+[http://dx.doi.org/10.1063/1.4868035]
+
+Ag   C 1.9954(20)
+C  ≡ C 1.2444(30)
+C    H 1.0452(11)
+
+# Bond lengths: rs (angstroms)
+
+Ag   C 2.000(3)
 
 NAME = C2HAl 2012
 # Point Group: Coov 
@@ -1365,13 +1396,12 @@ NAME = C2HAu 2013
 # Shape: Linear
 # Bond lengths: r0 (angstroms)
 # Source paper: Okabayashi T, Kubota H, Araki M, Kuze N (2013) Microwave spectroscopy of AgCCH and AuCCH in the X1Σ+ states. Chem Phys Lett 577:11-15
+# Bond length C ≡ C 1.212 assumed at the value for CuCCH
 # Date first added: 2023-07-11 (by Sichao Xiong)
 
 Au   C 1.903
 C  ≡ C 1.212
 C    H 1.055
-
-# Bond length C ≡ C 1.212 assumed at the value for CuCCH
 
 NAME = C2HCr
 # Point Group: Coov 
@@ -1380,13 +1410,12 @@ NAME = C2HCr
 # Source paper: Min J, Ziurys LM (2016) Millimeter-wave spectroscopy of CrC (X3Σ-) and CrCCH (X6Σ+): Examining the
 chromium-carbon bond. J Chem Phys 144(18):184308/1-184308/8
 [http://dx.doi.org/10.1063/1.4947247]
+# Bond length C ≡ C 1.238 and C H 1.048 assumed equal to that in ZnCCH
 # Date first added: 2023-07-11 (by Sichao Xiong)
 
 Cr   C 1.993(6)
 C  ≡ C 1.238
 C    H 1.048
-
-# Bond length C ≡ C 1.238 and C H 1.048 assumed equal to that in ZnCCH
 
 NAME = C2HCu
 # Point Group: Coov 
@@ -1422,7 +1451,7 @@ low-frequency intermolecular hydrogen-bonded vibrations using a continuous super
 quantum cascade laser spectrometer. Chem Phys 409:1-10
 # Date first added: 2023-07-11 (by Sichao Xiong)
 
-OC1    HCN 4.842(1)
+OC(1)  HCN 4.842(1)
 C(1)...H   2.572(2)
 
 NAME = C2HNSi
@@ -1497,46 +1526,45 @@ NAME = C2H2O
 anhydride using very-high-temperature gas electron diffraction. J Phys Chem A 120 (12):2041-2048
 # Date first added: 2023-07-11 (by Sichao Xiong)
 
-C = O     1.1628(101) 
-C = C     1.3145(106)
-C   H     1.0788(22)
+C = O       1.1628(101) 
+C = C       1.3145(106)
+C   H       1.0788(22)
 H   C = C 118.80(20)
 
 # Bond lengths: rs (angstroms)
 # Bond angles:  thetas (degrees)
 
-C = O     1.162(5)
-C = C     1.3136(56) 
-C   H     1.0795(17) 
+C = O       1.162(5)
+C = C       1.3136(56) 
+C   H       1.0795(17) 
 H   C = C 118.9(30)
 
 # Bond lengths: rm (angstroms)
 # Bond angles:  thetam (degrees)
 
-C = O     1.1617(4)
-C = C     1.3149(6) 
-C   H     1.1617(4)
+C = O       1.1617(4)
+C = C       1.3149(6) 
+C   H       1.1617(4)
 H   C = C 118.72(2)
 
 # Bond lengths: re^se (angstroms)
 # Bond angles:  thetae^se (degrees)
 
-C = O     1.1607(6)
-C = C     1.3122(6)
-C   H     1.0763(1)
+C = O       1.1607(6)
+C = C       1.3122(6)
+C   H       1.0763(1)
 H   C = C 119.115(11)
 
 # Bond lengths: rh1 (angstroms)
 # Bond angles:  thetah1 (degrees)
-
-C = O     1.154(3)
-C = C     1.323(2)
-C   H     1.085(1)
-H   C = C 119.4(5)
-H   C   H 121.3(10)
-
 # C = O 1.154(3), C = C 1.323(2), C H 1.085(1) and H C = C 119.4(5) constrained to the value from MP2/6-311++G** calculation. 
 # H C H 121.3(10) dependent parameter.
+
+C = O       1.154(3)
+C = C       1.323(2)
+C   H       1.085(1)
+H   C = C 119.4(5)
+H   C   H 121.3(10)
 
 NAME = C2H3As 2009
 # Point Group: C3v
@@ -1547,9 +1575,9 @@ NAME = C2H3As 2009
 3):21-25
 # Date first added: 2023-07-11 (by Sichao Xiong)
 
-C ≡ As  1.6585(2)
-C   C   1.4634(2)
-C   H   1.0910(3)
+C ≡ As    1.6585(2)
+C   C     1.4634(2)
+C   H     1.0910(3)
 H   C C 110.575(10)
 
 NAME = C2H5N 
@@ -1560,13 +1588,12 @@ NAME = C2H5N
 # Source Paper: Liu X, Xu Y (2011) Infrared and microwave spectra of the acetylene-ammonia and carbonyl sulfide-ammonia
 complexes: a comparative study of a weak C-H⋅⋅⋅N hydrogen bond and an S⋅⋅⋅N bond. Phys Chem Chem Phys
 13(31):14235-14242
+# α: Angular oscillation of ammonia subunit. 
 # Date first added: 2023-07-11 (by Sichao Xiong)
 
-H...N    2.3980(7)
-NH3 HCCH 4.0594(6)
+H...N     2.3980(7)
+NH3 HCCH  4.0594(6)
 α        23.29(2)
-
-# α: Angular oscillation of ammonia subunit. 
 
 NAME = C2N2 2011
 # Point Group: Dooh 
@@ -1588,9 +1615,9 @@ spectrum of S(CN)2 measured with synchrotron radiation: global analysis of the a
 spectroscopic data. J Phys Chem A 117(50):13815-13824
 # Date first added: 2023-07-11 (by Sichao Xiong)
 
-S   C     1.698(6)
-C ≡ N     1.160(9) 
-C   S C   98.6(5)
+S   C       1.698(6)
+C ≡ N       1.160(9) 
+C   S C    98.6(5)
 S   C ≡ N 175.4(11)
 
 NAME = C2OS3 2010
@@ -1602,7 +1629,7 @@ NAME = C2OS3 2010
 complex: Observation of a cross-shaped isomer. J Phys Chem A 114(27):7311-7314
 # Date first added: 2023-07-11 (by Sichao Xiong)
 
-S2C2O  SC1S        3.5553(8)
+S(2)C(2)O  SC(1)S    3.5553(8)
 C(1)...C(2) = S(2) 104.82(22)
 
 NAME = C2O3
@@ -1621,32 +1648,30 @@ NAME = C2O3S
 # Point Group: Cs
 # Shape: Linear --- Linear
 # Bond lengths: r0     (angstroms)
-# Source paper: a. Dehghany M, Norooz Oliaee J, Afshari M, Moazzen-Ahmadi N, McKellar ARW (2009) Infrared spectra of
-the OCS-CO2 complex: Observation of two distinct slipped near-parallel isomers. J Chem Phys 130(22):224310/1-224310/5 doi: 10.1063/1.3152743 b. Sedo G, van Wijngaarden J (2009) Fourier transform microwave spectra of a “new” isomer of OCS-CO2. J
-Chem Phys 131(4) 044303/1-044303/5
-doi: 10.1063/1.3186756
+# Source paper: a. Dehghany M, Norooz Oliaee J, Afshari M, Moazzen-Ahmadi N, McKellar ARW (2009) Infrared spectra of the OCS-CO2 complex: Observation of two 
+distinct slipped near-parallel isomers. J Chem Phys 130(22):224310/1-224310/5 doi: 10.1063/1.3152743 
 # Date first added: 2023-07-11 (by Sichao Xiong)
-
-# O-interior
-
-OCO SCO 3.9862(10)
-θ1      118.0 (44) 
-θ2      135.8 (24)
-
-# MW
-
-OCO SCO 3.9816(16)
-θ1      108.8(46)
-θ2      140.7(46)
 
 # S-interior
 
-OCO SCO 3.5545 (10)
+OCO SCO  3.5545 (10)
 θ1      69.7 (34)
 θ2      78.7 (25)
 
+# O-interior
+
+OCO SCO   3.9862(10)
+θ1      118.0 (44) 
+θ2      135.8 (24)
+
+# Source paper: b. Sedo G, van Wijngaarden J (2009) Fourier transform microwave spectra of a “new” isomer of OCS-CO2. J
+Chem Phys 131(4) 044303/1-044303/5 doi: 10.1063/1.3186756
 # θ1: Angle between Rcm and the O=C=O axis (measured from the inner O end)
 # θ2: Angle between Rcm and the O=C=S axis (measured from the S end).
+
+OCO SCO   3.9816(16)
+θ1      108.8(46)
+θ2      140.7(46)
 
 NAME = C2S4
 # Point Group: D2d
@@ -1657,7 +1682,7 @@ structure of CS2 dimer. J Chem Phys 134(14):144306/1-144306/5
 doi:10.1063/1.3578177
 # Date first added: 2023-07-11 (by Sichao Xiong)
 
-C = C     3.539(7)
+C = C      3.539(7)
 C = C = S 90
 
 NAME = C3Ge2
@@ -1666,12 +1691,11 @@ NAME = C3Ge2
 # Bond lengths: re (angstroms)
 # Source paper: Thorwirth S, Lutter V, Javed AJ, Gauss J, Giesen TF (2016) Gas-phase spectroscopic detection and structural
 elucidation of carbon-rich group 14 binary clusters: Linear GeC3Ge. J Phys Chem A 120(2):254-259
+# C = C 1.2893 assumed at the CCSD(T)/cc-pwCVQZ value
 # Date first added: 2023-07-11 (by Sichao Xiong)
 
 C ≡ Ge 1.7695(1)
 C = C  1.2893
-
-# C = C 1.2893 assumed at the CCSD(T)/cc-pwCVQZ value
 
 NAME = C3Pd
 # Point Group: Coov 
@@ -1681,14 +1705,13 @@ NAME = C3Pd
 # Source paper: Bittner DM, Zaleski DP, Tew DP, Walker NR, Legon AC (2016) Highly unsaturated platinum and palladium
 carbenes PtC3 and PdC3 isolated and characterized in the gas phase. Angew Chem 128(11):3832-3835; Angew
 Chem Int Ed Engl 55(11):3768-3771
+# C(1) = C(2) 1.3009 and C(2) = C(3) 1.2789 fixed to the value calculated at the level CCSD(T)_ae/aug-cc-pwCV5Z-PP(for Pd) and corrected for r0 ‒ re
+difference assumed to that for PtC3. 
 # Date first added: 2023-07-11 (by Sichao Xiong)
 
 Pd   = C(1) 1.79898(4)
 C(1) = C(2) 1.3009
 C(2) = C(3) 1.2789
-
-# C(1) = C(2) 1.3009 and C(2) = C(3) 1.2789 fixed to the value calculated at the level CCSD(T)_ae/aug-cc-pwCV5Z-PP(for Pd) and corrected for r0 ‒ re
-difference assumed to that for PtC3. 
 
 NAME = C3Pt
 # Point Group: Coov 
@@ -1723,15 +1746,14 @@ NAME = C4HNO2 2017
 # Bond angles:  theta0 (degrees)
 # Source paper: Kang L, Davis P, Dorell I, Li K, Oncer O, Wang L, Novick SE, Kukolich SG (2017) Rotational spectrum and
 structure of the T-shaped cyanoacetylene carbon dioxide complex, HCCCN⋅⋅⋅CO2. J Mol Spectrosc 342(6):62-72
-# Date first added: 2023-07-11 (by Sichao Xiong)
-
-OCO NCCCH 4.8311(3)
-ϕ         10(1)
-φ         5.4(5)
-
 # ϕ: Angle of torsional oscillation about the a axis, defined as the angle between this axis and the HCCCN axis
 # φ: Angle of torsional oscillation about an axis parallel to b one (bꞌ), defined as the angle between bꞌ and the
 O=C=O axis
+# Date first added: 2023-07-11 (by Sichao Xiong)
+
+OCO NCCCH  4.8311(3)
+ϕ         10(1)
+φ          5.4(5)
 
 NAME = C6H2N2 2016
 # Point Group: Coov 
@@ -1741,18 +1763,16 @@ NAME = C6H2N2 2016
 # Source paper: Kang L, Davis P, Dorell I, Li K, Daly A, Novick SE, Kukolich SG (2016) Rotational spectra and nitrogen
 nuclear quadrupole coupling for the cyanoacetylene dimer: H-C≡C-C≡N⋅⋅⋅H-C≡C-C≡N. J Mol Spectrosc
 321(3):5-12
-# Date first added: 2023-07-11 (by Sichao Xiong)
-
 # Assuming linear model
+# Date first added: 2023-07-11 (by Sichao Xiong)
 
 N(1)...H(2) 2.2489(3)
 
 # Using rigid precession model.
-
-N(1)...H(2)   2.3415
-HCCCN(1) H(2)CCCN 7.0603
-ϕ1            13.0
-ϕ2            8.7
-
 # ϕ1: Angle between the a axis and the axis of the HCCCN(1) subunit.
 # ϕ2: Angle between the a axis and the axis of the other HCCCN subunit
+
+N(1)...H(2)        2.3415
+HCCCN(1) H(2)CCCN  7.0603
+ϕ1                13.0
+ϕ2                 8.7
