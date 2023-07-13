@@ -12,5 +12,5 @@ Kuchitsu?
 - "G6" point group for methane, is actually called "G6 MS", otherwise it's impossible to know what group it is, without reading the original referenced paper (see #group-theory channel in the HPQC Discord server). Also C2H6O2 from 30A.
 - "G4" point group: CHIO2 on pg 257 of 30A. Also C2H6KrO and C2H6NeO and C2H6NeS and C2H6S and C2H7ClO from the same book.
 - "G36" point group: C2H8ArSi from 30A
-
+ - CCl2S on pg 241 of Landolt-Bornstein 30A looks from the diagram to be in Cs but it says the ground state is C2v. Maybe if I had a better intuition for C2v I wouldn't have got so confused, but this really did lead me to a lot of confusion: https://discord.com/channels/929956709542293504/1107534379321933865/1128905475644199003 It would have been better if they had two diagrams, one for C2v and one for Cs. Don't list only 1 point group in the top-right corner, but then give a diagram for another one.
 It's all un-organized, you need to look at several books and may not know which book at which to look.
