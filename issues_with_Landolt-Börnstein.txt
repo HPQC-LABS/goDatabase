@@ -16,3 +16,10 @@ Kuchitsu?
  - F2O6S2 in 28A has G+G+ whereas C2H6S2Se has g+g+, it's an inconsistency that, for someone like me who didn't know what g+g+ was until a lot of Googling (and still haven't found the answer, but at least know that it's something common enough that a 4th year undergrad chemistry student probably knows it) throws me off and makes me wonder. In fact I'll be asking Hemanth whether or not it's the same, just to make sure. Hemanth said that they're the same, but then I found C4H9FO in 28C which has both G+ and g+. 
 
 It's all un-organized, you need to look at several books and may not know which book at which to look.
+
+AgH3IN (Sichao Xiong 13/07/2023)
+Ag–N–H: Angle of van der waals complex denoted without ... but only with -.
+Source: Medcraft C, Gougoula E, Bittner DM, Mullaney JC, Blanco S, Tew DP, Walker NR, Legon AC (2017)
+Molecular geometries and other properties of H2O⋅⋅⋅AgI and H3N⋅⋅⋅AgI as characterized by rotational
+spectroscopy and ab initio calculations. J Chem Phys 147(23):234308/1-234308/8
+https://doi.org/10.1063/1.5008744
