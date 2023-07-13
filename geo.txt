@@ -67,7 +67,7 @@ characterization by rotational spectroscopy. Chem Phys Lett 499(1-3):16-20
 # Date first added: 2023-07-05 (by Sichao Xiong)
 
 Ag   Cl       2.26333(6)
-Ag...N(H3)    2.15444(6)
+Ag...N        2.15444(6)
 N    H        1.0129
 H    N...Ag 113.48(2)
 
