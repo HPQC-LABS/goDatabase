@@ -56,3 +56,58 @@ Phys 91(11):957-962
 # Date first added: 2023-05-15 (by Nike Dattani)
 
 H2 Ar 3.957
+
+NAME = H2S3  1997
+# Shape :??                     
+# Source Paper:Liedtke, M., Yamada, K.M.T., Winnewisser, G., hahn, J.: J. Mol. Struct. 413-414 (1997) 265.
+# Date first added: 2023-07-11 (by Harvey Wilson) 
+
+# Syn
+
+# Point Group: Cs
+# Bond Lengths: thetaIepsilon (angstroms) 
+# Bond Angles:  thetaIepsilon (degrees) 
+
+S H      1.3435(14)
+S S      2.0530(1)
+S S H   97.37(15)
+S S S  106.919(3)
+S S S H 90.82(16)
+
+# Bond lengths: rs     (angstroms)  
+# Bond Angles:  thetas (degrees)
+
+S H      1.3290(14)
+S S      2.0504(1)
+S S H   99.14(15)
+S S S  106.857(3)
+S S S H 88.56(16) 
+
+#anti
+
+# Point Group: C2
+# Shape :??
+# Bond lengths: rIepsilon     (angstroms)
+# Bond Angles:  thetaIepsilon (degrees)  
+
+S H      1.3435 
+S S      2.0539(4)
+S S H   97.2(7)
+S S S  107.02(2)
+S S S H 87.7(4)
+
+#The bond length S H of 1.3435 is assumed
+
+NAME = H2O3  2005
+# Point Group: C2 
+# Shape :??                      
+# Bond lengths: re     (angstroms) 
+# Bond angles:  thetae (degrees)
+# Source Paper: Suma, K., Sumiyoshi, Y., Endo, Y.:J. Am. Chem. Soc. 127 (2005) 14998.
+# Date first added: 2023-07-11 (by Harvey Wilson) 
+
+H O      0.963(5)
+O O      1.428(5)
+H O O  101.1(5)
+O O O  107.0(5)
+H O O O 81.8(10)
