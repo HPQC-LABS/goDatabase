@@ -8,7 +8,7 @@
 - bond lengths/angles seem to be presented in an arbitrary order rather than the system that I've been using.
 
 30A
-- ClH2P (molecule 287), no diagram given, and "chlorophosphane" doesn't appear on Google.
+- ClH2P (molecule 287), no diagram given, and "chlorophosphane" doesn't appear on Google (the original paper did call it chlorophosphane).
 
 Kuchitsu?
 - D3v point group for GeH3F
