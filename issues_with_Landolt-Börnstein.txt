@@ -7,8 +7,8 @@
 - Colors for atoms are not conventional?
 - bond lengths/angles seem to be presented in an arbitrary order rather than the system that I've been using.
 
-30A
-- ClH2P (molecule 287), no diagram given, and "chlorophosphane" doesn't appear on Google (the original paper did call it chlorophosphane).
+25A
+- ClH2P (molecule 287), no diagram given, and "chlorophosphane" doesn't appear on Google (the original paper did call it chlorophosphane). The paper never mentions C2v, only Cs and C3v, and they did the geometry optimization under the constraint of it being Cs.
 
 Kuchitsu?
 - D3v point group for GeH3F
