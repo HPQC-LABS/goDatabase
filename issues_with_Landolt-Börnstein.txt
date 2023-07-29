@@ -15,7 +15,7 @@
 Kuchitsu?
 - D3v point group for GeH3F
 
-- H2Si2 (Justin's molecule), Sichao got confused and thought that Si-H-Si was not iscosceles, the 3D diagram was not good enoguh (we talked about it in the voice chat just now: 28 July, 7:30-7:50pm EST).
+- H2Si2 (Justin's molecule), Sichao got confused and thought that Si-H-Si was not iscosceles, the 3D diagram was not good enoguh (we talked about it in the voice chat just now: 28 July, 7:30-7:50pm EST, it seems that it wasn't recorded though unfortunately... some discussion abotu it is in the 4-atom-molecules-paper thread in the HPQC Discord, but the discussion which convinced me that the diagram was extremely confusing to Sicaho, was in the voice channel).
 
 - "G6" point group for methane, is actually called "G6 MS", otherwise it's impossible to know what group it is, without reading the original referenced paper (see #group-theory channel in the HPQC Discord server). Also C2H6O2 from 30A.
 - "G4" point group: CHIO2 on pg 257 of 30A. Also C2H6KrO and C2H6NeO and C2H6NeS and C2H6S and C2H7ClO from the same book. Also in 28C there's C4H9N which says "G4 (equitorial gauche)" which is confusing: I think the "gauche" part has nothing to do with the G4 part, but I can look into it later.
